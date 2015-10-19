@@ -29,6 +29,7 @@ var images = [
 			"url": "#/solutions",
 		},
 	},
+	{
 		"id": "slide4",
 		"icon": "spinner_icon_100.png",
 		"headline": "Are you tracking changes in real time?",
