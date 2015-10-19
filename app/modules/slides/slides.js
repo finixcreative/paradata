@@ -19,6 +19,7 @@ var images = [
 			"url": "#/solutions",
 		},
 	},
+	{
 		"id": "slide3",
 		"icon": "spinner_icon_75.png",
 		"headline": "Are your expenses Optimized?",
