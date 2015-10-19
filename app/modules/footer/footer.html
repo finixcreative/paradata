@@ -1,7 +1,7 @@
 <footer class="full">
 	<div class="wrapper middle">
 		<div class="half pad">
-			<nav>
+			<nav ng-controller="SitemapController as sitemap">
 				<p>
 					<span ng-repeat="navitem in sitemap.footer.navitems">
 						<a href="{{navitem.link}}">{{navitem.title}}</a>
