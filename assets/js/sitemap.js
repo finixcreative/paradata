@@ -1,68 +1,34 @@
 var sitemap = {
-	pages: [
-		{
-			title: 'home',
-			logo: '',
-			background: '',
-			headline: '',
-			subheadline: '',
-			text: '',
-			subsections: [
-				{
-					headline: '',
-					subheadline: '',
-					text: '',
-					size: '',
-				},
-			],
-		},
-		{
-			title: 'services',
-			logo: '',
-			background: '',
-			headline: '',
-			subheadline: '',
-			text: '',
-			subsections: [
-				{
-					headline: '',
-					subheadline: '',
-					text: '',
-					size: '',
-				},
-			],
-		},
-		{
-			title: 'technical',
-			logo: '',
-			background: '',
-			headline: '',
-			subheadline: '',
-			text: '',
-			subsections: [
-				{
-					headline: '',
-					subheadline: '',
-					text: '',
-					size: '',
-				},
-			],
-		},
-		{
-			title: 'about',
-			logo: '',
-			background: '',
-			headline: '',
-			subheadline: '',
-			text: '',
-			subsections: [
-				{
-					headline: '',
-					subheadline: '',
-					text: '',
-					size: '',
-				},
-			],
-		},
-	],
+	header: {
+		navitems: [
+			{
+				title: "Solutions",
+				link: "/solutions",
+			},
+			{
+				title: "Markets",
+				link: "/markets",
+			},
+			{
+				title: "Technology",
+				link: "/technology",
+			},
+		],
+	},
+	footer: {
+		navitems: [
+			{
+				title: "Company",
+				link: "/company",
+			},
+			{
+				title: "Careers",
+				link: "/careers",
+			},
+			{
+				title: "Blog",
+				link: "/blog",
+			},
+		],
+	},
 };
