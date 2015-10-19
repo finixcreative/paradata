@@ -187,6 +187,16 @@ header nav li a:hover {
 	color: #75bbce;
 	border-bottom: 1px solid #75bbce;
 }
+.slide p a.nav-pill {
+	width: 10px;
+	height: 10px;
+	border-bottom: none;
+	border: 1px solid #222;
+	border-radius: 10px;
+}
+.slide p a.nav-pill:hover {
+	background: #222;
+}
 .datascore {
 	height: 200px;
 	width: 200px;
@@ -197,15 +207,6 @@ header nav li a:hover {
 	transform: translateX(-50%);
 	cursor: pointer;
 	display: inline-block;
-}
-.nav-pill {
-	width: 10px;
-	height: 10px;
-	border: 1px solid #222;
-	border-radius: 10px;
-}
-.nav-pill:hover {
-	background: #222;
 }
 .intro {
 	background: #f3f3f3;
