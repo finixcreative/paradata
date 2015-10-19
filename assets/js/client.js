@@ -1,25 +1,25 @@
 var client = {
-	'company': 'Benchtop Devices',
-	'type': 'LLC',
+	'company': 'Paradata',
+	'type': '',
 	'contact': {
-		'email': 'tony@benchtopdevices.com',
-		'phone': '603-283-6138',
-		'cell': '603-801-4551',
-		'fax': '480-247-4057',
+		'email': 'info@paradata.io',
+		'phone': '408-791-2070',
+		'cell': '',
+		'fax': '',
 	},
 	'locations': [
 		{
 			'address': {
-				'street': 'Box 357 / 518 Route 9',
-				'city': 'West Chesterfield',
-				'state': 'NH',
-				'zip': '03466',
+				'street': '200 North Almaden Blvd. Suite 250',
+				'city': 'San Jose',
+				'state': 'CA',
+				'zip': '95110',
 			},
-			'map': '',
+			'map': 'https://goo.gl/maps/4d6BKC2FUJE2',
 		},
 	],
 	'socials': [
-/*		{
+		{
 			'name': 'facebook',
 			'link': 'www.facebook.com',
 		},
@@ -27,15 +27,15 @@ var client = {
 			'name': 'twitter',
 			'link': 'www.twitter.com',
 		},
-*/		{
+		{
 			'name': 'linkedin',
 			'link': 'www.linkedin.com',
 		},
-/*		{
-			'name': 'google+',
+		{
+			'name': 'google_plus',
 			'link': 'plus.google.com',
 		},
-		{
+/*		{
 			'name': 'youtube',
 			'link': 'www.youtube.com',
 		},
