@@ -34,20 +34,20 @@
 		<script type='text/javascript' src='app/modules/slides/slides-ctrl.js'></script>
 		<script type='text/javascript' src='app/modules/slides/slides-drv.js'></script>
 	</head>
-<!--
+
 	<body>
 		<appheader class='full'></appheader>
 		<div id="content" class='main full' ng-view></div>
 		<appfooter class='full'></appfooter>
 	</body>
--->
+
 	<body>
 		<header class="full">
 			<nav class="wrapper middle">
 				<div class="logo">
 					<a href="#"></a>
 				</div>
-				<ul>
+				<ul ng-controller="SitemapController as sitemap">
 					<li ng-repeat="navitem in sitemap.header.navitems">
 						<a href="{{navitem.link}}">{{navitem.title}}</a>
 					</li>
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-		<footer class="full">
+		<footer class="full" ng-controller="SitemapController as sitemap">
 			<div class="wrapper middle">
 				<div class="half pad">
 					<nav>
