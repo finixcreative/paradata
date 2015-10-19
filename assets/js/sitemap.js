@@ -3,15 +3,15 @@ var sitemap = {
 		navitems: [
 			{
 				title: "Solutions",
-				link: "/solutions",
+				link: "#/solutions",
 			},
 			{
 				title: "Markets",
-				link: "/markets",
+				link: "#/markets",
 			},
 			{
 				title: "Technology",
-				link: "/technology",
+				link: "#/technology",
 			},
 		],
 	},
@@ -19,15 +19,15 @@ var sitemap = {
 		navitems: [
 			{
 				title: "Company",
-				link: "/company",
+				link: "#/company",
 			},
 			{
 				title: "Careers",
-				link: "/careers",
+				link: "#/careers",
 			},
 			{
 				title: "Blog",
-				link: "/blog",
+				link: "#/blog",
 			},
 		],
 	},
