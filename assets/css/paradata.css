@@ -198,6 +198,15 @@ header nav li a:hover {
 	cursor: pointer;
 	display: inline-block;
 }
+.nav-pill {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #222;
+	border-radius: 10px;
+}
+.nav-pill:hover {
+	background: #222;
+}
 .intro {
 	background: #f3f3f3;
 }
