@@ -136,9 +136,10 @@
 				<div class="half pad">
 					<nav>
 						<p>
-							<a href="{{navitem.link}}" ng-repeat="navitem in sitemap.footer.navitems">Company</a><br>
-							<a href="{{navitem.link}}">Careers</a><br>
-							<a href="{{navitem.link}}">Blog</a><br>
+							<span ng-repeat="navitem in sitemap.footer.navitems">
+								<a href="{{navitem.link}}">{{navitem.title}}</a>
+								<br>
+							</span>
 						</p>
 					</nav>
 					<div class="social">
