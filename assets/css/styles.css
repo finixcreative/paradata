@@ -429,6 +429,11 @@ a.sublink:hover {
 /* DEVICES */
 @media screen and (max-width: 960px) {}
 @media screen and (max-width: 768px) {}
+@media screen and (max-width: 640px) {
+	button.slidenav {
+		display: none;
+	}
+}
 @media screen and (max-width: 640px), only screen and (-webkit-device-pixel-ratio: 2) {
 	p {
 		font-size: 32px;
@@ -444,9 +449,6 @@ a.sublink:hover {
 	}
 	.slide h1 {
 		margin-top: 0;
-	}
-	button.slidenav {
-		display: none;
 	}
 }
 @media screen and (max-width: 585px), only screen and (-webkit-device-pixel-ratio: 2) {}

@@ -25,8 +25,8 @@ angular.module('slidesMod')
 				var sliderFunc = function() {
 					timer = $timeout(function() {
 						scope.next();
-						timer = $timeout(sliderFunc, 15000);
-					}, 15000);
+						timer = $timeout(sliderFunc, 5000);
+					}, 5000);
 				};
 				sliderFunc();
 				scope.$on('$destroy', function() {
