@@ -16,7 +16,9 @@
 			<p>
 				<a href="{{image.link.url}}">{{image.link.text}}</a>
 			</p>
-			<a href="" ng-repeat="image in images" ng-click="currentIndex(index)">O</a>
+			<p>
+				<a href="" ng-controller="SlidesController as slides" ng-repeat="image in images" ng-click="currentIndex(index)">O</a>
+			</p>
 			<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
 			<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow_right"></span></button>
 		</div>
