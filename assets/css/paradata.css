@@ -187,14 +187,14 @@ header nav li a:hover {
 	color: #75bbce;
 	border-bottom: 1px solid #75bbce;
 }
-.slide p a.nav-pill {
+.slide p.nav-pills a {
 	width: 10px;
 	height: 10px;
 	border-bottom: none;
 	border: 1px solid #222;
 	border-radius: 10px;
 }
-.slide p a.nav-pill:hover {
+.slide p.nav-pills a:hover {
 	background: #222;
 }
 .datascore {
