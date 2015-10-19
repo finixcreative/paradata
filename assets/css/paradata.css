@@ -172,12 +172,12 @@ header nav li a:hover {
 }
 .slider {
 	background: #fff;
-	width: 100%;
-	padding: 100px 20px 20px;
-	float: left;
 }
 .slide {
+	padding: 100px 20px 20px;
 	position: relative;
+	-webkit-transition: none;
+	transition: none;
 }
 .slide p a {
 	color: #0387ab;
@@ -193,7 +193,7 @@ header nav li a:hover {
 	border: 5px solid #fff;
 	border-radius: 200px;
 	position: absolute;
-	top: -200px;
+	top: -100px;
 	transform: translateX(-50%);
 	cursor: pointer;
 	display: inline-block;
