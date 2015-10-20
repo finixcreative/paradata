@@ -9,6 +9,9 @@ angular.module('slidesMod')
 			controllerAs: 'slides',
 			link: function (scope, elem, attrs){
 				scope.currentIndex = 0;
+				for(var i = 0; i < scope.images.length; i++){
+					scope.index = i;
+				};
 				scope.selectIndex = function(index){
 					scope.currentIndex = index;
 				};
