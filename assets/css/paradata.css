@@ -188,7 +188,7 @@ header nav li a:hover {
 	border-bottom: 1px solid #75bbce;
 }
 .slide p.nav-pills a {
-	background: #ccc;
+	background: #f3f3f3;
 	width: 10px;
 	height: 10px;
 	margin: 0 10px;
@@ -197,7 +197,7 @@ header nav li a:hover {
 	display: inline-block;
 }
 .slide p.nav-pills a:hover {
-	background: #222;
+	background: #586473;
 }
 .datascore {
 	height: 200px;
