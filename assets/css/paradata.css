@@ -217,6 +217,19 @@ header nav li a:hover {
 	cursor: pointer;
 	display: inline-block;
 }
+button.slidenav {
+	color: #f3f3f3;
+	padding: 20px;
+	font-size: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	display: table-cell;
+}
+button.slidenav:hover {
+	color: #ccc;
+}
 .intro {
 	background: #f3f3f3;
 }
