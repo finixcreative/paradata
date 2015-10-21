@@ -85,7 +85,7 @@ p {
 	font-size: 20px;
 }
 header {
-	background: #586473;
+	background: #222;
 	border: none;
 	position: fixed;
 }
@@ -243,7 +243,7 @@ footer .social li {
 	float: left;
 }
 footer .social li a {
-	background: #586473;
+	background: #0387ab;
 	border-radius: 5px;
 	float: left;
 	display: inline-block;
