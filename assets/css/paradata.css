@@ -146,11 +146,11 @@ header nav li a:hover {
 	padding-top: 80px;
 }
 .hero {
-/*	background: url("../images/backgrounds/background-homepage-1.jpg");
+	background: url("../images/backgrounds/background-homepage-1.jpg");
 	background-color: #0387ab;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed; */
+	background-attachment: fixed;
 	color: #fff;
 }
 .parallax-mirror,
