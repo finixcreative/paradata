@@ -429,7 +429,7 @@ a.sublink:hover {
 }
 
 /* DEVICES */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px), only screen and (-webkit-device-pixel-ratio: 2) {
 	button.slidenav {
 		display: none;
 	}
