@@ -196,7 +196,8 @@ header nav li a:hover {
 	border-radius: 10px;
 	display: inline-block;
 }
-.slide p.nav-pills a:hover {
+.slide p.nav-pills a:hover,
+.slide p.nav-pills a.active {
 	background: #ccc;
 }
 .datascore {
