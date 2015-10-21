@@ -36,6 +36,12 @@ Dark Gray	     | #222
 .red-txt {
 	color: #d95251;
 }
+.white-bg {
+	background: #fff;
+}
+.white-txt {
+	color: #fff;
+}
 .lightgray-bg {
 	background: #f3f3f3;
 }
