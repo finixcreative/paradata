@@ -15,6 +15,9 @@ angular.module('slidesMod')
 				scope.selectIndex = function(index){
 					$scope.currentIndex = index;
 				};
+				$scope.isCurrentSlideIndex = function (index) {
+					return $scope.currentIndex === index;
+				};
 				scope.next = function(){
 					scope.currentIndex < scope.images.length - 1 ? scope.currentIndex++ : scope.currentIndex = 0;
 				};
