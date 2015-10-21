@@ -228,6 +228,7 @@ button.slidenav {
 	display: table-cell;
 }
 button.slidenav:hover {
+	background: none;
 	color: #ccc;
 }
 .intro {
