@@ -4,7 +4,12 @@ angular.module('paraData')
 			.when('/home', {
 				templateUrl: 'app/pages/home/home.html',
 			})
-			.when('/solutions', {
+			.when('/:page', {
+				templateUrl: 'app/pages/:page/:page.html',
+				controller: 'SitemapController',
+				controllerAs: 'sitemap',
+			})			
+/*			.when('/solutions', {
 				templateUrl: 'app/pages/solutions/solutions.html',
 			})
 			.when('/markets', {
@@ -22,7 +27,7 @@ angular.module('paraData')
 			.when('/blog', {
 				templateUrl: 'app/pages/blog/blog.html',
 			})
-			.otherwise({
+*/			.otherwise({
 				redirectTo: '/home',
 			});
 	}]);

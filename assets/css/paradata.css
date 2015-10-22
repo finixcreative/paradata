@@ -5,7 +5,7 @@ PARADATA BRAND GUIDE
 Primary Color    | #0387ab
 Secondary Color  | #75bbce
 Red			     | #d95251
-Yellow		     | #f7c757
+Yellow		     | #f5c83d
 Light Gray		 | #f3f3f3
 Mid Gray		 | #ccc
 Dark Gray	     | #222
@@ -25,10 +25,10 @@ Dark Gray	     | #222
 	color: #75bbce;
 }
 .yellow-bg {
-	background: #f7c757;
+	background: #f5c83d;
 }
 .yellow-txt {
-	color: #f7c757;
+	color: #f5c83d;
 }
 .red-bg {
 	background: #d95251;
