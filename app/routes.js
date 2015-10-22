@@ -5,7 +5,7 @@ angular.module('paraData')
 				templateUrl: 'app/pages/home/home.html',
 			})
 			.when('/:page', {
-				templateUrl: 'app/pages/:page/:page.html',
+				templateUrl: 'app/pages/{page}/{page}.html',
 				controller: 'SitemapController',
 				controllerAs: 'sitemap',
 			})			
