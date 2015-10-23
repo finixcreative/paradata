@@ -40,10 +40,10 @@ Dark Gray	     | #222
 	background: #fff;
 }
 .white-bg a {
-	color: #75bbce;
+	color: #0387ab;
 }
 .white-bg a:hover {
-	color: #0387ab;
+	color: #75bbce;
 }
 .white-txt {
 	color: #fff;
@@ -183,9 +183,7 @@ header nav li a:hover {
 	color: #75bbce;
 	font-weight: 700;
 }
-.slider {
-	background: #fff;
-}
+.slider {}
 .slide {
 	padding: 85px 20px 20px;
 	position: relative;
@@ -193,11 +191,9 @@ header nav li a:hover {
 	transition: none;
 }
 .slide p a {
-	color: #0387ab;
 	border-bottom: 1px solid #0387ab;
 }
 .slide p a:hover {
-	color: #75bbce;
 	border-bottom: 1px solid #75bbce;
 }
 .slide p.nav-pills a {
