@@ -39,6 +39,12 @@ Dark Gray	     | #222
 .white-bg {
 	background: #fff;
 }
+.white-bg a {
+	color: #75bbce;
+}
+.white-bg a:hover {
+	color: #0387ab;
+}
 .white-txt {
 	color: #fff;
 }
@@ -94,7 +100,6 @@ p {
 	font-size: 20px;
 }
 header {
-	background: #222;
 	border: none;
 	position: fixed;
 }
@@ -110,7 +115,6 @@ header nav li {
 	float: left;
 }
 header nav a {
-	color: #fff;
 	height: 80px;
 	padding: 20px;
 	font-size: 20px;
