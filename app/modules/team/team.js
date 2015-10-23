@@ -77,9 +77,9 @@ var team = {
 		{
 			name: "Dr. Bruce Lindsay",
 			title: "Chief Data Scientist",
-			accomplishment: "",
-			music: "",
-			activity: "",
+			accomplishment: "Stay tuned!",
+			music: "Stay tuned!",
+			activity: "Stay tuned!",
 			portrait: "a.BL.347x341pixels.BruceLindsay.wb.png",
 			linkedin: "#/company",
 		},
