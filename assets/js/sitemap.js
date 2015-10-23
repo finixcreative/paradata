@@ -29,10 +29,6 @@ var sitemap = {
 				title: "Blog",
 				link: "#/blog",
 			},
-			{
-				title: "Privacy",
-				link: "#/privacy",
-			},
 		],
 	},
 };
