@@ -1,4 +1,4 @@
 angular.module('slidesMod')
-	.controller('TeamController', function($scope){
+	.controller('TeamController', function(){
 		this.team = team;
 	});

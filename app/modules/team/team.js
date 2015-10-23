@@ -1,6 +1,6 @@
 var team = {
 	title: "Meet our team",
-	size: "third";
+	size: "third",
 	members: [
 		{
 			name: "Scott Slinker",
