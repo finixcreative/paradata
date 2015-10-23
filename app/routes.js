@@ -5,10 +5,10 @@ angular.module('paraData')
 				templateUrl: 'app/pages/home/home.html',
 			})
 			.when('/:page', {
-				templateUrl: 'app/pages/{page}/{page}.html',
+				templateUrl: 'app/modules/chimera/chimera.html',
 				controller: 'SitemapController',
 				controllerAs: 'sitemap',
-			})			
+			})
 /*			.when('/solutions', {
 				templateUrl: 'app/pages/solutions/solutions.html',
 			})
