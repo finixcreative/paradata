@@ -10,7 +10,7 @@ var client = {
 	'locations': [
 		{
 			'address': {
-				'street': '200 North Almaden Blvd. Suite 250',
+				'street': '200 North Almaden Blvd #250',
 				'city': 'San Jose',
 				'state': 'CA',
 				'zip': '95110',
