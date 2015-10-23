@@ -1,17 +1,19 @@
-<div class="{{team.team.size}}" ng-repeat="member in team.team.members">
-	<img class="third pad" src="assets/images/team/{{member.portrait}}" alt="{{member.name}} portrait">
+<div class="{{::team.team.size}}" ng-repeat="member in team.team.members">
+	<img class="third pad" src="assets/images/team/{{::member.portrait}}" alt="{{::member.name}} portrait">
 	<div class="twothird pad">
-		<h3>{{member.name}}</h3>
-		<h4>{{member.title}}</h4>
+		<h3>
+			<a href="{{::member.linkedin}}" target="_blank">{{::member.name}}</a>
+		</h3>
+		<h4>{{::member.title}}</h4>
 		<ul>
 			<li>
-				<b>Most proud of:</b> {{member.accomplishment}}
+				<b>Most proud of:</b> {{::member.accomplishment}}
 			</li>
 			<li>
-				<b>Favorite music:</b> {{member.music}}
+				<b>Favorite music:</b> {{::member.music}}
 			</li>
 			<li>
-				<b>Favorite weekend activity:</b> {{member.activity}}
+				<b>Favorite weekend activity:</b> {{::member.activity}}
 			</li>
 		</ul>		
 	</div>

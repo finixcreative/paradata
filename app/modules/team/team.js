@@ -9,6 +9,7 @@ var team = {
 			music: "Phantogram",
 			activity: "Friday night poker tournament",
 			portrait: "a.SS.347wx341h.Paradata-2-1.ScottSlinker.png",
+			linkedin: "https://www.linkedin.com/in/scottslinker",
 		},
 		{
 			name: "Dr. Pat Selinger",
@@ -17,6 +18,7 @@ var team = {
 			music: "Any country music, from Johnny Cash to Taylor Swift",
 			activity: "Hanging out with friends and family, wine tasting",
 			portrait: "a.PS.347wx341h.PatSelinger.NEW.8.2015.Paradata-7-1.png",
+			linkedin: "",
 		},
 		{
 			name: "Carmine Napolitano",
@@ -25,6 +27,7 @@ var team = {
 			music: "The Smiths",
 			activity: "Playing, watching, or refereeing soccer",
 			portrait: "a.CN.347wx341hParadataNEW.8.2015.CarmineCFO-5-1-web.png",
+			linkedin: "",
 		},
 		{
 			name: "Andy Hunt",
@@ -33,6 +36,7 @@ var team = {
 			music: "Dave Matthews Band (Live)",
 			activity: "College football. Go Blue!",
 			portrait: "a.AH.Paradata.AndyHunt.347wx341h.NEW.png",
+			linkedin: "https://www.linkedin.com/in/connectwithandyhunt",
 		},
 		{
 			name: "Linda Duyonavich",
@@ -41,6 +45,7 @@ var team = {
 			music: "The Grateful Dead",
 			activity: "Gardening and spending time with friends",
 			portrait: "a.LD.nored.LindaDuyanovichParadata-8-1-web.png",
+			linkedin: "",
 		},
 		{
 			name: "Joel Nave",
@@ -49,6 +54,7 @@ var team = {
 			music: "U2 (vintage)",
 			activity: "Sports with kids",
 			portrait: "a.JN.347wx341hParadata.NEW.8.2015.-13-1-web.JOELNAVE.png",
+			linkedin: "",
 		},
 		{
 			name: "Dr. Karen Brannon",
@@ -57,6 +63,7 @@ var team = {
 			music: "So many bands, so little time",
 			activity: "Hiking",
 			portrait: "a.female.ParadataPhoto.347wx341h.Paradata-9-1-web.png",
+			linkedin: "",
 		},
 		{
 			name: "Jim Brady",
@@ -65,6 +72,7 @@ var team = {
 			music: "Boston Pops",
 			activity: "Target rifle shooting",
 			portrait: "a.JBJimBrady.face.347x341.wb.png",
+			linkedin: "",
 		},
 		{
 			name: "Dr. Bruce Lindsay",
@@ -73,6 +81,7 @@ var team = {
 			music: "",
 			activity: "",
 			portrait: "a.BL.347x341pixels.BruceLindsay.wb.png",
+			linkedin: "",
 		},
 		{
 			name: "Chris Owen",
@@ -81,6 +90,7 @@ var team = {
 			music: "Coldplay",
 			activity: "The beach",
 			portrait: "a.CO.ChrisOwen.347x341.wb.png",
+			linkedin: "",
 		},
 		{
 			name: "Kanda Kaliappan",
@@ -89,6 +99,7 @@ var team = {
 			music: "Any soft rock music",
 			activity: "Playing with kids and spending time with friends",
 			portrait: "a.KP.347wx341hKanda.wb.png",
+			linkedin: "",
 		},
 		{
 			name: "Chris Page",
@@ -97,6 +108,7 @@ var team = {
 			music: "Pat Metheny Group",
 			activity: "Tennis 'til I drop",
 			portrait: "a.CP.ChrisPage.347x341h.wb.png",
+			linkedin: "",
 		},
 	],
 };
