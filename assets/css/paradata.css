@@ -186,6 +186,9 @@ header nav li a:hover {
 	color: #75bbce;
 	font-weight: 700;
 }
+.hero input[type=file] {
+	display: none;
+}
 .slider {}
 .slide {
 	padding: 85px 20px 20px;
