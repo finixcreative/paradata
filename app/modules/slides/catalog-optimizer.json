@@ -1,0 +1,10 @@
+{
+	"id": "catalog-optimizer",
+	"image": "app_preview_catalog_optimizer.png",
+	"headline": "Catalog Optimizer",
+	"bullets": [
+		"Search Paradata's Parts Catalog to find detailed part information and specifications",
+		"Define datasets or data attributes that you are interested in and let the harvesting and Trusted Discovery Engine do their work",
+		"Tune the engine rules to continuously improve the output based on needs",
+	]
+}

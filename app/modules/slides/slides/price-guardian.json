@@ -1,0 +1,10 @@
+{
+	"id": "price-guardian",
+	"image": "app_preview_price_guardian.png",
+	"headline": "Price Guardian",
+	"bullets": [
+		"Upload part cost information to generate a costed BOM",
+		"Compare publicly provided prices with private prices established internally or from an outsource partner",
+		"Understand the purchase price variance and quickly review parts with the largest variance and the greatest potential for cost reduction",
+	],
+}
