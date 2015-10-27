@@ -1,0 +1,31 @@
+<div class="slider white-bg full">
+	<div class="wrapper middle">
+		<div
+			class="slide darkgray-txt full"
+			ng-repeat="image in solutionsimages"
+			ng-show="image.visible"
+			ng-animate="animate"
+			ng-swipe-left="next()"
+			ng-swipe-right="prev()"
+			>
+			<img class="half pad" src="assets/images/graphics/{{image.image}}">
+			<div class="half pad">
+				<h3>{{image.headline}}</h3>
+				<ul>
+					<li ng-repeat="bullet in image.bullets">{{bullet}}</li>
+				</ul>				
+			</div>
+			<p class="nav-pills">
+				<a
+					ng-controller="SlidesController as slides"
+					ng-repeat="image in images"
+					ng-click="selectIndex($index)"
+					ng-class="{'active':isCurrentSlideIndex($index)}"
+				>
+				</a>
+			</p>
+		</div>
+	</div>
+	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
+	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow_right"></span></button>
+</div>
