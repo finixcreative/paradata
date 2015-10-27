@@ -1,4 +1,8 @@
-var homeimages = [
+var slides = {
+	homeimages: [],
+	solutionsimages: [],
+};
+homeimages = [
 	{
 		"id": "slide1",
 		"icon": "spinner_icon_25.png",
@@ -40,7 +44,7 @@ var homeimages = [
 		},
 	},
 ];
-var solutionsimages = [
+solutionsimages = [
 	{
 		"id": "bom-advantage",
 		"image": "app_preview_bom_advantage.png",
