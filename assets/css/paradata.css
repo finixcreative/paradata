@@ -243,6 +243,10 @@ button.slidenav:hover {
 .intro {
 	background: #f3f3f3;
 }
+.paradata-icon {
+	width: auto;
+	max-height: 60px;
+}
 footer {
 	color: #fff;
 	border: none;
