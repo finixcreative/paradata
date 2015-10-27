@@ -73,7 +73,7 @@ ul {
 	padding: 0;
 	margin: 0;
 }
-ul li {
+nav ul li {
 	line-height: 30px;
 	float: left;
 	display: inline-block;
