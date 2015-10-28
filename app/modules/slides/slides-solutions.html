@@ -2,23 +2,23 @@
 	<div class="wrapper middle">
 		<div
 			class="slide darkgray-txt full"
-			ng-repeat="slide in slides"
-			ng-show="slide.visible"
+			ng-repeat="image in solutionsimages"
+			ng-show="image.visible"
 			ng-animate="animate"
 			ng-swipe-left="next()"
 			ng-swipe-right="prev()"
 			>
-			<img class="half pad" src="assets/images/graphics/{{slide.image}}">
+			<img class="half pad" src="assets/images/graphics/{{image.image}}">
 			<div class="half pad">
-				<h3>{{slide.headline}}</h3>
+				<h3>{{image.headline}}</h3>
 				<ul>
-					<li ng-repeat="bullet in slide.bullets">{{bullet}}</li>
+					<li ng-repeat="bullet in image.bullets">{{bullet}}</li>
 				</ul>				
 			</div>
 			<p class="nav-pills">
 				<a
 					ng-controller="SlidesController as slides"
-					ng-repeat="slide in slides"
+					ng-repeat="image in images"
 					ng-click="selectIndex($index)"
 					ng-class="{'active':isCurrentSlideIndex($index)}"
 				>

@@ -1,9 +1,9 @@
 angular.module('slidesMod')
-	.directive('slider', function ($timeout){
+	.directive('slides', function ($timeout){
 		return {
 			restrict: 'E',
 			replace: true,
-			scope: {slides: '='},
+			scope: {images: '='},
 			templateUrl: 'app/modules/slides/slides.html',
 			controller: 'SlidesController',
 			controllerAs: 'slides',
