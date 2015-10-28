@@ -45,31 +45,28 @@ var solutionsimages = [
 		"id": "bom-advantage",
 		"image": "app_preview_bom_advantage.png",
 		"headline": "BOM Advantage",
-		"bullets": [
+		"bullets": {
 			"Upload your bill of materials and approved manufacturers list (AML)",
 			"Enhance your AML with detailed manufacturers part information and proposed alternate parts",
 			"Understand scenario analysis for cost, lead-time, and more",
 			"Review sourcing details and understand the confidence in provided data",
-		],
 	},
 	{
 		"id": "price-guardian",
 		"image": "app_preview_price_guardian.png",
 		"headline": "Price Guardian",
-		"bullets": [
+		"bullets": {
 			"Upload part cost information to generate a costed BOM",
 			"Compare publicly provided prices with private prices established internally or from an outsource partner",
 			"Understand the purchase price variance and quickly review parts with the largest variance and the greatest potential for cost reduction",
-		],
 	},
 	{
 		"id": "catalog-optimizer",
 		"image": "app_preview_catalog_optimizer.png",
 		"headline": "Catalog Optimizer",
-		"bullets": [
+		"bullets": {
 			"Search Paradata's Parts Catalog to find detailed part information and specifications",
 			"Define datasets or data attributes that you are interested in and let the harvesting and Trusted Discovery Engine do their work",
 			"Tune the engine rules to continuously improve the output based on needs",
-		]
 	},
 ];
