@@ -2,24 +2,24 @@
 	<div class="wrapper middle">
 		<div
 			class="slide darkgray-txt center full"
-			ng-repeat="image in homeimages"
-			ng-show="image.visible"
+			ng-repeat="slide in slides"
+			ng-show="slide.visible"
 			ng-animate="animate"
 			ng-swipe-left="next()"
 			ng-swipe-right="prev()"
 			>
 			<a class="datascore middle lightgray-bg" ng-click="next()">
-				<img class="full" src="assets/images/icons/{{image.icon}}">							
+				<img class="full" src="assets/images/icons/{{slide.icon}}">							
 			</a>
-			<h3>{{image.headline}}</h3>
-			<p>{{image.text}}</p>
+			<h3>{{slide.headline}}</h3>
+			<p>{{slide.text}}</p>
 			<p>
-				<a href="{{image.link.url}}">{{image.link.text}}</a>
+				<a href="{{slide.link.url}}">{{slide.link.text}}</a>
 			</p>
 			<p class="nav-pills">
 				<a
 					ng-controller="SlidesController as slides"
-					ng-repeat="image in images"
+					ng-repeat="slide in slides"
 					ng-click="selectIndex($index)"
 					ng-class="{'active':isCurrentSlideIndex($index)}"
 				>
