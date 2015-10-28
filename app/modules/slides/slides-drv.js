@@ -3,10 +3,7 @@ angular.module('slidesMod')
 		return {
 			restrict: 'E',
 			replace: true,
-			scope: {
-				images: '=',
-				template: '=',
-			},
+			scope: {images: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
 			controller: 'SlidesController',
 			controllerAs: 'slides',
