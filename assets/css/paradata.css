@@ -39,12 +39,6 @@ Dark Gray	     | #222
 .white-bg {
 	background: #fff;
 }
-.white-bg a {
-	color: #0387ab;
-}
-.white-bg a:hover {
-	color: #75bbce;
-}
 .white-txt {
 	color: #fff;
 }
@@ -59,6 +53,20 @@ Dark Gray	     | #222
 }
 .darkgray-txt {
 	color: #222;
+}
+.white-bg a,
+.lightgray-bg a,
+.midgray-bg a {
+	color: #0387ab;
+}
+.darkgray-bg a {
+	color: #fff;
+}
+.white-bg a:hover,
+.lightgray-bg a:hover,
+.midgray-bg a:hover,
+.darkgray-bg a:hover {
+	color: #75bbce;
 }
 .wrapper {
 	width: 100%;
