@@ -164,13 +164,21 @@ header nav li a:hover {
 	padding-top: 80px;
 }
 .hero {
-	background: url("../images/backgrounds/background-homepage-1.jpg");
 	background-color: #0387ab;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;
 }
+.hero .home {
+	background: url("../images/backgrounds/background-homepage-1.jpg");
+}
+.hero .solutions {}
+.hero .markets {}
+.hero .technology {}
+.hero .company {}
+.hero .careers {}
+
 .parallax-mirror,
 .parallax-slider {
 	-webkit-transition: none;
