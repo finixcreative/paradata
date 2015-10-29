@@ -295,8 +295,6 @@ button.slidenav:hover {
 .paradata-icon {
 	width: auto;
 	max-height: 60px;
-	margin: 0 auto;
-	display: block;
 }
 .feature {
 	position: relative;
