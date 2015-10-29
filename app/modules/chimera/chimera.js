@@ -7,7 +7,7 @@ angular.module('chimeraMod', [])
 		$scope.page = function(){
 			return root+chimera+'/'+chimera+'.json';
 		};
-		$scope.page.template = function(){
+		$scope.template = function(){
 			return root+chimera+'/'+chimera+'.html';
 		};
 	}]);
