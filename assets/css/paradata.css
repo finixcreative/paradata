@@ -192,6 +192,7 @@ header nav li a:hover {
 }
 .hero.company {
 	background-image: url("../images/backgrounds/background-company-1.jpg");
+	background-position: center -250px;
 }
 .hero.careers {
 	background-image: url("../images/backgrounds/background-careers-1.jpg");
