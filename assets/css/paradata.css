@@ -169,8 +169,9 @@ header nav li a:hover {
 	border: none;
 }
 .nav-cta img {
-	height: 40px;
-	width: auto;
+	height: 36px;
+	width: 40px;
+	margin: 2px 0;
 }
 .content {
 	padding: 0;
