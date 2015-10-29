@@ -142,21 +142,25 @@ header nav li a:hover {
 	float: left;
 }
 .logo a {
-	background: url("../images/paradata-logo.png") 20px 24px no-repeat;
-	background-size: 200px 40px;
-	width: 240px;
 	height: 80px;
 }
-.logo a:hover {
+.logo.desktop a {
+	background: url("../images/paradata-logo.png") 20px 24px no-repeat;
+	background-size: 200px 40px;
+	width: 240px;	
+}
+.logo.desktop a:hover {
 	background: url("../images/paradata-logo-alt.png") 20px 24px no-repeat;
 	background-size: 200px 40px;
 }
-.logo.thumb a {
+.logo.tablet a,
+.logo.mobile a {
 	background: url("../images/paradata-logo-thumb.png") 20px 24px no-repeat;
 	background-size: 44px 40px;
 	width: 84px;
 }
-.logo.thumb a:hover {
+.logo.tablet a:hover,
+.logo.mobile a:hover {
 	background: url("../images/paradata-logo-thumb-alt.png") 20px 24px no-repeat;
 	background-size: 44px 40px;
 }
