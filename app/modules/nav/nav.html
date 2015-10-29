@@ -15,6 +15,11 @@
 		<li class="nav-cta mobile">
 			<a class="white-txt" href="#">
 				<img src="assets/images/icons/menu-icon.png">
+				<ul class="menu darkgray-bg full">
+					<li class="full center" ng-repeat="navitem in sitemap.sitemap.header.navitems">
+						<a class="white-txt" href="{{navitem.link}}#top">{{navitem.title}}</a>
+					</li>
+				</ul>
 			</a>
 		</li>
 	</ul>
