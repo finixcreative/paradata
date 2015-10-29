@@ -8,7 +8,7 @@ var team = {
 			accomplishment: "Not getting BBQ on my white shirt",
 			music: "Phantogram",
 			activity: "Friday night poker tournament",
-			portrait: "a.SS.347wx341h.Paradata-2-1.ScottSlinker.png",
+			portrait: "scott_slinker.png",
 			linkedin: "https://www.linkedin.com/in/scottslinker",
 		},
 		{
@@ -26,7 +26,7 @@ var team = {
 			accomplishment: "My natural ability to sleep and eat, unfortunately neither are monetizable so I’m a CFO instead",
 			music: "The Smiths",
 			activity: "Playing, watching, or refereeing soccer",
-			portrait: "a.CN.347wx341hParadataNEW.8.2015.CarmineCFO-5-1-web.png",
+			portrait: "carmine_napolitano.png",
 			linkedin: "#/company",
 		},
 		{
@@ -35,7 +35,7 @@ var team = {
 			accomplishment: "That I will go down as the voice of this generation ... Oh wait, that's Kanye!",
 			music: "Dave Matthews Band (Live)",
 			activity: "College football. Go Blue!",
-			portrait: "a.AH.Paradata.AndyHunt.347wx341h.NEW.png",
+			portrait: "andy_hunt.png",
 			linkedin: "https://www.linkedin.com/in/connectwithandyhunt",
 		},
 		{
@@ -44,7 +44,7 @@ var team = {
 			accomplishment: "My kids",
 			music: "The Grateful Dead",
 			activity: "Gardening and spending time with friends",
-			portrait: "a.LD.nored.LindaDuyanovichParadata-8-1-web.png",
+			portrait: "linda_duyanovich.png",
 			linkedin: "#/company",
 		},
 		{
@@ -53,7 +53,7 @@ var team = {
 			accomplishment: "My kids",
 			music: "U2 (vintage)",
 			activity: "Sports with kids",
-			portrait: "a.JN.347wx341hParadata.NEW.8.2015.-13-1-web.JOELNAVE.png",
+			portrait: "joel_nave.png",
 			linkedin: "#/company",
 		},
 		{
@@ -62,7 +62,7 @@ var team = {
 			accomplishment: "My family",
 			music: "So many bands, so little time",
 			activity: "Hiking",
-			portrait: "a.female.ParadataPhoto.347wx341h.Paradata-9-1-web.png",
+			portrait: "karen_brannon.png",
 			linkedin: "#/company",
 		},
 		{
@@ -71,7 +71,7 @@ var team = {
 			accomplishment: "My family",
 			music: "Boston Pops",
 			activity: "Target rifle shooting",
-			portrait: "a.JBJimBrady.face.347x341.wb.png",
+			portrait: "jim_brady.png",
 			linkedin: "#/company",
 		},
 		{
@@ -80,7 +80,7 @@ var team = {
 			accomplishment: "Stay tuned!",
 			music: "Stay tuned!",
 			activity: "Stay tuned!",
-			portrait: "a.BL.347x341pixels.BruceLindsay.wb.png",
+			portrait: "bruce_lindsay.png",
 			linkedin: "#/company",
 		},
 		{
@@ -89,7 +89,7 @@ var team = {
 			accomplishment: "My kids",
 			music: "Coldplay",
 			activity: "The beach",
-			portrait: "a.CO.ChrisOwen.347x341.wb.png",
+			portrait: "chris_owen.png",
 			linkedin: "#/company",
 		},
 		{
@@ -98,7 +98,7 @@ var team = {
 			accomplishment: "My family, teams and products that I helped to build",
 			music: "Any soft rock music",
 			activity: "Playing with kids and spending time with friends",
-			portrait: "a.KP.347wx341hKanda.wb.png",
+			portrait: "kanda_kaliappan.png",
 			linkedin: "#/company",
 		},
 		{
@@ -107,7 +107,7 @@ var team = {
 			accomplishment: "I am part of a great team that is dedicated to working together to deliver quality time and again",
 			music: "Pat Metheny Group",
 			activity: "Tennis 'til I drop",
-			portrait: "a.CP.ChrisPage.347x341h.wb.png",
+			portrait: "chris_page.png",
 			linkedin: "#/company",
 		},
 	],
