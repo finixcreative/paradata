@@ -5,5 +5,5 @@ angular.module('chimeraMod', [])
 		var chimera = $routeParams.chimera;
 		var root = 'app/pages/';
 		$scope.page = root+chimera+'/'+chimera+'.json';
-//		$scope.page.template = root+chimera+'/'+chimera+'.html';
+		$scope.page.template = root+chimera+'/'+chimera+'.html';
 	}]);
