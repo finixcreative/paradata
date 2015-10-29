@@ -151,9 +151,12 @@ header nav li a:hover {
 	background: url("../images/paradata-logo-alt.png") 20px 24px no-repeat;
 	background-size: 200px 40px;
 }
-.logo.thumb a {}
-.logo.thumb a:hover {}
-
+.logo.thumb a {
+	background: url("../images/paradata-logo-thumb.png") 20px 24px no-repeat;
+}
+.logo.thumb a:hover {
+	background: url("../images/paradata-logo-thumb-alt.png") 20px 24px no-repeat;
+}
 .nav-cta a {
 	background: #0387ab;
 }
@@ -282,6 +285,9 @@ button.slidenav:hover {
 }
 .intro {
 	background: #f3f3f3;
+}
+.videoplayer {
+	width: 500px;
 }
 .paradata-icon {
 	width: auto;
