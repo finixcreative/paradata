@@ -1,15 +1,45 @@
 <nav class="full">
-	<div class="logo">
-		<a href="#"></a>
+	<div class="desktop">
+		<div class="logo">
+			<a href="#"></a>
+		</div>
+		<ul>
+			<li ng-repeat="navitem in sitemap.sitemap.header.navitems">
+				<a class="white-txt" href="{{navitem.link}}#top">{{navitem.title}}</a>
+			</li>
+			<li class="nav-cta">
+				<a class="white-txt" href="#">Sign up</a>
+			</li>
+		</ul>
 	</div>
-	<ul>
-		<li ng-repeat="navitem in sitemap.sitemap.header.navitems">
-			<a class="white-txt" href="{{navitem.link}}#top">{{navitem.title}}</a>
-		</li>
-		<li class="nav-cta">
-			<a class="white-txt" href="#">Sign up</a>
-		</li>
-	</ul>
+	<div class="tablet">
+		<div class="logo">
+			<a href="#"></a>
+		</div>
+<!--		<ul>
+			<li ng-repeat="navitem in sitemap.sitemap.header.navitems">
+				<a class="white-txt" href="{{navitem.link}}#top">{{navitem.title}}</a>
+			</li>
+			<li class="nav-cta">
+				<a class="white-txt" href="#">Sign up</a>
+			</li>
+		</ul> -->
+	</div>
+	<div class="mobile">
+		<div class="logo thumb">
+			<a href="#"></a>
+		</div>
+<!--		<ul>
+			<li ng-repeat="navitem in sitemap.sitemap.header.navitems">
+				<a class="white-txt" href="{{navitem.link}}#top">{{navitem.title}}</a>
+			</li>
+			<li class="nav-cta">
+				<a class="white-txt" href="#">Sign up</a>
+			</li>
+		</ul> -->
+	</div>
+</nav>
+
 <!--	<ul class="wrapper">
 		<li ng-repeat="page in sitemap.sitemap.pages">
 			<a href="#/{{page.title}}">{{page.title}}</a>
@@ -18,7 +48,7 @@
 			<a href="tel:1-{{ client.client.contact.phone }}">Call Now! {{ client.client.contact.phone }}</a>
 		</li>
 	</ul> -->
-</nav>
+
 <!-- <nav class="tablet full">
 	<ul class="wrapper">
 		<li ng-repeat="page in sitemap.sitemap.pages">

@@ -151,6 +151,9 @@ header nav li a:hover {
 	background: url("../images/paradata-logo-alt.png") 20px 24px no-repeat;
 	background-size: 200px 40px;
 }
+.logo.thumb a {}
+.logo.thumb a:hover {}
+
 .nav-cta a {
 	background: #0387ab;
 }
