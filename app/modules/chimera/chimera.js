@@ -2,10 +2,8 @@
 
 angular.module('chimeraMod', [])
 	.controller('ChimeraController', ['$scope', '$routeParams', function($scope, $routeParams){
-		var root = 'app/pages/';
 		var chimera = $routeParams.chimera;
-		var templateExtension = 'html';
-		var contentsExtension = 'js';
-		$scope.template = root+chimera+'/'+chimera+'.'+templateExtension;
-		$scope.contents = root+chimera+'/'+chimera+'.'+contentsExtension;
+		var root = 'app/pages/';
+		$scope.page = root+chimera+'/'+chimera+'.js';
+		$scope.page.template = root+chimera+'/'+chimera+'.html';
 	}]);
