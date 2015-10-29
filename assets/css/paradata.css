@@ -383,3 +383,11 @@ footer .social li a img {
 copyright a {
 	font-size: 1em;
 }
+
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 690px) {
+	.feature img {
+		position: relative;
+		transform: none;
+	}
+}
