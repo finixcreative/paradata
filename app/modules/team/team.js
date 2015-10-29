@@ -17,7 +17,7 @@ var team = {
 			accomplishment: "The people I mentor and the teams I work with",
 			music: "Any country music, from Johnny Cash to Taylor Swift",
 			activity: "Hanging out with friends and family, wine tasting",
-			portrait: "a.PS.347wx341h.PatSelinger.NEW.8.2015.Paradata-7-1.png",
+			portrait: "pat_selinger.png",
 			linkedin: "#/company",
 		},
 		{
