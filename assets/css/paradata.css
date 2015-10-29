@@ -183,6 +183,7 @@ header nav li a:hover {
 }
 .hero.solutions {
 	background-image: url("../images/backgrounds/background-solutions-1.jpg");
+	background-position: center bottom;
 }
 .hero.markets {
 	background-image: url("../images/backgrounds/background-markets-1.jpg");
