@@ -190,6 +190,7 @@ header nav li a:hover {
 }
 .hero.technology {
 	background-image: url("../images/backgrounds/background-technology-1.jpg");
+	background-position: center bottom;
 }
 .hero.company {
 	background-image: url("../images/backgrounds/background-company-2.jpg");
