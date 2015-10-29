@@ -168,6 +168,10 @@ header nav li a:hover {
 	color: #fff;
 	border: none;
 }
+.nav-cta img {
+	height: 40px;
+	width: auto;
+}
 .content {
 	padding: 0;
 	padding-top: 80px;
