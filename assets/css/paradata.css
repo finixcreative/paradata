@@ -190,9 +190,10 @@ header nav li ul.menu li a {}
 	color: #fff;
 }
 .nav-cta img {
-	height: 36px;
 	width: 40px;
+	height: 36px;
 	margin: 2px 0;
+	padding: 20px;
 }
 .content {
 	padding: 0;
