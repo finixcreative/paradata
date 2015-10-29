@@ -299,7 +299,9 @@ button.slidenav:hover {
 	background: #f3f3f3;
 }
 .videoplayer {
-	width: 500px;
+	width: 100%;
+	max-width: 500px;
+	height: auto;
 }
 .paradata-icon {
 	width: auto;
