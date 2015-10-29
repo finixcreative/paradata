@@ -386,6 +386,7 @@ copyright a {
 
 @media screen and (max-width: 1000px) {}
 @media screen and (max-width: 690px) {
+	button.slidenav {display: none;}
 	.feature img {
 		position: relative;
 		transform: none;
