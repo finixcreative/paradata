@@ -138,16 +138,17 @@ header nav li a:hover {
 	color: #75bbce;
 	border-bottom: 4px solid #75bbce;
 }
-header nav li a ul.menu {
+header nav li ul.menu {
 	position: fixed;
+	top: 80px;
+	left: 0px;
 	display: none;
 }
-header nav li a:hover > ul.menu {
+header nav li:hover > ul.menu {
 	display: block;
 }
-header nav li a ul.menu li {}
-header nav li a ul.menu li a {}
-
+header nav li ul.menu li {}
+header nav li ul.menu li a {}
 .logo {
 	float: left;
 }
