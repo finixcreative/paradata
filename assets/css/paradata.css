@@ -187,10 +187,10 @@ header nav li ul.menu li a:hover {
 }
 .nav-cta:hover {
 	background: #75bbce;
-	border: none;
 }
 .nav-cta:hover > a {
 	color: #fff;
+	border: none;
 }
 .nav-cta img {
 	width: 40px;
