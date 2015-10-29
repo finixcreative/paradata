@@ -188,7 +188,8 @@ header nav li ul.menu li a:hover {
 .nav-cta:hover {
 	background: #75bbce;
 }
-.nav-cta:hover > a {
+.nav-cta:hover > a,
+.menu-button:hover > a {
 	color: #fff;
 	border: none;
 }
