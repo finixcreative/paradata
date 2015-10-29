@@ -139,6 +139,7 @@ header nav li a:hover {
 	border-bottom: 4px solid #75bbce;
 }
 header nav li ul.menu {
+	width: 100%;
 	position: fixed;
 	top: 80px;
 	left: 0px;
@@ -147,7 +148,10 @@ header nav li ul.menu {
 header nav li:hover > ul.menu {
 	display: block;
 }
-header nav li ul.menu li {}
+header nav li ul.menu li {
+	width: 100%;
+	display: block;
+}
 header nav li ul.menu li a {}
 .logo {
 	float: left;
