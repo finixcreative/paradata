@@ -179,22 +179,22 @@ header nav li a:hover {
 	color: #fff;
 }
 .hero.home {
-	background: url("../images/backgrounds/background-homepage-1.jpg");
+	background-image: url("../images/backgrounds/background-homepage-1.jpg");
 }
 .hero.solutions {
-	background: url("../images/backgrounds/background-solutions-1.jpg");
+	background-image: url("../images/backgrounds/background-solutions-1.jpg");
 }
 .hero.markets {
-	background: url("../images/backgrounds/background-markets-1.jpg");
+	background-image: url("../images/backgrounds/background-markets-1.jpg");
 }
 .hero.technology {
-	background: url("../images/backgrounds/background-technology-1.jpg");
+	background-image: url("../images/backgrounds/background-technology-1.jpg");
 }
 .hero.company {
-	background: url("../images/backgrounds/background-company-1.jpg");
+	background-image: url("../images/backgrounds/background-company-1.jpg");
 }
 .hero.careers {
-	background: url("../images/backgrounds/background-careers-1.jpg");
+	background-image: url("../images/backgrounds/background-careers-1.jpg");
 }
 .hero .button {
 	color: #fff;
