@@ -3,5 +3,6 @@ angular.module('paraData', [
 	'ngAnimate',
 	'coreMod',
 	'chimeraMod',
+	'angular-parallax',
 	'slidesMod'
 ]);
