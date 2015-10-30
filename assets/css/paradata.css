@@ -202,14 +202,6 @@ header nav li ul.menu li a:hover {
 	padding: 0;
 	padding-top: 80px;
 }
-.parallax-mirror,
-.parallax-slider {
-	-webkit-transition: none;
-	transition: none;
-}
-.parallax-slider {
-	margin: 120px 0 0 0;
-}
 .hero {
 	background-color: #0387ab;
 	background-size: cover;
@@ -222,18 +214,15 @@ header nav li ul.menu li a:hover {
 }
 .hero.solutions {
 	background-image: url("../images/backgrounds/background-solutions-1.jpg");
-	background-position: center bottom;
 }
 .hero.markets {
 	background-image: url("../images/backgrounds/background-markets-1.jpg");
 }
 .hero.technology {
 	background-image: url("../images/backgrounds/background-technology-1.jpg");
-	background-position: center bottom;
 }
 .hero.company {
 	background-image: url("../images/backgrounds/background-company-2.jpg");
-	background-position: center -250px;
 }
 .hero.careers {
 	background-image: url("../images/backgrounds/background-careers-1.jpg");
