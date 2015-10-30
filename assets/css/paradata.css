@@ -237,9 +237,9 @@ header nav li ul.menu li a:hover {
 	text-decoration: none;
 	display: inline-block;
 }
-.hero.home .button {
+/* .hero.home .button {
 	margin-bottom: 120px;
-}
+} */
 .hero .button:hover {
 	background: #fff;
 	color: #75bbce;
