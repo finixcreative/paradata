@@ -248,6 +248,9 @@ header nav li ul.menu li a:hover {
 .hero input[type=file] {
 	display: none;
 }
+.overlay {
+	background: rgba(19,134,171,0.5);
+}
 .slider {}
 .slide {
 	padding: 85px 20px 20px;
