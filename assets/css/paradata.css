@@ -5,7 +5,7 @@ PARADATA BRAND GUIDE
 Primary Color    | #0387ab
 Secondary Color  | #75bbce
 Red			     | #d95251
-Yellow		     | #f7c757
+Yellow		     | #f5c83d
 Light Gray		 | #f3f3f3
 Mid Gray		 | #ccc
 Dark Gray	     | #222
@@ -25,16 +25,22 @@ Dark Gray	     | #222
 	color: #75bbce;
 }
 .yellow-bg {
-	background: #f7c757;
+	background: #f5c83d;
 }
 .yellow-txt {
-	color: #f7c757;
+	color: #f5c83d;
 }
 .red-bg {
 	background: #d95251;
 }
 .red-txt {
 	color: #d95251;
+}
+.white-bg {
+	background: #fff;
+}
+.white-txt {
+	color: #fff;
 }
 .lightgray-bg {
 	background: #f3f3f3;
@@ -47,6 +53,20 @@ Dark Gray	     | #222
 }
 .darkgray-txt {
 	color: #222;
+}
+.white-bg a,
+.lightgray-bg a,
+.midgray-bg a {
+	color: #0387ab;
+}
+.darkgray-bg a {
+	color: #fff;
+}
+.white-bg a:hover,
+.lightgray-bg a:hover,
+.midgray-bg a:hover,
+.darkgray-bg a:hover {
+	color: #75bbce;
 }
 .wrapper {
 	width: 100%;
@@ -78,14 +98,19 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 48px;
 }
+h2 {
+	font-size: 36px;
+}
 h3 {
 	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
 }
 p {
 	font-size: 20px;
 }
 header {
-	background: #586473;
 	border: none;
 	position: fixed;
 }
@@ -101,7 +126,6 @@ header nav li {
 	float: left;
 }
 header nav a {
-	color: #fff;
 	height: 80px;
 	padding: 20px;
 	font-size: 20px;
@@ -114,38 +138,69 @@ header nav li a:hover {
 	color: #75bbce;
 	border-bottom: 4px solid #75bbce;
 }
+header nav li ul.menu {
+	width: 100%;
+	position: fixed;
+	top: 80px;
+	left: 0px;
+	display: none;
+}
+header nav li:hover > ul.menu {
+	display: block;
+}
+header nav li ul.menu li {
+	width: 100%;
+	display: block;
+}
+header nav li ul.menu li a {}
+header nav li ul.menu li a:hover {
+	border: none;
+}
 .logo {
 	float: left;
 }
 .logo a {
-	background: url("../images/paradata-logo.png") 20px 24px no-repeat;
-	background-size: 200px 40px;
-	width: 240px;
 	height: 80px;
 }
-.logo a:hover {
+.logo.desktop a {
+	background: url("../images/paradata-logo.png") 20px 24px no-repeat;
+	background-size: 200px 40px;
+	width: 240px;	
+}
+.logo.desktop a:hover {
 	background: url("../images/paradata-logo-alt.png") 20px 24px no-repeat;
 	background-size: 200px 40px;
 }
-.nav-cta a {
+.logo.tablet a,
+.logo.mobile a {
+	background: url("../images/paradata-logo-thumb.png") 20px 24px no-repeat;
+	background-size: 44px 40px;
+	width: 84px;
+}
+.logo.tablet a:hover,
+.logo.mobile a:hover {
+	background: url("../images/paradata-logo-thumb-alt.png") 20px 24px no-repeat;
+	background-size: 44px 40px;
+}
+.nav-cta {
 	background: #0387ab;
 }
-.nav-cta a:hover {
+.nav-cta:hover {
 	background: #75bbce;
+}
+.nav-cta:hover > a,
+.menu-button:hover > a {
 	color: #fff;
 	border: none;
+}
+.menu-button img {
+	width: 40px;
+	height: 36px;
+	margin: 2px 0;
 }
 .content {
 	padding: 0;
 	padding-top: 80px;
-}
-.hero {
-/*	background: url("../images/backgrounds/background-homepage-1.jpg");
-	background-color: #0387ab;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed; */
-	color: #fff;
 }
 .parallax-mirror,
 .parallax-slider {
@@ -155,9 +210,37 @@ header nav li a:hover {
 .parallax-slider {
 	margin: 120px 0 0 0;
 }
+.hero {
+	background-color: #0387ab;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: #fff;
+}
+.hero.home {
+	background-image: url("../images/backgrounds/background-homepage-1.jpg");
+}
+.hero.solutions {
+	background-image: url("../images/backgrounds/background-solutions-1.jpg");
+	background-position: center bottom;
+}
+.hero.markets {
+	background-image: url("../images/backgrounds/background-markets-1.jpg");
+}
+.hero.technology {
+	background-image: url("../images/backgrounds/background-technology-1.jpg");
+	background-position: center bottom;
+}
+.hero.company {
+	background-image: url("../images/backgrounds/background-company-2.jpg");
+	background-position: center -250px;
+}
+.hero.careers {
+	background-image: url("../images/backgrounds/background-careers-1.jpg");
+}
 .hero .button {
 	color: #fff;
-	margin: 20px 0 120px;
+	margin: 20px 0;
 	padding: 10px 15px;
 	border: 1px solid #fff;
 	border-radius: 20px;
@@ -165,41 +248,94 @@ header nav li a:hover {
 	text-decoration: none;
 	display: inline-block;
 }
+.hero.home .button {
+	margin-bottom: 120px;
+}
 .hero .button:hover {
 	background: #fff;
 	color: #75bbce;
 	font-weight: 700;
 }
-.slider {
-	background: #fff;
-	width: 100%;
-	padding: 100px 20px 20px;
-	float: left;
+.hero input[type=file] {
+	display: none;
 }
+.slider {}
 .slide {
+	padding: 85px 20px 20px;
 	position: relative;
+	-webkit-transition: none;
+	transition: none;
 }
 .slide p a {
-	color: #0387ab;
 	border-bottom: 1px solid #0387ab;
 }
 .slide p a:hover {
-	color: #75bbce;
 	border-bottom: 1px solid #75bbce;
+}
+.slide p.nav-pills a {
+	background: #f3f3f3;
+	width: 10px;
+	height: 10px;
+	margin: 0 10px;
+	border-bottom: none;
+	border-radius: 10px;
+	display: inline-block;
+}
+.slide p.nav-pills a:hover,
+.slide p.nav-pills a.active {
+	background: #ccc;
 }
 .datascore {
 	height: 200px;
 	width: 200px;
+	margin-bottom: -200px;
 	border: 5px solid #fff;
 	border-radius: 200px;
-	position: absolute;
+	position: relative;
 	top: -200px;
-	transform: translateX(-50%);
 	cursor: pointer;
 	display: inline-block;
 }
+button.slidenav {
+	color: #f3f3f3;
+	padding: 20px;
+	font-size: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	display: table-cell;
+}
+button.slidenav:hover {
+	background: none;
+	color: #ccc;
+}
+.anchor {
+	display: block;
+	height: 80px; /* same height as header */
+	margin-top: -80px; /* same height as header */
+	visibility: hidden;
+}
 .intro {
 	background: #f3f3f3;
+}
+.videoplayer {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+}
+.paradata-icon {
+	width: auto;
+	max-height: 60px;
+}
+.feature {
+	position: relative;
+}
+.feature img {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
 }
 footer {
 	color: #fff;
@@ -231,7 +367,7 @@ footer .social li {
 	float: left;
 }
 footer .social li a {
-	background: #586473;
+	background: #0387ab;
 	border-radius: 5px;
 	float: left;
 	display: inline-block;
@@ -244,4 +380,16 @@ footer .social li a img {
 	width: auto;
 	height: 40px;
 	float: left;
+}
+copyright a {
+	font-size: 1em;
+}
+
+@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 690px) {
+	button.slidenav {display: none;}
+	.feature img {
+		position: relative;
+		transform: none;
+	}
 }
