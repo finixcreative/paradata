@@ -27,7 +27,7 @@ var team = {
 			music: "The Smiths",
 			activity: "Playing, watching, or refereeing soccer",
 			portrait: "carmine_napolitano.png",
-			linkedin: "#/company",
+			linkedin: "https://www.linkedin.com/in/cnapolitano",
 		},
 		{
 			name: "Andy Hunt",
