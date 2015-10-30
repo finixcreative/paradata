@@ -376,6 +376,9 @@ copyright a {
 
 @media screen and (max-width: 1000px) {}
 @media screen and (max-width: 690px) {
+	.hero.home {
+		background-image: url("../images/backgrounds/manufacturing.png");
+	}
 	.hero.home .button {
 		margin-bottom: 120px;
 	}
