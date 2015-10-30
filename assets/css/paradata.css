@@ -231,8 +231,8 @@ header nav li ul.menu li a:hover {
 	color: #fff;
 	margin: 20px 0;
 	padding: 10px 15px;
-	border: 1px solid #fff;
-	border-radius: 20px;
+	border: 2px solid #fff;
+	border-radius: 50px;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
