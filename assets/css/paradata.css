@@ -107,7 +107,8 @@ h3 {
 h4 {
 	font-size: 20px;
 }
-p {
+p,
+input {
 	font-size: 20px;
 }
 header {
@@ -219,6 +220,11 @@ header nav li ul.menu li a:hover {
 	position: absolute;
 	top: 20px;
 	right: 20px;
+}
+.close-button:hover {
+	color: #fff;
+	border-bottom: none;
+	border: 2px solid #fff;
 }
 .visible-block {
 	display: block;
