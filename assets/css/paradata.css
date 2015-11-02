@@ -445,8 +445,7 @@ copyright a {
 		margin-bottom: 120px;
 	}
 	.email-signup form {
-		position: relative;
-		top: 0;
+		top: 60px;
 		transform: none;
 	}
 	button.slidenav {display: none;}
