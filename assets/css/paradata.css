@@ -107,8 +107,12 @@ h3 {
 h4 {
 	font-size: 20px;
 }
-p,
-input {
+p {
+	font-size: 20px;
+}
+input,
+select {
+	font-family: "Quicksand", sans-serif;
 	font-size: 20px;
 }
 header {
