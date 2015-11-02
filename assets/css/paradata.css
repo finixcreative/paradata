@@ -221,6 +221,8 @@ header nav li ul.menu li a:hover {
 	transform: translateY(-50%);
 }
 .email-signup input[type=email] {
+	width: 100%;
+	max-width: 400px;
 	border: none;
 	border-radius: 5px;
 	outline: none;
