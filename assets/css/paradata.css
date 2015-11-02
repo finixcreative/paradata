@@ -215,6 +215,11 @@ header nav li ul.menu li a:hover {
 	right: 0;
 	display: none;
 }
+.email-signup form {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
 .close-button {
 	width: 40px;
 	height: 40px;
