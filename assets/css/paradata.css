@@ -227,9 +227,11 @@ header nav li ul.menu li a:hover {
 	right: 20px;
 }
 .close-button:hover {
-	color: #fff;
 	border-bottom: none;
 	border: 2px solid #fff;
+}
+.close-button:hover > a {
+	color: #fff;
 }
 .nav-cta:hover,
 .menu-button:hover,
