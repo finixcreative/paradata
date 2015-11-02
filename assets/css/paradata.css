@@ -209,8 +209,11 @@ header nav li ul.menu li a:hover {
 	right: 0;
 	display: none;
 }
-li:hover > .email-signup {
+.visible-block {
 	display: block;
+}
+.invisible {
+	display: none;
 }
 .content {
 	padding: 0;
