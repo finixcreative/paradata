@@ -227,6 +227,10 @@ header nav li ul.menu li a:hover {
 	border-radius: 5px;
 	outline: none;
 }
+.email-signup .form-logo {
+	width: 200px;
+	height: auto;
+}
 .close-button {
 	width: 40px;
 	height: 40px;
