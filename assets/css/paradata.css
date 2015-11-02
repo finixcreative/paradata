@@ -444,6 +444,11 @@ copyright a {
 	.hero.home .button {
 		margin-bottom: 120px;
 	}
+	.email-signup form {
+		position: relative;
+		top: 0;
+		transform: none;
+	}
 	button.slidenav {display: none;}
 	.feature img {
 		position: relative;
