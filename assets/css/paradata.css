@@ -231,6 +231,11 @@ header nav li ul.menu li a:hover {
 	border-bottom: none;
 	border: 2px solid #fff;
 }
+.nav-cta:hover,
+.menu-button:hover,
+.close-button:hover {
+	cursor: pointer;
+}
 .visible-block {
 	display: block;
 }
