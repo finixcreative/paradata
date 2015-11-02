@@ -209,6 +209,17 @@ header nav li ul.menu li a:hover {
 	right: 0;
 	display: none;
 }
+.close-button {
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	line-height: 36px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
 .visible-block {
 	display: block;
 }
