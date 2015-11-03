@@ -227,10 +227,12 @@ header nav li ul.menu li a:hover {
 	border-radius: 5px;
 	outline: none;
 }
-input::-webkit-input-placeholder,
-input:-moz-placeholder, /* Firefox 18- */
-input::-moz-placeholder, /* Firefox 19+ */
-input:-ms-input-placeholder {  
+::-webkit-input-placeholder {
+	color: #ccc;
+}
+:-moz-placeholder, /* Firefox 18- */
+::-moz-placeholder, /* Firefox 19+ */
+:-ms-input-placeholder {  
    color: #ccc;
 }
 .email-signup .form-logo {
