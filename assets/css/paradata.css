@@ -243,24 +243,6 @@ header nav li ul.menu li a:hover {
 	width: 200px;
 	height: auto;
 }
-.close-button {
-	width: 40px;
-	height: 40px;
-	padding: 0px;
-	border: 2px solid #fff;
-	border-radius: 50px;
-	line-height: 36px;
-	position: absolute;
-	top: 20px;
-	right: 20px;
-}
-.close-button:hover {
-	border-bottom: none;
-	border: 2px solid #fff;
-}
-.close-button:hover > a {
-	color: #fff;
-}
 .nav-cta:hover,
 .menu-button:hover,
 .close-button:hover {
@@ -315,6 +297,24 @@ header nav li ul.menu li a:hover {
 	background: #fff;
 	color: #75bbce;
 	font-weight: 700;
+}
+.close-button {
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	line-height: 36px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+.close-button:hover {
+	border-bottom: none;
+	border: 2px solid #fff;
+}
+.close-button:hover > a {
+	color: #fff;
 }
 .hero input[type=file] {
 	display: none;
