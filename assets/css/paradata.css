@@ -188,10 +188,10 @@ header nav li ul.menu li a:hover {
 	background: url("../images/paradata-logo-thumb-alt.png") 20px 24px no-repeat;
 	background-size: 44px 40px;
 }
-.nav-cta {
+.nav-cta a {
 	background: #0387ab;
 }
-.nav-cta:hover {
+.nav-cta a:hover {
 	background: #75bbce;
 }
 .nav-cta:hover > a,
