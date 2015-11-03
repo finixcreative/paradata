@@ -230,8 +230,12 @@ header nav li ul.menu li a:hover {
 ::-webkit-input-placeholder {
 	color: #ccc;
 }
-:-moz-placeholder, /* Firefox 18- */
-::-moz-placeholder, /* Firefox 19+ */
+:-moz-placeholder { /* Firefox 18- */
+	color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #ccc;
+}
 :-ms-input-placeholder {  
    color: #ccc;
 }
