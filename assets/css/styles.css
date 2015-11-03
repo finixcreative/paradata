@@ -18,7 +18,7 @@ body {
 	overflow-x: hidden;
 	overflow-y: scroll;
 }
-a, button, input[type=submit] {
+a, button, .button, input[type=submit] {
 	text-decoration: none;
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
