@@ -301,6 +301,7 @@ header nav li ul.menu li a:hover {
 .close-button {
 	width: 40px;
 	height: 40px;
+	margin: 0px;
 	padding: 0px !important;
 	border: 2px solid #fff;
 	border-radius: 50px;
