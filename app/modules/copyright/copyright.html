@@ -1,5 +1,5 @@
-<div class="darkgray-bg center full" ng-controller="CopyrightController">
+<div class="darkgray-bg center full" ng-controller="CopyrightController as copyright">
 	<h6>
-		&copy; {{scope.copyright}} {{ client.client.company }} {{ client.client.type }} • All rights reserved • <a href="#/privacy">Privacy policy</a>
+		&copy; {{copyright.year}} {{ client.client.company }} {{ client.client.type }} • All rights reserved • <a href="#/privacy">Privacy policy</a>
 	</h6>
 </div>
