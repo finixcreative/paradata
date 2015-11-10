@@ -204,7 +204,8 @@ header nav li ul.menu li a:hover {
 	height: 36px;
 	margin: 2px 0;
 }
-.email-signup {
+.email-signup,
+.box-upload {
 	background: #0387ab;
 	width: 100%;
 	height: 100%;
