@@ -221,7 +221,9 @@ header nav li ul.menu li a:hover {
 	top: 50%;
 	transform: translateY(-50%);
 }
+.email-signup input[type=text],
 .email-signup input[type=email],
+.box-upload input[type=text],
 .box-upload input[type=email] {
 	width: 100%;
 	max-width: 400px;
