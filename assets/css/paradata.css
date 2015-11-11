@@ -231,6 +231,9 @@ header nav li ul.menu li a:hover {
 	border-radius: 5px;
 	outline: none;
 }
+.box-upload input[type=file] {
+	display: none;
+}
 ::-webkit-input-placeholder {
 	color: #ccc;
 }
@@ -322,11 +325,6 @@ header nav li ul.menu li a:hover {
 .close-button:hover > a {
 	color: #fff;
 }
-/*
-.hero input[type=file] {
-	display: none;
-}
-*/
 .hero-overlay {
 	background: rgba(19,134,171,0.5);
 }
