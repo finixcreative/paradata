@@ -23,8 +23,7 @@ function slideChange (scope, elem, attrs, $timeout){
 	});
 	var autoslide = function(){
 		var next = scope.next();
-		var timer = $timeout(next, 5000);
-		timer();
+		$timeout(next, 5000);
 	};
 	autoslide();
 	scope.$on('$destroy', function(){
