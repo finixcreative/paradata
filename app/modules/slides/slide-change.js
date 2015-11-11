@@ -21,9 +21,19 @@ function slideChange (scope, elem, attrs, $timeout){
 		});
 		scope.images[scope.currentIndex].visible = true;
 	});
+	var autoslide = function(){
+		var next = scope.next();
+		var timer = $timeout(next, 5000);
+		timer();
+	};
+	autoslide();
+	scope.$on('$destroy', function(){
+		$timeout.cancel(timer);
+	});
+	/*	
 	var timer;
-	var sliderFunc = function() {
-		timer = $timeout(function() {
+	var sliderFunc = function(){
+		timer = $timeout(function(){
 			scope.next();
 			timer = $timeout(sliderFunc, 5000);
 		}, 5000);
@@ -32,4 +42,5 @@ function slideChange (scope, elem, attrs, $timeout){
 	scope.$on('$destroy', function() {
 		$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 	});
+	*/
 };
