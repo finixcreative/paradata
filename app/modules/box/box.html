@@ -6,10 +6,6 @@
 			<div id="mc_embed_signup_scroll">
 				<img class="form-logo" src="assets/images/paradata-logo.png">
 				<h2>Get your data score</h2>
-				<div class="upload full">
-					<label class="button" for="data-score">Choose file</label>
-					<input id="data-score" type="file" accept=".csv,.gsheet,text/csv,text/gsheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel" required>
-				</div>
 				<div class="mc-field-group">
 					<p>
 						<input type="text" value="" placeholder="Company" name="company" required>
@@ -25,7 +21,9 @@
 				<div style="position: absolute; left: -5000px;">
 					<input type="text" name="b_35fa6d8653118f1295a3d1803_9dfd544484" tabindex="-1" value="">
 				</div>
-				<div class="clear">
+				<div class="full">
+					<label class="button" for="data-score">Choose file</label>
+					<input id="data-score" type="file" accept=".csv,.gsheet,text/csv,text/gsheet,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel" required>
 					<input type="submit" value="Upload" name="upload" id="mc-embedded-subscribe" class="button" ng-controller="BoxController" ng-click="popover()">
 				</div>
 			</div>
