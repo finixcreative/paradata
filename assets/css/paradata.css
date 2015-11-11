@@ -320,9 +320,11 @@ header nav li ul.menu li a:hover {
 .close-button:hover > a {
 	color: #fff;
 }
+/*
 .hero input[type=file] {
 	display: none;
 }
+*/
 .hero-overlay {
 	background: rgba(19,134,171,0.5);
 }
