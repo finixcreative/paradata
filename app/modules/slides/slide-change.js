@@ -1,4 +1,4 @@
-function slideChange (scope, elem, attrs, $timeout){
+function slideChange (scope, elem, attrs){
 	scope.currentIndex = 0;
 	for(var i = 0; i < scope.images.length; i++){
 		scope.images.index = i;

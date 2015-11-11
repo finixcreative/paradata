@@ -1,5 +1,5 @@
 angular.module('slidesMod')
-	.directive('slides', function(){
+	.directive('slides', function($timeout){
 		return {
 			restrict: 'E',
 			replace: true,
