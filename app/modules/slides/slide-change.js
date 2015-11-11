@@ -1,4 +1,4 @@
-function slideChange (scope, elem, attrs, timeout){
+function slideChange (scope, elem, attrs, $timeout){
 	scope.currentIndex = 0;
 	for(var i = 0; i < scope.images.length; i++){
 		scope.images.index = i;
@@ -23,13 +23,13 @@ function slideChange (scope, elem, attrs, timeout){
 	});
 	var timer;
 	var sliderFunc = function() {
-		timer = timeout(function() {
+		timer = $timeout(function() {
 			scope.next();
-			timer = timeout(sliderFunc, 5000);
+			timer = $timeout(sliderFunc, 5000);
 		}, 5000);
 	};
 	sliderFunc();
 	scope.$on('$destroy', function() {
-		timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
+		$timeout.cancel(timer); // when the scope is getting destroyed, cancel the timer
 	});
 };
