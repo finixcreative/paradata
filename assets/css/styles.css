@@ -67,6 +67,7 @@ header a img {
 nav {}
 nav ul li a {
 	text-transform: uppercase;
+	display: block;
 }
 ul {
 	width: 100%;
@@ -78,9 +79,6 @@ nav ul li {
 	float: left;
 	display: inline-block;
 	list-style-type: none;
-}
-ul li a {
-	display: block;
 }
 nav ul li .subnav,
 nav ul li .dropdown {

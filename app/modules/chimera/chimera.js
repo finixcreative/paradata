@@ -6,12 +6,11 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = root+chimera+'/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
-		$http.get(page).
-			success(function(data, status, headers, config) {
+		$http.get(page)
+			.success(function(data, status, headers, config){
 				$scope.contents = data;
-			}).
-			error(function(data, status, headers, config) {
-				console.log(error)
-				// log error
+			})
+			.error(function(data, status, headers, config){
+				console.log(data) // log error
 			});
 	}]);
