@@ -9,6 +9,7 @@ angular.module('chimeraMod', [])
 		$scope.contents = $http.get(page).success(function(data, status, headers, config){
 			return data;
 		}).error(function(data, status, headers, config){
-			console.log(data) // log error
+			// log error
 		});
+		console.log($scope.contents);
 	}]);
