@@ -29,6 +29,10 @@ var sitemap = {
 				title: "Blog",
 				link: "#/blog",
 			},
+			{
+				title: "Login",
+				link: "https://ba.paradata.io/#/login/",
+			},
 		],
 	},
 };
