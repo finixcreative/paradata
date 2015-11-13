@@ -11,5 +11,9 @@ angular.module('chimeraMod', [])
 		}).error(function(data, status, headers, config){
 			// log error
 		});
+		console.assert($scope.contents.length < 1, "Error detected: length is " + $scope.contents.length);
+		console.assert($scope.contents.length > 0, "Contents detected: length is " + $scope.contents.length);
+		console.log(chimera);
+		console.log($scope.template);
 		console.log($scope.contents);
 	}]);
