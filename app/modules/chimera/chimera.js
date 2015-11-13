@@ -9,8 +9,8 @@ angular.module('chimeraMod', [])
 		$http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
 		$http.get(page).success(function(data, status, headers, config){
 			$scope.contents = data;
-			console.log($scope.contents);
 		}).error(function(data, status, headers, config){
 			// log error
 		});
+		console.log($scope.contents);
 	}]);
