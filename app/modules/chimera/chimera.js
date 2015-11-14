@@ -12,10 +12,10 @@ angular.module('chimeraMod', [])
 		}).then(function successCallback(response){
 			//response callback
 			$scope.contents = data;
-			console.log(data);
+			console.log("Data: " + data);
 		}, function errorCallback(response){
 			//error callback
-			console.log(status);
+			console.log("Status: " + status);
 		});
 		/*
 		.get(page).success(function(data, status, headers, config){
