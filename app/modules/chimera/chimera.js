@@ -6,6 +6,7 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
+		$http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
 		$http.get(page).success(function(data, status, headers, config){
 			$scope.contents = data;
 			if($scope.contents.length > 0){
@@ -13,8 +14,9 @@ angular.module('chimeraMod', [])
 			} else {
 				console.log("Error detected: length is " + $scope.contents.length);				
 			};
-			console.log("Contents: " + $scope.contents);
+			return $scope.contents;
 		});
 		console.log("Page: " + chimera);
 		console.log("Template: " + $scope.template);
+		console.log("Contents: " + $scope.contents);
 	}]);
