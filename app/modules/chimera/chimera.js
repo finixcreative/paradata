@@ -13,8 +13,8 @@ angular.module('chimeraMod', [])
 			} else {
 				console.log("Error detected: length is " + $scope.contents.length);				
 			};
+			console.log("Contents: " + $scope.contents);
 		});
 		console.log("Page: " + chimera);
 		console.log("Template: " + $scope.template);
-		console.log("Contents: " + $scope.contents);
 	}]);
