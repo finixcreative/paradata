@@ -6,10 +6,8 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
-		$scope.contents = $http.get(page).success(function(data, status, headers, config){
-			return data;
-		}).error(function(data, status, headers, config){
-			// log error
+		$http.get(page).success(function(data, status, headers, config){
+			$scope.contents = data;
 		});
 		console.assert($scope.contents.length < 1, "Error detected: length is " + $scope.contents.length);
 		console.assert($scope.contents.length > 0, "Contents detected: length is " + $scope.contents.length);
