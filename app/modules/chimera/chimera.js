@@ -6,8 +6,19 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
-		$http.defaults.headers.common["X-Custom-Header"] = "Angular.js";
-		$http.get(page).success(function(data, status, headers, config){
+		$http({
+			method: 'GET',
+			url: page
+		}).then(function successCallback(response){
+			//response callback
+			$scope.contents = data;
+			console.log(data);
+		}, function errorCallback(response){
+			//error callback
+			console.log(status);
+		});
+		/*
+		.get(page).success(function(data, status, headers, config){
 			$scope.contents = data;
 			if($scope.contents.length > 0){
 				console.log("Contents detected: length is " + $scope.contents.length);
@@ -19,4 +30,5 @@ angular.module('chimeraMod', [])
 		console.log("Page: " + chimera);
 		console.log("Template: " + $scope.template);
 		console.log("Contents: " + $scope.contents);
+		*/
 	}]);
