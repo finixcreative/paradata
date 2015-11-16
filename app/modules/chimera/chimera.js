@@ -10,7 +10,7 @@ angular.module('chimeraMod', [])
 			//response callback
 			$scope.contents = data;
 			console.log("Contents: " + data);
-		}, function error(error){
+		}, function error(data, error){
 			//error callback
 			console.log("Chimera: " + chimera);
 			console.log("Page: " + page);
