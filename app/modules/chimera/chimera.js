@@ -6,14 +6,11 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
-		$http({
-			method: 'GET',
-			url: page
-		}).then(function successCallback(response){
+		$http.jsonp(page).then(function success(data){
 			//response callback
 			$scope.contents = data;
 			console.log("Data: " + data);
-		}, function errorCallback(response){
+		}, function error(response){
 			//error callback
 			console.log("Status: " + status);
 		});
