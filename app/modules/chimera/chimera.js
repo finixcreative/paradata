@@ -7,16 +7,18 @@ angular.module('chimeraMod', [])
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
 		$http.get(page).then(function success(data){
-			//response callback
+			//success callbacks
 			$scope.contents = data;
-			console.log("Contents: " + data);
+			console.log("Contents: " + $scope.contents);
 		}, function error(data, error){
-			//error callback
+			//error callbacks
+			$scope.contents = data;
+			$scope.errors = error;
 			console.log("Chimera: " + chimera);
 			console.log("Page: " + page);
 			console.log("Template: " + $scope.template);
-			console.log("Contents: " + data);
-			console.log("Error: " + error);
+			console.log("Contents: " + $scope.contents);
+			console.log("Error: " + $scope.errors);
 		});
 		/*
 		.get(page).success(function(data, status, headers, config){
