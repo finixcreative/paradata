@@ -72,7 +72,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/data-harmony.png",
-							"alt": "Data Harmony",
+							"alt": "Data Harmony"
 						},
 						"txt": {
 							"h": "Data harmony",
@@ -86,7 +86,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/data-provenance.png",
-							"alt": "Data Provenance",
+							"alt": "Data Provenance"
 						},
 						"txt": {
 							"h": "Data provenance",
@@ -100,7 +100,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/dark-data.png",
-							"alt": "Dark Data",
+							"alt": "Dark Data"
 						},
 						"txt": {
 							"h": "Dark data",
@@ -114,7 +114,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/predictive-analytics.png",
-							"alt": "Predictive Analytics",
+							"alt": "Predictive Analytics"
 						},
 						"txt": {
 							"h": "Predictive analytics",
@@ -128,7 +128,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/infrastructure-management.png",
-							"alt": "Infrastructure Management",
+							"alt": "Infrastructure Management"
 						},
 						"txt": {
 							"h": "Infrastructure management",
@@ -142,7 +142,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/notification.png",
-							"alt": "Notification",
+							"alt": "Notification"
 						},
 						"txt": {
 							"h": "Notification",
@@ -156,7 +156,7 @@
 					"content": {
 						"img": {
 							"src": "assets/images/icons/administration.png",
-							"alt": "Administration",
+							"alt": "Administration"
 						},
 						"txt": {
 							"h": "Administration",
