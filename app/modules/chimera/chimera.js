@@ -16,9 +16,9 @@ angular.module('chimeraMod', [])
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
 				"Contents: " + $scope.contents + "\n",
-				"Object 1: " + $scope.contents[0].field1 + "\n",
-				"Object 2: " + $scope.contents[1].field1 + "\n",
-				"Object 3: " + $scope.contents[2].field1
+				"Object 1: " + $scope.contents[0].field1 + "-" + $scope.contents[0].field2 + "\n",
+				"Object 2: " + $scope.contents[1].field1 + "-" + $scope.contents[1].field2 + "\n",
+				"Object 3: " + $scope.contents[2].field1 + "-" + $scope.contents[2].field2
 			);
 		}, function error(response){
 			//error callbacks
