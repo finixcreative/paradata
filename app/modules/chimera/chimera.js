@@ -6,6 +6,8 @@ angular.module('chimeraMod', [])
 		var root = 'app/pages/';
 		var page = 'app/contents/'+chimera+'.json';
 		$scope.template = root+chimera+'/'+chimera+'.html';
+		$scope.contents = [];
+		$scope.errors = [];
 		$http.get(page).then(function success(data){
 			//success callbacks
 			$scope.contents = data;
