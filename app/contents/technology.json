@@ -179,8 +179,40 @@
 			"widgets": [
 				{
 					"type": "h3",
-					"size": "",
+					"size": "full",
 					"content": "Paradata technology resources"
+				},
+				{
+					"type": "p",
+					"size": "full",
+					"content": "Learn more about our core technology directly from our CTO, Pat Selinger:"
+				},
+				{
+					"type": "bullet-list",
+					"size": "full",
+					"content": [
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.pdf",
+								"txt": "Download PDF"
+							},
+							"txt": ""
+						},
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.mobi",
+								"txt": "Download Mobi"
+							},
+							"txt": "for Kindle devices"
+						},
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.epub",
+								"txt": "Download Epub"
+							},
+							"txt": "for iBooks and other E-book readers"
+						}
+					]
 				}
 			]
 		}
