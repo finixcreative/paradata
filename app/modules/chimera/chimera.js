@@ -9,16 +9,20 @@ angular.module('chimeraMod', [])
 		$http.get(page).then(function success(data){
 			//success callbacks
 			$scope.contents = data;
-			console.log("Contents: " + $scope.contents);
+			console.log(
+				"Contents: " + $scope.contents
+			);
 		}, function error(data, error){
 			//error callbacks
 			$scope.contents = data;
 			$scope.errors = error;
-			console.log("Chimera: " + chimera);
-			console.log("Page: " + page);
-			console.log("Template: " + $scope.template);
-			console.log("Contents: " + $scope.contents);
-			console.log("Error: " + $scope.errors);
+			console.log(
+				"Chimera: " + chimera,
+				"Page URL: " + page,
+				"Template: " + $scope.template,
+				"Contents: " + $scope.contents,
+				"Errors: " + $scope.errors
+			);
 		});
 		/*
 		.get(page).success(function(data, status, headers, config){
