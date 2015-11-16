@@ -8,19 +8,19 @@ angular.module('chimeraMod', [])
 		$scope.template = root+chimera+'/'+chimera+'.html';
 		$scope.contents = [];
 		$scope.errors = [];
-		$http.get(page).then(function success(data){
+		$http.get(page).then(function success(response){
 			//success callbacks
-			$scope.contents = data;
+			$scope.contents = response.data;
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
 				"Contents: " + $scope.contents
 			);
-		}, function error(data, error){
+		}, function error(response){
 			//error callbacks
-			$scope.contents = data;
-			$scope.errors = error;
+			$scope.contents = response.data;
+			$scope.errors = response.error;
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
