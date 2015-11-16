@@ -9,9 +9,13 @@ angular.module('chimeraMod', [])
 		$http.jsonp(page).then(function success(data){
 			//response callback
 			$scope.contents = data;
-			console.log("Data: " + data);
+			console.log("Contents: " + data);
 		}, function error(error){
 			//error callback
+			console.log("Chimera: " + chimera);
+			console.log("Page: " + page);
+			console.log("Template: " + $scope.template);
+			console.log("Contents: " + data);
 			console.log("Error: " + error);
 		});
 		/*
