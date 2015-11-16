@@ -21,7 +21,7 @@ angular.module('chimeraMod', [])
 			);
 			for(var i = 0; i < $scope.contents.rows.length; i++){
 				console.log(
-					"Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[0].widgets.length
+					"Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length
 				);
 			};
 		}, function error(response){
