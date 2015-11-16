@@ -15,7 +15,8 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Contents: " + $scope.contents
+				"Contents: " + $scope.contents + "\n",
+				"Field 1: " + $scope.contents.field1
 			);
 		}, function error(response){
 			//error callbacks
