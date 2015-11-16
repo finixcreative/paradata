@@ -10,9 +10,9 @@ angular.module('chimeraMod', [])
 			//response callback
 			$scope.contents = data;
 			console.log("Data: " + data);
-		}, function error(response){
+		}, function error(error){
 			//error callback
-			console.log("Status: " + status);
+			console.log("Error: " + error);
 		});
 		/*
 		.get(page).success(function(data, status, headers, config){
