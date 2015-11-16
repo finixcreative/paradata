@@ -10,9 +10,9 @@ angular.module('chimeraMod', [])
 			//success callbacks
 			$scope.contents = data;
 			console.log(
-				"Chimera: " + chimera + "\n"
-				"Page URL: " + page + "\n"
-				"Template: " + $scope.template + "\n"
+				"Chimera: " + chimera + "\n",
+				"Page URL: " + page + "\n",
+				"Template: " + $scope.template + "\n",
 				"Contents: " + $scope.contents
 			);
 		}, function error(data, error){
@@ -20,10 +20,10 @@ angular.module('chimeraMod', [])
 			$scope.contents = data;
 			$scope.errors = error;
 			console.log(
-				"Chimera: " + chimera + "\n"
-				"Page URL: " + page + "\n"
-				"Template: " + $scope.template + "\n"
-				"Contents: " + $scope.contents + "\n"
+				"Chimera: " + chimera + "\n",
+				"Page URL: " + page + "\n",
+				"Template: " + $scope.template + "\n",
+				"Contents: " + $scope.contents + "\n",
 				"Errors: " + $scope.errors
 			);
 		});
