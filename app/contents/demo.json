@@ -1,0 +1,220 @@
+{
+	"page": "demo",
+	"rows": [
+		{
+			"bg": {
+				"img": "../images/backgrounds/background-technology-1.jpg",
+				"color": "#0387ab",
+				"size": "cover",
+				"repeat": "no-repeat",
+				"position": "",
+				"attachment": "fixed",
+				"parallax": true
+			},
+			"widgets": [
+				{
+					"type": "h1",
+					"size": "full",
+					"content": "Our proprietary technology"
+				},
+				{
+					"type": "h2",
+					"size": "full",
+					"content": "Trusted discovery engine intelligently acquires & authenticates data"
+				}
+			]
+		},
+		{
+			"bg": {
+				"img": "",
+				"color": "#fff",
+				"size": "",
+				"repeat": "",
+				"position": "",
+				"attachment": "",
+				"parallax": false
+			},
+			"widgets": [
+				{
+					"type": "h3",
+					"size": "full",
+					"content": "Paradata's powerful platform"
+				},
+				{
+					"type": "img",
+					"size": "full",
+					"content": {
+						"src": "assets/images/graphics/infrastructure.jpg",
+						"alt": "infrastructure"
+					}
+				}
+			]
+		},
+		{
+			"bg": {
+				"img": "",
+				"color": "#f3f3f3",
+				"size": "",
+				"repeat": "",
+				"position": "",
+				"attachment": "",
+				"parallax": false
+			},
+			"widgets": [
+				{
+					"type": "h3",
+					"size": "full",
+					"content": "Paradata's unique platform & common services explained"
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/data-harmony.png",
+							"alt": "Data Harmony"
+						},
+						"txt": {
+							"h": "Data harmony",
+							"p": "The first thing that Paradata solutions do is harmonize different data sets and build trustworthy datasets about vendors, materials, competitors, pricing, market trends, and more. This is not a basic data cleansing. Data cleansing is removing or correcting data simply to improve customer service. Paradata creates data harmony to extract more business insights that drive operating profits."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/data-provenance.png",
+							"alt": "Data Provenance"
+						},
+						"txt": {
+							"h": "Data provenance",
+							"p": "Data provenance signifies the origins of a piece of data and the process by which it arrived in a database. Having the peace of mind of knowing where something came from is essential to accuracy and quality. You’d be more likely to buy a famous painting if you knew the chain of custody. This is a record of its owners since inception. You would also want to know the chain of custody of your data. Paradata delivers this data provenance and peace of mind."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/dark-data.png",
+							"alt": "Dark Data"
+						},
+						"txt": {
+							"h": "Dark data",
+							"p": "Paradata offers a solution on the front end which helps companies find operating profit in dark data. This is data that has no real tactical value at all. Gartner defines dark data as &quot;the information assets organizations collect, process and store during regular business activities, but generally fail to use for other purposes. Dark data often comprises most organizations' universe of information assets&quot;."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/predictive-analytics.png",
+							"alt": "Predictive Analytics"
+						},
+						"txt": {
+							"h": "Predictive analytics",
+							"p": "Our solution suite is geared toward a market called predictive analytics. Appealing to business intelligence executives, it is is a variety of mathematical techniques like modeling, machine learning, and data mining that analyze current and historical facts to make predictions about the future. These models exploit patterns found in transactional and historical data in order to identify risks and opportunities."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/infrastructure-management.png",
+							"alt": "Infrastructure Management"
+						},
+						"txt": {
+							"h": "Infrastructure management",
+							"p": "A data-centered integrated infrastructure powers the Paradata suite of applications. This drives business intelligence by giving users access to a wide range of tools for data classification, clustering, curation, provenance, dataset profiling, and much more."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/notification.png",
+							"alt": "Notification"
+						},
+						"txt": {
+							"h": "Notification",
+							"p": "The Notifications service offers messaging and real-time communications, enabling users on the same project to have dynamic in-app team collaboration."
+						}
+					}
+				},
+				{
+					"type": "subsection",
+					"size": "third",
+					"content": {
+						"img": {
+							"src": "assets/images/icons/administration.png",
+							"alt": "Administration"
+						},
+						"txt": {
+							"h": "Administration",
+							"p": "Among the many Paradata Services is a set of features geared toward secure and private administrative tasks. Easily add users or modify user privileges, while the two-step authentication process ensures security."
+						}
+					}
+				}
+			]
+		},
+		{
+			"bg": {
+				"img": "",
+				"color": "#fff",
+				"size": "",
+				"repeat": "",
+				"position": "",
+				"attachment": "",
+				"parallax": false
+			},
+			"widgets": [
+				{
+					"type": "h3",
+					"size": "full",
+					"content": "Paradata technology resources"
+				},
+				{
+					"type": "p",
+					"size": "full",
+					"content": "Learn more about our core technology directly from our CTO, Pat Selinger:"
+				},
+				{
+					"type": "bullet-list",
+					"size": "full",
+					"content": [
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.pdf",
+								"txt": "Download PDF"
+							},
+							"txt": ""
+						},
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.mobi",
+								"txt": "Download Mobi"
+							},
+							"txt": "for Kindle devices"
+						},
+						{
+							"download": {
+								"anchor": "http://paradata.io/media/The_Paradata_Solution.epub",
+								"txt": "Download Epub"
+							},
+							"txt": "for iBooks and other E-book readers"
+						}
+					]
+				}
+			]
+		}
+	]
+}
