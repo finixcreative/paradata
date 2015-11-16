@@ -4,6 +4,7 @@ angular.module('paraData')
 			.when('/:chimera', {
 				templateUrl: 'app/modules/chimera/chimera.html',
 				controller: 'ChimeraController',
+				controllerAs: 'chimera',
 			})
 			.otherwise({
 				redirectTo: '/home',
