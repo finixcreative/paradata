@@ -27,7 +27,7 @@
 		{
 			"bg": {
 				"img": "",
-				"color": "",
+				"color": "#fff",
 				"size": "",
 				"repeat": "",
 				"position": "",
@@ -53,7 +53,7 @@
 		{
 			"bg": {
 				"img": "",
-				"color": "",
+				"color": "#f3f3f3",
 				"size": "",
 				"repeat": "",
 				"position": "",
@@ -169,7 +169,7 @@
 		{
 			"bg": {
 				"img": "",
-				"color": "",
+				"color": "#fff",
 				"size": "",
 				"repeat": "",
 				"position": "",
