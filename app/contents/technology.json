@@ -1,14 +1,92 @@
 [
 	{
-		"field1": "S",
-		"field2": "T"
-	},
-	{
-		"field1": "U",
-		"field2": "V"
-	},
-	{
-		"field1": "W",
-		"field2": "X"
+		"page": "technology",
+		"rows": [
+			{
+				"bg": {
+					"img": "../images/backgrounds/background-technology-1.jpg",
+					"color": "#0387ab",
+					"size": "cover",
+					"repeat": "no-repeat",
+					"position": "",
+					"attachment": "fixed",
+					"parallax": true
+				},
+				"widgets": [
+					{
+						"type": "h1",
+						"size": "",
+						"content": "Our proprietary technology"
+					},
+					{
+						"type": "h2",
+						"size": "",
+						"content": "Trusted discovery engine intelligently acquires & authenticates data"
+					}
+				]
+			},
+			{
+				"bg": {
+					"img": "",
+					"color": "",
+					"size": "",
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": false
+				},
+				"widgets": [
+					{
+						"type": "h3",
+						"size": "",
+						"content": "Paradata's powerful platform"
+					},
+					{
+						"type": "img",
+						"size": "",
+						"content": {
+							"src": "assets/images/graphics/infrastructure.jpg",
+							"alt": "infrastructure"
+						}
+					}
+				]
+			},
+			{
+				"bg": {
+					"img": "",
+					"color": "",
+					"size": "",
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": false
+				},
+				"widgets": [
+					{
+						"type": "h3",
+						"size": "",
+						"content": "Paradata's unique platform & common services explained"
+					}
+				]
+			},
+			{
+				"bg": {
+					"img": "",
+					"color": "",
+					"size": "",
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": false
+				},
+				"widgets": [
+					{
+						"type": "h3",
+						"size": "",
+						"content": "Paradata technology resources",
+					}
+				]
+			}
+		]
 	}
 ]

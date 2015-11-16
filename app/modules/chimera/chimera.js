@@ -16,10 +16,14 @@ angular.module('chimeraMod', [])
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
 				"Contents: " + $scope.contents + "\n",
-				"Object 1: " + $scope.contents[0].field1 + "-" + $scope.contents[0].field2 + "\n",
-				"Object 2: " + $scope.contents[1].field1 + "-" + $scope.contents[1].field2 + "\n",
-				"Object 3: " + $scope.contents[2].field1 + "-" + $scope.contents[2].field2
+				"Page Name: " + $scope.contents.page + "\n",
+				"Rows: " + $scope.contents.rows.length
 			);
+			for(var i = 0; i < $scope.contents.rows.length; i++){
+				console.log(
+					"Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[0].widgets.length
+				);
+			};
 		}, function error(response){
 			//error callbacks
 			$scope.contents = response.data;
