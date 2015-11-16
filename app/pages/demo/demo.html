@@ -1,5 +1,5 @@
 <div class="content full">
-	<div class="row full" ng-repeat="row in scope.contents.row">
+	<div class="row full" ng-repeat="row in $scope.contents.row">
 		<div class="wrapper">
 			<div class="full pad">
 				<div class="widget {{widget.type}} {{widget.size}}" ng-repeat="widget in row.widgets">{{widget.content}}</div>
