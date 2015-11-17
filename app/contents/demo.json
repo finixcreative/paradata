@@ -65,7 +65,7 @@
 		{
 			"class": {
 				"outer": "",
-				"inner": ""
+				"inner": "center"
 			},
 			"bg": {
 				"img": "",
@@ -192,7 +192,7 @@
 		},
 		{
 			"class": {
-				"outer": "",
+				"outer": "white-bg",
 				"inner": "pad"
 			},
 			"bg": {
