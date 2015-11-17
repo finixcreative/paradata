@@ -15,9 +15,8 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Page Name: " + $scope.contents.page + "\n",
-				"Contents: " + $scope.contents.rows + "\n",
-				"Rows: " + $scope.contents.rows.length
+				"Page Name: " + $scope.contents.config.type + "\n",
+				"Contents: " + $scope.contents.contents
 			);
 			for(var i = 0; i < $scope.contents.rows.length; i++){
 				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
