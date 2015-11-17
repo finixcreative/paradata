@@ -15,11 +15,13 @@
 				{
 					"type": "h1",
 					"size": "full",
+					"class": "",
 					"content": "Our proprietary technology"
 				},
 				{
 					"type": "h2",
 					"size": "full",
+					"class": "",
 					"content": "Trusted discovery engine intelligently acquires & authenticates data"
 				}
 			]
@@ -38,11 +40,13 @@
 				{
 					"type": "h3",
 					"size": "full",
+					"class": "",
 					"content": "Paradata's powerful platform"
 				},
 				{
 					"type": "img",
 					"size": "full",
+					"class": "",
 					"content": {
 						"src": "assets/images/graphics/infrastructure.jpg",
 						"alt": "infrastructure"
@@ -64,11 +68,13 @@
 				{
 					"type": "h3",
 					"size": "full",
+					"class": "",
 					"content": "Paradata's unique platform & common services explained"
 				},
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/data-harmony.png",
@@ -83,6 +89,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/data-provenance.png",
@@ -97,6 +104,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/dark-data.png",
@@ -111,6 +119,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/predictive-analytics.png",
@@ -125,6 +134,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/infrastructure.png",
@@ -139,6 +149,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/collaborator.png",
@@ -153,6 +164,7 @@
 				{
 					"type": "subsection",
 					"size": "third",
+					"class": "pad center",
 					"content": {
 						"img": {
 							"src": "assets/images/icons/administrator.png",
@@ -180,16 +192,19 @@
 				{
 					"type": "h3",
 					"size": "full",
+					"class": "",
 					"content": "Paradata technology resources"
 				},
 				{
 					"type": "p",
 					"size": "full",
+					"class": "",
 					"content": "Learn more about our core technology directly from our CTO, Pat Selinger:"
 				},
 				{
 					"type": "bullet-list",
 					"size": "full",
+					"class": "",
 					"content": [
 						{
 							"download": {
