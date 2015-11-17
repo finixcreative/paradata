@@ -3,7 +3,7 @@
 	"rows": [
 		{
 			"bg": {
-				"img": "../images/backgrounds/background-technology-1.jpg",
+				"img": "url(../images/backgrounds/background-technology-1.jpg)",
 				"color": "#0387ab",
 				"size": "cover",
 				"repeat": "no-repeat",
