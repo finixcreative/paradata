@@ -2,7 +2,10 @@
 	"page": "demo",
 	"rows": [
 		{
-			"class": "white-txt",
+			"class": {
+				"outer": "white-txt",
+				"inner": "pad"
+			},
 			"bg": {
 				"img": "assets/images/backgrounds/background-technology-1.jpg",
 				"color": "#0387ab",
@@ -28,7 +31,10 @@
 			]
 		},
 		{
-			"class": "",
+			"class": {
+				"outer": "center",
+				"inner": "pad"
+			},
 			"bg": {
 				"img": "",
 				"color": "#fff",
@@ -57,7 +63,10 @@
 			]
 		},
 		{
-			"class": "",
+			"class": {
+				"outer": "",
+				"inner": ""
+			},
 			"bg": {
 				"img": "",
 				"color": "#f3f3f3",
@@ -182,7 +191,10 @@
 			]
 		},
 		{
-			"class": "",
+			"class": {
+				"outer": "",
+				"inner": "pad"
+			},
 			"bg": {
 				"img": "",
 				"color": "#fff",
