@@ -21,14 +21,10 @@ angular.module('chimeraMod', [])
 				"Rows: " + $scope.contents.rows.length
 			);
 			for(var i = 0; i < $scope.contents.rows.length; i++){
-				console.log(
-					"Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length
-				);
-			};
-			for(var i = 0; i < $scope.contents.row.widgets.length; i++){
-				console.log(
-					"Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length
-				);
+				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
+				for(var i = 0; i < $scope.contents.row.widgets.length; i++){
+					console.log("Widget " + (i + 1) + " is " + $scope.contents.row.widgets[i].type);
+				};
 			};
 		}, function error(response){
 			//error callbacks
