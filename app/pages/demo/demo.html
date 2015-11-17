@@ -1,6 +1,6 @@
 <div class="content full">
 	<div
-		class="row full {{row.outer.class}}"
+		class="row full {{row.class.outer}}"
 		ng-repeat="row in contents.rows"
 		style="
 			background-image:url({{row.bg.img}});
@@ -13,7 +13,7 @@
 		parallax-background parallax-ratio="{{row.bg.parallax}}"
 	>
 		<div class="wrapper">
-			<div class="full {{row.inner.class}}">
+			<div class="full {{row.class.inner}}">
 				<div class="widget {{widget.type}} {{widget.size}} {{widget.class}}" ng-repeat="widget in row.widgets" ng-include="'app/modules/' + widget.type + '/' + widget.type + '.html'">
 					<!-- Widget -->
 				</div>
