@@ -11,7 +11,7 @@ angular.module('chimeraMod', [])
 		$http.get(page).then(function success(response){
 			//success callbacks
 			$scope.contents = response.data;
-			$scope.widget = $scope.contents.rows.widget.type + '.html';
+			//$scope.widget = $scope.contents.rows.widget.type + '.html';
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
