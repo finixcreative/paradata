@@ -3,8 +3,8 @@
 	"rows": [
 		{
 			"class": {
-				"outer": "white-txt",
-				"inner": "pad"
+				"outer": "",
+				"inner": "white-txt pad"
 			},
 			"bg": {
 				"img": "assets/images/backgrounds/background-technology-1.jpg",
@@ -32,8 +32,8 @@
 		},
 		{
 			"class": {
-				"outer": "center",
-				"inner": "pad"
+				"outer": "",
+				"inner": "center pad"
 			},
 			"bg": {
 				"img": "",
