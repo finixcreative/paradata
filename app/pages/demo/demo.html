@@ -1,5 +1,15 @@
 <div class="content full">
-	<div class="row full" ng-repeat="row in contents.rows">
+	<div
+		class="row full"
+		ng-repeat="row in contents.rows"
+		ng-style="
+			background-image:{{row.bg.img}};
+			background-color:{{row.bg.color}};
+			background-size:{{row.bg.size}};
+			background-repeat:{{row.bg.repeat}};
+			background-position:{{row.bg.position}};
+			background-attachment:{{row.bg.attachment}};
+		">
 		<div class="wrapper">
 			<div class="full pad">
 				<div class="widget {{widget.type}} {{widget.size}}" ng-repeat="widget in row.widgets">{{widget.content}}</div>
