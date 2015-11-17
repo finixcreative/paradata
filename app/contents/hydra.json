@@ -1,0 +1,44 @@
+{
+	"config": {
+		"title": "hydra",
+		"type": "page",
+	},
+	"contents": [
+		{
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "white-txt pad"
+				},
+				"bg": {
+					"img": "assets/images/backgrounds/background-technology-1.jpg",
+					"color": "#0387ab",
+					"size": "cover",
+					"repeat": "no-repeat",
+					"position": "",
+					"attachment": "fixed",
+					"parallax": 0.2
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h1",
+					},
+					"contents": {
+						"txt": "Our proprietary technology"
+					}
+				},
+				{
+					"config": {
+						"type": "h2",
+					},
+					"contents": {
+						"txt": "Trusted discovery engine intelligently acquires & authenticates data"
+					}
+				}
+			]
+		}
+	]
+}
