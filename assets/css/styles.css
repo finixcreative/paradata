@@ -337,6 +337,7 @@ button.slidenav:focus {
 .hero img {
 	max-width: 100%;
 }
+/*
 .subsection {
 	background: #fff;
 }
@@ -350,16 +351,12 @@ button.slidenav:focus {
 .subsection-alt {
 	background: #ccc;
 }
+*/
 a.sublink {
 	color: #444
 }
 a.sublink:hover {
 	background: rgba(68,68,68,0.1);
-}
-#bbb {
-	position: relative;
-	top: 50%;
-	transform: translateY(50%);
 }
 .center {
 	text-align: center;
