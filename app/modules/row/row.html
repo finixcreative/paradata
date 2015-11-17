@@ -1,0 +1,18 @@
+<div
+	class="row full {{content.config.class.outer}}"
+	style="
+		background-image:url({{content.config.bg.img}});
+		background-color:{{row.bg.color}};
+		background-size:{{row.bg.size}};
+		background-repeat:{{row.bg.repeat}};
+		background-position:{{row.bg.position}};
+		background-attachment:{{row.bg.attachment}};
+	"
+	parallax-background parallax-ratio="{{content.config.bg.parallax}}"
+>
+	<div class="overlay" style="background-color:{{content.config.bg.color}}"></div>
+	<div class="wrapper">
+		<div class="full {{content.config.class.inner}}">
+		</div>
+	</div>
+</div>
