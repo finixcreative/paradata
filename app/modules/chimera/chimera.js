@@ -18,11 +18,11 @@ angular.module('chimeraMod', [])
 				"Page Name: " + $scope.contents.config.type + "\n",
 				"Contents: " + $scope.contents.contents
 			);
-			for(var i = 0; i < $scope.contents.rows.length; i++){
-				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
-				for(var j = 0; j < $scope.contents.rows[i].widgets.length; j++){
-					console.log("Widget " + (j + 1) + " is " + $scope.contents.rows[i].widgets[j].type);
-				};
+			for(var i = 0; i < $scope.contents.contents.length; i++){
+				console.log(
+					"Widget " + (i + 1) + " of " + $scope.contents.contents[i].length + "\n"
+					"-> contains " + $scope.contents.contents[i].contents.length + " objects."
+				);
 			};
 		}, function error(response){
 			//error callbacks
