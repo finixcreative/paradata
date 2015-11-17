@@ -1,7 +1,7 @@
 {
 	"config": {
 		"title": "hydra",
-		"type": "page",
+		"type": "page"
 	},
 	"contents": [
 		{
@@ -24,7 +24,7 @@
 			"contents": [
 				{
 					"config": {
-						"type": "h1",
+						"type": "h1"
 					},
 					"contents": {
 						"txt": "Our proprietary technology"
@@ -32,7 +32,7 @@
 				},
 				{
 					"config": {
-						"type": "h2",
+						"type": "h2"
 					},
 					"contents": {
 						"txt": "Trusted discovery engine intelligently acquires & authenticates data"
