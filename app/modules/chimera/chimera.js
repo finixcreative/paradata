@@ -22,7 +22,7 @@ angular.module('chimeraMod', [])
 			);
 			for(var i = 0; i < $scope.contents.rows.length; i++){
 				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
-				for(each widget in contents.rows[i]){
+				for each(widget in $scope.contents.rows[i].widgets){
 					console.log($scope.contents.rows.widgets.type + "\n");
 				};
 			};
