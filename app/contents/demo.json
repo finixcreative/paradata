@@ -9,7 +9,7 @@
 				"repeat": "no-repeat",
 				"position": "",
 				"attachment": "fixed",
-				"parallax": true
+				"parallax": 0.2
 			},
 			"widgets": [
 				{
@@ -32,7 +32,7 @@
 				"repeat": "",
 				"position": "",
 				"attachment": "",
-				"parallax": false
+				"parallax": 0
 			},
 			"widgets": [
 				{
@@ -58,7 +58,7 @@
 				"repeat": "",
 				"position": "",
 				"attachment": "",
-				"parallax": false
+				"parallax": 0
 			},
 			"widgets": [
 				{
@@ -174,7 +174,7 @@
 				"repeat": "",
 				"position": "",
 				"attachment": "",
-				"parallax": false
+				"parallax": 0
 			},
 			"widgets": [
 				{

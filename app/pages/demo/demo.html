@@ -9,7 +9,9 @@
 			background-repeat:{{row.bg.repeat}};
 			background-position:{{row.bg.position}};
 			background-attachment:{{row.bg.attachment}};
-		">
+		"
+		parallax-background parallax-ratio="{{row.bg.parallax}}"
+	>
 		<div class="wrapper">
 			<div class="full pad">
 				<div class="widget {{widget.type}} {{widget.size}}" ng-repeat="widget in row.widgets" ng-include src="widget">
