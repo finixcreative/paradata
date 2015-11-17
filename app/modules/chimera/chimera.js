@@ -11,7 +11,7 @@ angular.module('chimeraMod', [])
 		$http.get(page).then(function success(response){
 			//success callbacks
 			$scope.contents = response.data;
-			$scope.widget = $scope.contents.row.widget.type + '.html';
+			$scope.widget = $scope.contents.rows.widgets.type + '.html';
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
@@ -22,7 +22,7 @@ angular.module('chimeraMod', [])
 			);
 			for(var i = 0; i < $scope.contents.rows.length; i++){
 				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
-				for(var i = 0; i < $scope.contents.row.widgets.length; i++){
+				for(var i = 0; i < $scope.contents.rows.widgets.length; i++){
 					console.log("Widget " + (i + 1) + " is " + $scope.contents.row.widgets[i].type);
 				};
 			};
