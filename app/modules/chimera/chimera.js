@@ -23,7 +23,7 @@ angular.module('chimeraMod', [])
 			for(var i = 0; i < $scope.contents.rows.length; i++){
 				console.log("Row " + (i + 1) + " # of Widgets: " + $scope.contents.rows[i].widgets.length);
 				for (widget in $scope.contents.rows[i].widgets){
-					console.log(widget.type + "\n");
+					console.log($scope.contents.rows[i].widget.type + "\n");
 				};
 			};
 		}, function error(response){
