@@ -11,7 +11,6 @@ angular.module('chimeraMod', [])
 		$http.get(page).then(function success(response){
 			//success callbacks
 			$scope.contents = response.data;
-			//$scope.widget = $scope.contents.rows.widget.type + '.html';
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
@@ -38,18 +37,4 @@ angular.module('chimeraMod', [])
 				"Errors: " + $scope.errors
 			);
 		});
-		/*
-		.get(page).success(function(data, status, headers, config){
-			$scope.contents = data;
-			if($scope.contents.length > 0){
-				console.log("Contents detected: length is " + $scope.contents.length);
-			} else {
-				console.log("Error detected: length is " + $scope.contents.length);				
-			};
-			return $scope.contents;
-		});
-		console.log("Page: " + chimera);
-		console.log("Template: " + $scope.template);
-		console.log("Contents: " + $scope.contents);
-		*/
 	}]);
