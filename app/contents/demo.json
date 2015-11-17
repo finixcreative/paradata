@@ -127,7 +127,7 @@
 					"size": "third",
 					"content": {
 						"img": {
-							"src": "assets/images/icons/infrastructure-management.png",
+							"src": "assets/images/icons/infrastructure.png",
 							"alt": "Infrastructure Management"
 						},
 						"txt": {
@@ -141,7 +141,7 @@
 					"size": "third",
 					"content": {
 						"img": {
-							"src": "assets/images/icons/notification.png",
+							"src": "assets/images/icons/collaborator.png",
 							"alt": "Notification"
 						},
 						"txt": {
@@ -155,7 +155,7 @@
 					"size": "third",
 					"content": {
 						"img": {
-							"src": "assets/images/icons/administration.png",
+							"src": "assets/images/icons/administrator.png",
 							"alt": "Administration"
 						},
 						"txt": {
