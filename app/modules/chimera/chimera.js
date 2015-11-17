@@ -20,7 +20,7 @@ angular.module('chimeraMod', [])
 			);
 			for(var i = 0; i < $scope.contents.contents.length; i++){
 				console.log(
-					"Widget " + (i + 1) + " of " + $scope.contents.contents[i].length + "\n",
+					"Widget " + (i + 1) + " of " + $scope.contents.contents.length + "\n",
 					"-> contains " + $scope.contents.contents[i].contents.length + " objects."
 				);
 			};
