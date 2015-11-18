@@ -1,61 +1,71 @@
 {
-	"page": "demo",
-	"rows": [
+	"config": {
+		"title": "demo",
+		"type": "page"
+	},
+	"contents": [
 		{
-			"class": {
-				"outer": "",
-				"inner": "white-txt pad"
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "white-txt pad"
+				},
+				"bg": {
+					"img": "assets/images/backgrounds/background-technology-1.jpg",
+					"color": "#0387ab",
+					"size": "cover",
+					"repeat": "no-repeat",
+					"position": "",
+					"attachment": "fixed",
+					"parallax": 0.2
+				}
 			},
-			"bg": {
-				"img": "assets/images/backgrounds/background-technology-1.jpg",
-				"color": "#0387ab",
-				"size": "cover",
-				"repeat": "no-repeat",
-				"position": "",
-				"attachment": "fixed",
-				"parallax": 0.2
-			},
-			"widgets": [
+			"contents": [
 				{
-					"type": "h1",
-					"size": "",
-					"class": "",
-					"content": "Our proprietary technology"
+					"config": {
+						"type": "h1"
+					},
+					"contents": "Our proprietary technology"
 				},
 				{
-					"type": "h2",
-					"size": "",
-					"class": "",
-					"content": "Trusted discovery engine intelligently acquires & authenticates data"
+					"config": {
+						"type": "h2"
+					},
+					"contents": "Trusted discovery engine intelligently acquires & authenticates data"
 				}
 			]
 		},
 		{
-			"class": {
-				"outer": "",
-				"inner": "center pad"
-			},
-			"bg": {
-				"img": "",
-				"color": "#fff",
-				"size": "",
-				"repeat": "",
-				"position": "",
-				"attachment": "",
-				"parallax": 0
-			},
-			"widgets": [
-				{
-					"type": "h3",
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "center pad"
+				},
+				"bg": {
+					"img": "",
+					"color": "#fff",
 					"size": "",
-					"class": "",
-					"content": "Paradata's powerful platform"
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": 0
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h3"
+					},
+					"contents": "Paradata's powerful platform"
 				},
 				{
-					"type": "img",
-					"size": "full",
-					"class": "",
-					"content": {
+					"config": {
+						"type": "img",
+						"size": "full",
+					},
+					"contents": {
 						"src": "assets/images/graphics/infrastructure.jpg",
 						"alt": "infrastructure"
 					}
@@ -63,185 +73,304 @@
 			]
 		},
 		{
-			"class": {
-				"outer": "",
-				"inner": "center"
-			},
-			"bg": {
-				"img": "",
-				"color": "#f3f3f3",
-				"size": "",
-				"repeat": "",
-				"position": "",
-				"attachment": "",
-				"parallax": 0
-			},
-			"widgets": [
-				{
-					"type": "h3",
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "center"
+				},
+				"bg": {
+					"img": "",
+					"color": "#f3f3f3",
 					"size": "",
-					"class": "",
-					"content": "Paradata's unique platform & common services explained"
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": 0
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h3"
+					},
+					"contents": "Paradata's unique platform & common services explained"
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/data-harmony.png",
-							"alt": "Data Harmony"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/data-harmony.png",
+								"alt": "Data Harmony"								
+							}
 						},
-						"txt": {
-							"h": "Data harmony",
-							"p": "The first thing that Paradata solutions do is harmonize different data sets and build trustworthy datasets about vendors, materials, competitors, pricing, market trends, and more. This is not a basic data cleansing. Data cleansing is removing or correcting data simply to improve customer service. Paradata creates data harmony to extract more business insights that drive operating profits."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Data harmony"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "The first thing that Paradata solutions do is harmonize different data sets and build trustworthy datasets about vendors, materials, competitors, pricing, market trends, and more. This is not a basic data cleansing. Data cleansing is removing or correcting data simply to improve customer service. Paradata creates data harmony to extract more business insights that drive operating profits."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/data-provenance.png",
-							"alt": "Data Provenance"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/data-provenance.png",
+								"alt": "Data Provenance"								
+							}
 						},
-						"txt": {
-							"h": "Data provenance",
-							"p": "Data provenance signifies the origins of a piece of data and the process by which it arrived in a database. Having the peace of mind of knowing where something came from is essential to accuracy and quality. You’d be more likely to buy a famous painting if you knew the chain of custody. This is a record of its owners since inception. You would also want to know the chain of custody of your data. Paradata delivers this data provenance and peace of mind."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Data provenance"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "Data provenance signifies the origins of a piece of data and the process by which it arrived in a database. Having the peace of mind of knowing where something came from is essential to accuracy and quality. You’d be more likely to buy a famous painting if you knew the chain of custody. This is a record of its owners since inception. You would also want to know the chain of custody of your data. Paradata delivers this data provenance and peace of mind."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/dark-data.png",
-							"alt": "Dark Data"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/dark-data.png",
+								"alt": "Dark Data"
+							}
 						},
-						"txt": {
-							"h": "Dark data",
-							"p": "Paradata offers a solution on the front end which helps companies find operating profit in dark data. This is data that has no real tactical value at all. Gartner defines dark data as &quot;the information assets organizations collect, process and store during regular business activities, but generally fail to use for other purposes. Dark data often comprises most organizations' universe of information assets&quot;."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Dark data"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "Paradata offers a solution on the front end which helps companies find operating profit in dark data. This is data that has no real tactical value at all. Gartner defines dark data as &quot;the information assets organizations collect, process and store during regular business activities, but generally fail to use for other purposes. Dark data often comprises most organizations' universe of information assets&quot;."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/predictive-analytics.png",
-							"alt": "Predictive Analytics"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/predictive-analytics.png",
+								"alt": "Predictive Analytics"
+							}
 						},
-						"txt": {
-							"h": "Predictive analytics",
-							"p": "Our solution suite is geared toward a market called predictive analytics. Appealing to business intelligence executives, it is is a variety of mathematical techniques like modeling, machine learning, and data mining that analyze current and historical facts to make predictions about the future. These models exploit patterns found in transactional and historical data in order to identify risks and opportunities."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Predictive analytics"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "Our solution suite is geared toward a market called predictive analytics. Appealing to business intelligence executives, it is is a variety of mathematical techniques like modeling, machine learning, and data mining that analyze current and historical facts to make predictions about the future. These models exploit patterns found in transactional and historical data in order to identify risks and opportunities."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/infrastructure.png",
-							"alt": "Infrastructure Management"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/infrastructure.png",
+								"alt": "Infrastructure Management"
+							}
 						},
-						"txt": {
-							"h": "Infrastructure management",
-							"p": "A data-centered integrated infrastructure powers the Paradata suite of applications. This drives business intelligence by giving users access to a wide range of tools for data classification, clustering, curation, provenance, dataset profiling, and much more."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Infrastructure management"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "A data-centered integrated infrastructure powers the Paradata suite of applications. This drives business intelligence by giving users access to a wide range of tools for data classification, clustering, curation, provenance, dataset profiling, and much more."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/collaborator.png",
-							"alt": "Notification"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/collaborator.png",
+								"alt": "Notification"
+							}
 						},
-						"txt": {
-							"h": "Notification",
-							"p": "The Notifications service offers messaging and real-time communications, enabling users on the same project to have dynamic in-app team collaboration."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Notification"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "The Notifications service offers messaging and real-time communications, enabling users on the same project to have dynamic in-app team collaboration."
 						}
-					}
+					]
 				},
 				{
-					"type": "subsection",
-					"size": "third",
-					"class": "pad center",
-					"content": {
-						"img": {
-							"src": "assets/images/icons/administrator.png",
-							"alt": "Administration"
+					"config": {
+						"type": "subsection",
+						"size": "third",
+						"class": "pad center"
+					},
+					"contents": [
+						{
+							"config": {
+								"type": "img",
+								"size": "full",
+							},
+							"contents": {
+								"src": "assets/images/icons/administrator.png",
+								"alt": "Administration"
+							}
 						},
-						"txt": {
-							"h": "Administration",
-							"p": "Among the many Paradata Services is a set of features geared toward secure and private administrative tasks. Easily add users or modify user privileges, while the two-step authentication process ensures security."
+						{
+							"config": {
+								"type": "h4",
+							},
+							"contents": "Administration"
+						},
+						{
+							"config": {
+								"type": "p",
+							},
+							"contents": "Among the many Paradata Services is a set of features geared toward secure and private administrative tasks. Easily add users or modify user privileges, while the two-step authentication process ensures security."
 						}
-					}
+					]
 				}
 			]
 		},
 		{
-			"class": {
-				"outer": "white-bg",
-				"inner": "pad"
-			},
-			"bg": {
-				"img": "",
-				"color": "#fff",
-				"size": "",
-				"repeat": "",
-				"position": "",
-				"attachment": "",
-				"parallax": 0
-			},
-			"widgets": [
-				{
-					"type": "h3",
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "pad"
+				},
+				"bg": {
+					"img": "",
+					"color": "#fff",
 					"size": "",
-					"class": "",
-					"content": "Paradata technology resources"
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": 0
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h3"
+					},
+					"contents": "Paradata technology resources"
 				},
 				{
-					"type": "p",
-					"size": "",
-					"class": "",
-					"content": "Learn more about our core technology directly from our CTO, Pat Selinger:"
+					"config": {
+						"type": "p"
+					},
+					"contents": "Learn more about our core technology directly from our CTO, Pat Selinger:"
 				},
 				{
-					"type": "bullet-list",
-					"size": "full",
-					"class": "",
-					"content": [
+					"config": {
+						"type": "bullet-list",
+						"size": "full"
+					},
+					"contents": [
 						{
-							"download": {
-								"anchor": "http://paradata.io/media/The_Paradata_Solution.pdf",
-								"txt": "Download PDF"
+							"config": {
+								"type": "list-item",
+								"link": "http://paradata.io/media/The_Paradata_Solution.pdf"
 							},
-							"txt": ""
+							"contents": "Download PDF"
 						},
 						{
-							"download": {
-								"anchor": "http://paradata.io/media/The_Paradata_Solution.mobi",
-								"txt": "Download Mobi"
+							"config": {
+								"type": "list-item",
+								"link": "http://paradata.io/media/The_Paradata_Solution.mobi"
 							},
-							"txt": "for Kindle devices"
+							"contents": "Download Mobi for Kindle devices"
 						},
 						{
-							"download": {
-								"anchor": "http://paradata.io/media/The_Paradata_Solution.epub",
-								"txt": "Download EPub"
+							"config": {
+								"type": "list-item",
+								"link": "http://paradata.io/media/The_Paradata_Solution.epub"
 							},
-							"txt": "for iBooks and other E-book readers"
+							"contents": "Download EPub for iBooks and other E-book readers"
 						}
 					]
 				}
