@@ -15,12 +15,13 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + page + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Page Name: " + $scope.contents.config.type + "\n",
+				"Page Name: " + $scope.contents.config.title + "\n",
 				"Contents: " + $scope.contents.contents
 			);
 			for(var i = 0; i < $scope.contents.contents.length; i++){
 				console.log(
 					"Widget " + (i + 1) + " of " + $scope.contents.contents.length + "\n",
+					"-> type " + $scope.contents.contents[i].config.type + "\n",
 					"-> contains " + $scope.contents.contents[i].contents.length + " objects."
 				);
 			};
