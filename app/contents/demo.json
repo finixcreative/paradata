@@ -319,7 +319,7 @@
 			"config": {
 				"type": "row",
 				"class": {
-					"outer": "",
+					"outer": "white-bg",
 					"inner": "pad"
 				},
 				"bg": {
