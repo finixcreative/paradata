@@ -39,6 +39,42 @@
 					}
 				}
 			]
+		},
+		{
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "pad"
+				},
+				"bg": {
+					"img": "",
+					"color": "#fff",
+					"size": "",
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": 0
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h3"
+					},
+					"contents": {
+						"txt": "Hello world"
+					}
+				},
+				{
+					"config": {
+						"type": "h2"
+					},
+					"contents": {
+						"txt": "Who's there?"
+					}
+				}
+			]
 		}
 	]
 }
