@@ -63,7 +63,7 @@
 				{
 					"config": {
 						"type": "img",
-						"size": "full",
+						"size": "full"
 					},
 					"contents": {
 						"src": "assets/images/graphics/infrastructure.jpg",
@@ -106,7 +106,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/data-harmony.png",
@@ -115,13 +115,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Data harmony"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "The first thing that Paradata solutions do is harmonize different data sets and build trustworthy datasets about vendors, materials, competitors, pricing, market trends, and more. This is not a basic data cleansing. Data cleansing is removing or correcting data simply to improve customer service. Paradata creates data harmony to extract more business insights that drive operating profits."
 						}
@@ -137,7 +137,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/data-provenance.png",
@@ -146,13 +146,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Data provenance"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "Data provenance signifies the origins of a piece of data and the process by which it arrived in a database. Having the peace of mind of knowing where something came from is essential to accuracy and quality. You’d be more likely to buy a famous painting if you knew the chain of custody. This is a record of its owners since inception. You would also want to know the chain of custody of your data. Paradata delivers this data provenance and peace of mind."
 						}
@@ -168,7 +168,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/dark-data.png",
@@ -177,13 +177,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Dark data"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "Paradata offers a solution on the front end which helps companies find operating profit in dark data. This is data that has no real tactical value at all. Gartner defines dark data as &quot;the information assets organizations collect, process and store during regular business activities, but generally fail to use for other purposes. Dark data often comprises most organizations' universe of information assets&quot;."
 						}
@@ -199,7 +199,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/predictive-analytics.png",
@@ -208,13 +208,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Predictive analytics"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "Our solution suite is geared toward a market called predictive analytics. Appealing to business intelligence executives, it is is a variety of mathematical techniques like modeling, machine learning, and data mining that analyze current and historical facts to make predictions about the future. These models exploit patterns found in transactional and historical data in order to identify risks and opportunities."
 						}
@@ -230,7 +230,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/infrastructure.png",
@@ -239,13 +239,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Infrastructure management"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "A data-centered integrated infrastructure powers the Paradata suite of applications. This drives business intelligence by giving users access to a wide range of tools for data classification, clustering, curation, provenance, dataset profiling, and much more."
 						}
@@ -261,7 +261,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/collaborator.png",
@@ -270,13 +270,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Notification"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "The Notifications service offers messaging and real-time communications, enabling users on the same project to have dynamic in-app team collaboration."
 						}
@@ -292,7 +292,7 @@
 						{
 							"config": {
 								"type": "img",
-								"size": "full",
+								"size": "full"
 							},
 							"contents": {
 								"src": "assets/images/icons/administrator.png",
@@ -301,13 +301,13 @@
 						},
 						{
 							"config": {
-								"type": "h4",
+								"type": "h4"
 							},
 							"contents": "Administration"
 						},
 						{
 							"config": {
-								"type": "p",
+								"type": "p"
 							},
 							"contents": "Among the many Paradata Services is a set of features geared toward secure and private administrative tasks. Easily add users or modify user privileges, while the two-step authentication process ensures security."
 						}
