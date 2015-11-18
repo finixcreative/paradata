@@ -12,7 +12,7 @@ angular.module('chimeraMod', [])
 			$scope.page = response.data;
 			console.log(
 				"Chimera: " + chimera + "\n",
-				"Page URL: " + page + "\n",
+				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
 				"Page Name: " + $scope.page.config.title + "\n",
 				"Contents: " + $scope.page.contents
@@ -30,9 +30,9 @@ angular.module('chimeraMod', [])
 			$scope.errors = response.error;
 			console.log(
 				"Chimera: " + chimera + "\n",
-				"Page URL: " + page + "\n",
+				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Contents: " + $scope.contents + "\n",
+				"Contents: " + $scope.page.contents + "\n",
 				"Errors: " + $scope.errors
 			);
 		});
