@@ -1,4 +1,4 @@
-angular.module('hydraMod')
+angular.module('hydraMod', [])
 	.directive('hydra', function(){
 		return {
 			restrict: 'E',
