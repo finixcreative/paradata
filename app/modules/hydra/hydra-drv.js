@@ -1,3 +1,5 @@
+// Copyright 2015 Finix. All rights reserved.
+
 angular.module('hydraMod', [])
 	.directive('hydra', function(){
 		return {
