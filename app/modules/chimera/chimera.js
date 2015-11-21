@@ -9,19 +9,19 @@ angular.module('chimeraMod', [])
 		$scope.errors = [];
 		$http.get(pageData).then(function success(response){
 			//success callbacks
-			$scope.page = response.data;
+			$scope.contents = response.data;
 			console.log(
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Page Name: " + $scope.page.config.title + "\n",
-				"Contents: " + $scope.page.contents
+				"Page Name: " + $scope.contents.config.title + "\n",
+				"Contents: " + $scope.contents.contents
 			);
-			for(var i = 0; i < $scope.page.contents.length; i++){
+			for(var i = 0; i < $scope.contents.contents.length; i++){
 				console.log(
-					"Widget " + (i + 1) + " of " + $scope.page.contents.length + "\n",
-					"-> type " + $scope.page.contents[i].config.type + "\n",
-					"-> contains " + $scope.page.contents[i].contents.length + " components."
+					"Widget " + (i + 1) + " of " + $scope.contents.contents.length + "\n",
+					"-> type " + $scope.contents.contents[i].config.type + "\n",
+					"-> contains " + $scope.contents.contents[i].contents.length + " components."
 				);
 			};
 		}, function error(response){
@@ -32,7 +32,7 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Contents: " + $scope.page.contents + "\n",
+				"Contents: " + $scope.contents.contents + "\n",
 				"Errors: " + $scope.errors
 			);
 		});
