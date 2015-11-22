@@ -5,7 +5,6 @@ angular.module('hydraMod', [])
 		return {
 			restrict: 'E',
 			replace: true,
-			transclude: true,
 			templateUrl: 'app/modules/hydra/hydra.html',
 		};
 	});
