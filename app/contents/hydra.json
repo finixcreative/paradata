@@ -26,17 +26,13 @@
 					"config": {
 						"type": "h1"
 					},
-					"contents": {
-						"txt": "Our proprietary technology"
-					}
+					"contents": "Our proprietary technology"
 				},
 				{
 					"config": {
 						"type": "h2"
 					},
-					"contents": {
-						"txt": "Trusted discovery engine intelligently acquires & authenticates data"
-					}
+					"contents": "Trusted discovery engine intelligently acquires & authenticates data"
 				}
 			]
 		},
@@ -62,17 +58,13 @@
 					"config": {
 						"type": "h3"
 					},
-					"contents": {
-						"txt": "Hello world"
-					}
+					"contents": "Hello world"
 				},
 				{
 					"config": {
 						"type": "h2"
 					},
-					"contents": {
-						"txt": "Who's there?"
-					}
+					"contents": "Who's there?"
 				}
 			]
 		}
