@@ -62,9 +62,41 @@
 				},
 				{
 					"config": {
-						"type": "h2"
+						"type": "h4"
 					},
 					"contents": "Who's there?"
+				}
+			]
+		},
+		{
+			"config": {
+				"type": "row",
+				"class": {
+					"outer": "",
+					"inner": "pad"
+				},
+				"bg": {
+					"img": "",
+					"color": "#f3f3f3",
+					"size": "",
+					"repeat": "",
+					"position": "",
+					"attachment": "",
+					"parallax": 0
+				}
+			},
+			"contents": [
+				{
+					"config": {
+						"type": "h3"
+					},
+					"contents": "Pwn n00b5"
+				},
+				{
+					"config": {
+						"type": "h4"
+					},
+					"contents": "Testing this out"
 				}
 			]
 		}
