@@ -1,104 +1,106 @@
-{
-	"config": {
-		"title": "hydra",
-		"type": "page"
-	},
-	"contents": [
-		{
-			"config": {
-				"type": "row",
-				"class": {
-					"outer": "",
-					"inner": "white-txt pad"
-				},
-				"bg": {
-					"img": "assets/images/backgrounds/background-technology-1.jpg",
-					"color": "#f52",
-					"size": "cover",
-					"repeat": "no-repeat",
-					"position": "",
-					"attachment": "fixed",
-					"parallax": 0.2
-				}
-			},
-			"contents": [
-				{
-					"config": {
-						"type": "h1"
-					},
-					"contents": "Our proprietary technology"
-				},
-				{
-					"config": {
-						"type": "h2"
-					},
-					"contents": "Trusted discovery engine intelligently acquires & authenticates data"
-				}
-			]
+[
+	{
+		"config": {
+			"title": "hydra",
+			"type": "page"
 		},
-		{
-			"config": {
-				"type": "row",
-				"class": {
-					"outer": "",
-					"inner": "pad"
+		"contents": [
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "white-txt pad"
+					},
+					"bg": {
+						"img": "assets/images/backgrounds/background-technology-1.jpg",
+						"color": "#f52",
+						"size": "cover",
+						"repeat": "no-repeat",
+						"position": "",
+						"attachment": "fixed",
+						"parallax": 0.2
+					}
 				},
-				"bg": {
-					"img": "",
-					"color": "#fff",
-					"size": "",
-					"repeat": "",
-					"position": "",
-					"attachment": "",
-					"parallax": 0
-				}
+				"contents": [
+					{
+						"config": {
+							"type": "h1"
+						},
+						"contents": "Our proprietary technology"
+					},
+					{
+						"config": {
+							"type": "h2"
+						},
+						"contents": "Trusted discovery engine intelligently acquires & authenticates data"
+					}
+				]
 			},
-			"contents": [
-				{
-					"config": {
-						"type": "h3"
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
 					},
-					"contents": "Hello world"
+					"bg": {
+						"img": "",
+						"color": "#fff",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
 				},
-				{
-					"config": {
-						"type": "h4"
+				"contents": [
+					{
+						"config": {
+							"type": "h3"
+						},
+						"contents": "Hello world"
 					},
-					"contents": "Who's there?"
-				}
-			]
-		},
-		{
-			"config": {
-				"type": "row",
-				"class": {
-					"outer": "",
-					"inner": "pad"
-				},
-				"bg": {
-					"img": "",
-					"color": "#f3f3f3",
-					"size": "",
-					"repeat": "",
-					"position": "",
-					"attachment": "",
-					"parallax": 0
-				}
+					{
+						"config": {
+							"type": "h4"
+						},
+						"contents": "Who's there?"
+					}
+				]
 			},
-			"contents": [
-				{
-					"config": {
-						"type": "h3"
+			{
+				"config": {
+					"type": "row",
+					"class": {
+						"outer": "",
+						"inner": "pad"
 					},
-					"contents": "Pwn n00b5"
+					"bg": {
+						"img": "",
+						"color": "#f3f3f3",
+						"size": "",
+						"repeat": "",
+						"position": "",
+						"attachment": "",
+						"parallax": 0
+					}
 				},
-				{
-					"config": {
-						"type": "h4"
+				"contents": [
+					{
+						"config": {
+							"type": "h3"
+						},
+						"contents": "Pwn n00b5"
 					},
-					"contents": "Testing this out"
-				}
-			]
-		}
-	]
-}
+					{
+						"config": {
+							"type": "h4"
+						},
+						"contents": "Testing this out"
+					}
+				]
+			}
+		]
+	}
+]
