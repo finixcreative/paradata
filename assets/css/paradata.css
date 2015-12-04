@@ -413,6 +413,10 @@ button.slidenav:hover {
 	right: 0;
 	transform: translateY(-50%);
 }
+.photo {
+	border: 2px solid #fff;
+	border-radius: 3px;
+}
 footer {
 	color: #fff;
 	border: none;
