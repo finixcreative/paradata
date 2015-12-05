@@ -14,14 +14,14 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Page Name: " + $scope.content.config.title + "\n",
-				"Contents: " + $scope.content.contents
+				"Page Name: " + $scope.contents[0].config.title + "\n",
+				"Contents: " + $scope.contents[0].contents
 			);
-			for(var i = 0; i < $scope.content.contents.length; i++){
+			for(var i = 0; i < $scope.contents[0].contents.length; i++){
 				console.log(
-					"Widget " + (i + 1) + " of " + $scope.content.contents.length + "\n",
-					"-> type " + $scope.content.contents[i].config.type + "\n",
-					"-> contains " + $scope.content.contents[i].contents.length + " components."
+					"Widget " + (i + 1) + " of " + $scope.contents[0].contents.length + "\n",
+					"-> type " + $scope.contents[0].contents[i].config.type + "\n",
+					"-> contains " + $scope.contents[0].contents[i].contents.length + " components."
 				);
 			};
 		}, function error(response){
@@ -32,7 +32,7 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Contents: " + $scope.content.contents + "\n",
+				"Contents: " + $scope.contents[0].contents + "\n",
 				"Errors: " + $scope.errors
 			);
 		});
