@@ -14,6 +14,7 @@ body {
 	background: url("../images/low_contrast_linen.png") #444;
 	background-attachment: fixed;
 	color: #444;
+	width: 100%;
 	margin: 0px;
 	overflow-x: hidden;
 	overflow-y: scroll;
