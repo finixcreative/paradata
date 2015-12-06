@@ -1,5 +1,6 @@
 <div
-	class="row full {{content.config.class.outer}}"
+	id="{{content.config.title}}"
+	class="{{content.config.class.outer}} row full"
 	style="
 		background-image:url({{content.config.bg.img}});
 		background-color:{{content.config.bg.color}};
@@ -12,7 +13,7 @@
 >
 	<div class="overlay" style="background-color:{{content.config.bg.color}}"></div>
 	<div class="wrapper">
-		<div class="full {{content.config.class.inner}}">
+		<div class="{{content.config.class.inner}} full">
 			<hydra></hydra>
 		</div>
 	</div>
