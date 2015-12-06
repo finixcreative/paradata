@@ -14,16 +14,24 @@ angular.module('chimeraMod', [])
 				"Chimera: " + chimera + "\n",
 				"Page URL: " + pageData + "\n",
 				"Template URL: " + $scope.template + "\n",
-				"Page Name: " + $scope.contents[0].config.title + "\n",
 				"Content Level 1: " + $scope.contents + "\n",
-				"Content Level 2: " + $scope.contents[0].contents
 			);
-			for(var i = 0; i < $scope.contents[0].contents.length; i++){
+			for(var i = 0; i < $scope.contents.length; i++){
 				console.log(
-					"Widget " + (i + 1) + " of " + $scope.contents[0].contents.length + "\n",
-					"-> type " + $scope.contents[0].contents[i].config.type + "\n",
-					"-> contains " + $scope.contents[0].contents[i].contents.length + " components."
+					"Page Name: " + $scope.contents[i].config.title + "\n",
+					"Content Level 2: " + $scope.contents[i].contents
+					"Page : " + (i + 1) + " of " + $scope.contents.length + "\n",
+					"-> type " + $scope.contents[i].config.type + "\n",
+					"-> contains " + $scope.contents[i].contents.length + " widgets."
 				);
+				for(var j = 0; j < $scope.contents[i].contents.length; j++){
+					console.log(
+						"Widget " + (j + 1) + " of " + $scope.contents[i].contents.length + "\n",
+						"Content Level 3: " + $scope.contents[i].contents[j].contents + "\n",
+						"-> type " + $scope.contents[i].contents[j].config.type + "\n",
+						"-> contains " + $scope.contents[i].contents[j].contents.length + " components."
+					);
+				};
 			};
 		}, function error(response){
 			//error callbacks
