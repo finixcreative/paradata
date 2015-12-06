@@ -19,7 +19,7 @@ angular.module('chimeraMod', [])
 			for(var i = 0; i < $scope.contents.length; i++){
 				console.log(
 					"Page Name: " + $scope.contents[i].config.title + "\n",
-					"Content Level 2: " + $scope.contents[i].contents
+					"Content Level 2: " + $scope.contents[i].contents + "\n",
 					"Page : " + (i + 1) + " of " + $scope.contents.length + "\n",
 					"-> type " + $scope.contents[i].config.type + "\n",
 					"-> contains " + $scope.contents[i].contents.length + " widgets."
