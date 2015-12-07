@@ -1,9 +1,9 @@
 <p class="{{size}} {{class}}" ng-bind="content.config">{{text}}</p>
-<div class="full pad" background-color="rgba(0,0,0,0.2)">
+<form class="full pad" ng-model="content.config" style="background-color: rgba(0,0,0,0.2)">
 	<label for="text">Text</label>
-	<input name="text" type="text" ng-model="content.config.text" value="{{content.config.text}}">
+	<input type="text" name="text" value="{{text}}">
 	<label for="class">Class</label>
-	<input type="class" ng-model="{{content.config.class}}" value="{{content.config.class}}">
+	<input type="text" name="class" value="{{class}}">
 	<label for="size">Size</label>
-	<input type="size" ng-model="{{content.config.size}}" value="{{content.config.size}}">
-</div>
+	<input type="text" name="size" value="{{size}}">
+</form>
