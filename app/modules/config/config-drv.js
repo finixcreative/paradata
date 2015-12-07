@@ -4,7 +4,7 @@ angular.module('coreMod')
 			restrict: 'E',
 			templateUrl: '/paradata/app/modules/config/configtext.html'
 		};
-	})
+	});
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
