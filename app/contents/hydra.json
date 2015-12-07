@@ -14,7 +14,7 @@
 					},
 					"bg": {
 						"img": "assets/images/backgrounds/background-technology-1.jpg",
-						"color": "#2f5",
+						"color": "#25f",
 						"size": "cover",
 						"repeat": "no-repeat",
 						"position": "",
@@ -26,14 +26,14 @@
 					{
 						"config": {
 							"type": "h1",
-							"text": "Our proprietary technology"
+							"text": "Hero title"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h2",
-							"text": "Trusted discovery engine intelligently acquires & authenticates data"
+							"text": "Hero subtitle"
 						},
 						"contents": null
 					}
@@ -70,6 +70,13 @@
 							"text": "Who's there?"
 						},
 						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
+						},
+						"contents": null
 					}
 				]
 			},
@@ -102,6 +109,13 @@
 						"config": {
 							"type": "h4",
 							"text": "Testing this out"
+						},
+						"contents": null
+					},
+					{
+						"config": {
+							"type": "p",
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
 						},
 						"contents": null
 					}
