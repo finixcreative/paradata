@@ -25,15 +25,17 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h1"
+							"type": "h1",
+							"text": "Our proprietary technology"
 						},
-						"contents": "Our proprietary technology"
+						"contents": null
 					},
 					{
 						"config": {
-							"type": "h2"
+							"type": "h2",
+							"text": "Trusted discovery engine intelligently acquires & authenticates data"
 						},
-						"contents": "Trusted discovery engine intelligently acquires & authenticates data"
+						"contents": null
 					}
 				]
 			},
@@ -57,15 +59,17 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3"
+							"type": "h3",
+							"text": "Hello world"
 						},
-						"contents": "Hello world"
+						"contents": null
 					},
 					{
 						"config": {
-							"type": "h4"
+							"type": "h4",
+							"text": "Who's there?"
 						},
-						"contents": "Who's there?"
+						"contents": null
 					}
 				]
 			},
@@ -89,15 +93,17 @@
 				"contents": [
 					{
 						"config": {
-							"type": "h3"
+							"type": "h3",
+							"text": "Pwn n00b5"
 						},
-						"contents": "Pwn n00b5"
+						"contents": null
 					},
 					{
 						"config": {
-							"type": "h4"
+							"type": "h4",
+							"text": "Testing this out"
 						},
-						"contents": "Testing this out"
+						"contents": null
 					}
 				]
 			}
