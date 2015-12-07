@@ -1,1 +1,15 @@
 <h3 class="{{content.config.size}} {{content.config.class}}">{{content.config.text}}</h3>
+<form class="full pad" style="background-color: rgba(0,0,0,0.2)">
+	<label for="type">Type</label>
+	<select name="type" ng-model="content.config.type">
+		<option value="h1">h1</option>
+		<option value="h2">h2</option>
+		<option value="h3">h3</option>
+		<option value="h4">h4</option>
+		<option value="h5">h5</option>
+		<option value="h6">h6</option>
+		<option value="p">p</option>
+	</select>
+	<label for="text">Text</label>
+	<input type="text" name="text" ng-model="content.config.text" value="{{content.config.text}}">
+</form>
