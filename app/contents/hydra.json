@@ -60,14 +60,14 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Hello world"
+							"text": "Subsection headlines"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h4",
-							"text": "Who's there?"
+							"text": "Subsection subheadline"
 						},
 						"contents": null
 					},
@@ -101,14 +101,14 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Pwn n00b5"
+							"text": "Secondary subsection headline"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h4",
-							"text": "Testing this out"
+							"text": "Secondary subsection subheadline"
 						},
 						"contents": null
 					},
