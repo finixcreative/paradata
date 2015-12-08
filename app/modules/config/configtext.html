@@ -1,5 +1,5 @@
 <div>
-	<a class="button close-button" ng-click="editor()">Editor</a>
+	<a class="button" ng-controller="ConfigController" ng-click="editor()">Editor</a>
 	<form id="editor" class="full pad" style="background-color: rgba(0,0,0,0.2)">
 		<label for="type">Type</label>
 		<select name="type" ng-model="content.config.type">
