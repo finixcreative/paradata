@@ -1,14 +1,17 @@
-<form class="full pad" style="background-color: rgba(0,0,0,0.2)">
-	<label for="type">Type</label>
-	<select name="type" ng-model="content.config.type">
-		<option value="h1">Page Headline</option>
-		<option value="h2">Page Subheadline</option>
-		<option value="h3">Section Headline</option>
-		<option value="h4">Section Subheadline</option>
-		<option value="h5">Superscript 1</option>
-		<option value="h6">Superscript 2</option>
-		<option value="p">Body Text</option>
-	</select>
-	<label for="text">Text</label>
-	<input type="text" name="text" ng-model="content.config.text" value="{{content.config.text}}">
-</form>
+<div>
+	<a class="button close-button" ng-click="editor()">Editor</a>
+	<form id="editor" class="full pad" style="background-color: rgba(0,0,0,0.2)">
+		<label for="type">Type</label>
+		<select name="type" ng-model="content.config.type">
+			<option value="h1">Page Headline</option>
+			<option value="h2">Page Subheadline</option>
+			<option value="h3">Section Headline</option>
+			<option value="h4">Section Subheadline</option>
+			<option value="h5">Superscript 1</option>
+			<option value="h6">Superscript 2</option>
+			<option value="p">Body Text</option>
+		</select>
+		<label for="text">Text</label>
+		<input type="text" name="text" ng-model="content.config.text" value="{{content.config.text}}">
+	</form>
+</div>
