@@ -1,7 +1,6 @@
 <div ng-controller="ConfigController">
-	<label class="button pad">
-		<input type="checkbox" ng-model="edit">Edit
-	</label>
+	<input type="checkbox" name="edit" ng-model="edit">
+	<label for="edit">Edit</label>
 	<form class="config full pad" style="background-color: rgba(0,0,0,0.2)" ng-show="edit">
 		<label for="type">Type</label>
 		<select name="type" ng-model="content.config.type">
