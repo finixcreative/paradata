@@ -1,8 +1,10 @@
 <div ng-controller="ConfigController">
-	<label for="edit">
-		<input type="checkbox" name="edit" ng-model="edit" ng-show="config">Edit
-	</label>
-	<form class="config full pad" style="background-color: rgba(0,0,0,0.2)" ng-show="edit">
+	<div ng-show="config">
+		<label for="edit">
+			<input type="checkbox" name="edit" ng-model="edit">Edit
+		</label>
+	</div>
+	<form class="full pad" style="background-color: rgba(0,0,0,0.2)" ng-show="edit">
 		<label for="type">Type</label>
 		<select name="type" ng-model="content.config.type">
 			<option value="h1">Page Headline</option>
