@@ -221,9 +221,11 @@ input:active, input:focus, input:hover,
 select:active, select:focus, select:hover {
 	outline: none;
 }
+/*
 input[type=checkbox] {
 	display: none;
 }
+*/
 input[type=checkbox] + label.product {
 	background: #444;
 	display: inline-block;
