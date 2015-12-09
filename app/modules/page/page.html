@@ -1,7 +1,9 @@
 <div id="{{content.config.title}}" class="{{content.config.type}} content full">
 	<!-- Page Contents -->
 	<hydra></hydra>
-	<label for="config">
-		<input type="checkbox" name="config" ng-controller="ConfigController" ng-model="config">Configuration
-	</label>
+	<div class="full pad" ng-controller="ConfigController">
+		<label for="config">
+			<input type="checkbox" name="config" ng-model="config">Configuration
+		</label>		
+	</div>
 </div>
