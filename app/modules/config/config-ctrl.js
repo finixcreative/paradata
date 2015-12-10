@@ -1,7 +1,5 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		$scope = {
-			"config": false,
-			"edit": false
-		};
+		this.config = false;
+		$scope.edit = false;
 	});
