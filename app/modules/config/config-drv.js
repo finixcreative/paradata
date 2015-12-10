@@ -10,7 +10,7 @@ angular.module('coreMod')
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
-			templateUrl: '/paradata/app/modules/config/configimg.html'
+			templateUrl: '/paradata/app/modules/config/configimg.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
