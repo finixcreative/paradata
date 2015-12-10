@@ -1,5 +1,5 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		this.config = false;
+		this.enable = false;
 		$scope.edit = false;
 	});
