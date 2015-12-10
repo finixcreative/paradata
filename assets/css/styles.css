@@ -239,6 +239,7 @@ input[type=submit] {}
 input[type=text] {
 	display: inline-block;
 }
+/*
 .hydra {
 	position: relative;
 }
@@ -248,6 +249,7 @@ input[name=edit] {
 	right: 20px;
 	transform: translateY(-50%);
 }
+*/
 ::-webkit-input-placeholder {
 	color: #444;
 }
