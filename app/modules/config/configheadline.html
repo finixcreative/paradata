@@ -1,4 +1,4 @@
-<div ng-controller="ConfigController as config" ng-show="config.enable">
+<div ng-show="enable">
 	<input type="checkbox" name="edit" ng-model="edit">
 	<form class="full pad" style="background-color: rgba(0,0,0,0.2)" ng-show="edit">
 		<label for="type">Type</label>
@@ -12,6 +12,6 @@
 			<option value="p">Body Text</option>
 		</select>
 		<label for="text">Text</label>
-		<input type="text" class="full pad" name="text" ng-model="content.config.text" value="{{content.config.text}}">
+		<input type="text" class="full" name="text" ng-model="content.config.text" value="{{content.config.text}}">
 	</form>
 </div>
