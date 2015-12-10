@@ -7,6 +7,14 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	.directive('configheadline', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/configheadline.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
