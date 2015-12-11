@@ -1,14 +1,14 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
+		$scope.config = false;
 		$scope.edit = false;
-		var config = false;
-		var configPanel = function(){
-			if(config == false){
-				config = true;
-				return console.log("Config is active");
+		$scope.configPanel = function(){
+			if($scope.config == false){
+				$scope.config = true;
 			} else {
-				config = false;
-				return console.log("Config is inactive");
+				$scope.config = false;
 			};
+			return $scope.config;
+			return console.log("Config is " + $scope.config);
 		};
 	});
