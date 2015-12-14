@@ -299,7 +299,8 @@ header nav li ul.menu li a:hover {
 	background-image: url("../images/backgrounds/background-careers-2.jpg");
 }
 .hero .button {
-	color: #fff;
+	background: #fff;
+	color: #222;
 	margin: 20px 0;
 	padding: 10px 15px;
 	border: 2px solid #fff;
