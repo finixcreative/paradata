@@ -13,7 +13,7 @@ var images = [
 		"id": "Cost",
 		"icon": "icon_cost.png",
 		"headline": "Cost",
-		"text": "Measures the variance between BOM provided price vs best available price using public sources or variance to your internal part pool pricing. If customer does not provide a costed BOM then the cost score is automatically decreased.",
+		"text": "Measures the variance between BOM provided price vs best available price using public sources or variance to your internal part pool pricing.",
 		"link": {
 			"text": "Learn more",
 			"url": "#/solutions",
