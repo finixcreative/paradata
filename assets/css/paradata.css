@@ -312,6 +312,7 @@ header nav li ul.menu li a:hover {
 .hero .button:hover {
 	background: #fff;
 	color: #75bbce;
+	border: 2px solid #75bbce;
 }
 .close-button {
 	width: 40px;
