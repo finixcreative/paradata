@@ -2,7 +2,11 @@ angular.module('coreMod')
 	.controller('ConfigController', function($scope){
 		var config = false;
 		function configToggle(){
-			config = !config;
+			if(config == false){
+				config = true;
+			} else {
+				config = false;
+			};
 			console.log(config);
 		};
 		$scope.edit = false;
