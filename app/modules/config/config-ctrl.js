@@ -1,6 +1,6 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		$scope.configure = false;
+		$scope.configure = true;
 		$scope.edit = false;
 		$scope.configToggle = function(){
 			$scope.configure = !$scope.configure;
