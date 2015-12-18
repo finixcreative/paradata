@@ -4,9 +4,9 @@ angular.module('coreMod')
 			configure: true,
 			edit: false,
 			configToggle: function(){
-				configure = !configure;
-				console.log(configure);
-				return configure;
+				$scope.configure = !$scope.configure;
+				console.log($scope.configure);
+				return $scope.configure;
 			}
 		};
 		console.log(
