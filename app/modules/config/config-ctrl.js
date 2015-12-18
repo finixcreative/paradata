@@ -1,11 +1,11 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		var configure = this;
-		configure.open = true;
+		$scope.configure = true;
 		$scope.edit = false;
-		$scope.configToggle = function(){
-			configure.open = !configure.open;
-			console.log(configure.open);
+		$scope.configToggle = function($scope){
+			$scope.configure = !$scope.configure;
+			console.log($scope.configure);
+			return $scope.configure;
 		};
 		/*
 		function configureToggle(){
