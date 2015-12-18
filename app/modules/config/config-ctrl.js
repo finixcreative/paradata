@@ -10,7 +10,8 @@ angular.module('coreMod')
 			}
 		};
 		console.log(
-			$scope.configure + "\n",
-			$scope.edit
+			"configure: " + $scope.configure + "\n",
+			"edit: " + $scope.edit + "\n",
+			"configToggle: " + $scope.configToggle()
 		);
 	});
