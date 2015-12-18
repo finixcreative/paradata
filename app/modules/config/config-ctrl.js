@@ -4,7 +4,7 @@ angular.module('coreMod')
 		$scope.edit = false;
 		$scope.configToggle = function(){
 			$scope.configure = !$scope.configure;
-			console.log(configure);
+			console.log($scope.configure);
 		};
 		/*
 		function configureToggle(){
