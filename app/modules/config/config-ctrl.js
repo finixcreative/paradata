@@ -5,6 +5,7 @@ angular.module('coreMod')
 		$scope.configToggle = function(){
 			$scope.configure = !$scope.configure;
 			console.log($scope.configure);
+			return $scope.configure;
 		};
 		/*
 		function configureToggle(){
