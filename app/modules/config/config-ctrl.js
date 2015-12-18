@@ -9,4 +9,8 @@ angular.module('coreMod')
 				return configure;
 			}
 		];
+		console.log(
+			$scope.configure + "\n",
+			$scope.edit
+		);
 	});
