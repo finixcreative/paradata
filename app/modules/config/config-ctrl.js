@@ -7,6 +7,6 @@ angular.module('coreMod')
 				configure = !configure;
 				console.log(configure);
 				return configure;
-			};
+			}
 		};
 	});
