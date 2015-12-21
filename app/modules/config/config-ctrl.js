@@ -1,10 +1,11 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
+		$scope.edit = false;
+		/*
 		$scope = {
 			configure: true,
 			edit: false
 		};
-		/*
 		function configToggle($scope){
 			$scope.configure = !$scope.configure;
 			console.log(
