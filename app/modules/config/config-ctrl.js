@@ -1,6 +1,6 @@
 angular.module('coreMod')
 	.controller('ConfigController', function($scope){
-		$scope.config = true;
+		$scope.configure = true;
 		$scope.edit = false;
 		/*
 		$scope = {
