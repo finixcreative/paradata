@@ -5,14 +5,13 @@ angular.module('coreMod')
 			configure: true,
 			edit: false
 		};
-		configToggle = function(){
+		configToggle = function($scope){
 			$scope.configure = !$scope.configure;
-			console.log($scope.configure);
+			console.log(
+				"configure: " + $scope.configure + "\n",
+				"edit: " + $scope.edit + "\n",
+				"configToggle: " + configToggle()
+			);
 			return $scope.configure;
 		};
-		console.log(
-			"configure: " + $scope.configure + "\n",
-			"edit: " + $scope.edit + "\n",
-			"configToggle: " + configToggle()
-		);
 	});
