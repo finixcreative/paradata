@@ -419,6 +419,19 @@ button.slidenav:hover {
 	border-radius: 3px;
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
+button.config {
+	background: none;
+	border: none;
+}
+button.config img {
+	width: 24px;
+	opacity: 0.5;
+}
+button.config img:active,
+button.config img:focus,
+button.config img:hover {
+	opacity: 1;
+}
 footer {
 	color: #fff;
 	border: none;
