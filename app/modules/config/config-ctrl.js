@@ -4,6 +4,7 @@ angular.module('coreMod')
 			configure: true,
 			edit: false
 		};
+		/*
 		function configToggle($scope){
 			$scope.configure = !$scope.configure;
 			console.log(
@@ -13,4 +14,5 @@ angular.module('coreMod')
 			);
 			return $scope.configure;
 		};
+		*/
 	});
