@@ -434,6 +434,9 @@ button.config img:focus,
 button.config img:hover {
 	opacity: 1;
 }
+form.config {
+	background-color: rgba(0,0,0,0.2);
+}
 footer {
 	color: #fff;
 	border: none;
