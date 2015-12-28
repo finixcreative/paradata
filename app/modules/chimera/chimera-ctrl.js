@@ -7,6 +7,7 @@ angular.module('chimeraMod', [])
 		$scope.template = 'app/pages/'+chimera+'/'+chimera+'.html';
 		$scope.contents = [];
 		$scope.errors = [];
+		$scope.configure = true;
 		/*
 		$http.post(pageData).then(
 			function success(response){
