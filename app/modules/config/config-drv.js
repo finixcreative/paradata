@@ -1,4 +1,12 @@
 angular.module('coreMod')
+	.directive('config', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/config.html',
+			controller: 'ChimeraController',
+			controllerAs: 'chimera'
+		};
+	})
 	.directive('configtext', function(){
 		return {
 			restrict: 'E',
@@ -22,4 +30,5 @@ angular.module('coreMod')
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
-	});
+	})
+;
