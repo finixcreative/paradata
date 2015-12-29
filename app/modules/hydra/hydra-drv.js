@@ -5,6 +5,11 @@ angular.module('hydraMod', [])
 		return {
 			restrict: 'E',
 			replace: true,
-			templateUrl: 'app/modules/hydra/hydra.html'		};
+			templateUrl: 'app/modules/hydra/hydra.html',
+			transclude: true,
+			link: function(scope, el, attrs, ctrl, transclude) {
+				el.find('.transclude').append(transclude());
+			}
+		};
 	})
 ;
