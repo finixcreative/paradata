@@ -1,3 +1,5 @@
+// Copyright 2015 Finix. All rights reserved.
+
 angular.module('hydraMod')
 	.controller('HydraController', function($scope){
 		$scope.edit = false;
@@ -13,4 +15,5 @@ angular.module('hydraMod')
 			})
 		};
 		*/
-	});
+	})
+;
