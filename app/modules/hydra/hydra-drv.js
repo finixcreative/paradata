@@ -6,10 +6,12 @@ angular.module('hydraMod', [])
 			restrict: 'E',
 			replace: true,
 			templateUrl: 'app/modules/hydra/hydra.html',
+			/*
 			transclude: true,
-			link: function(scope, el, attrs, ctrl, transclude) {
+			link: function(scope, el, attrs, ctrl, transclude){
 				el.find('.transclude').append(transclude());
 			}
+			*/
 		};
 	})
 ;
