@@ -63,4 +63,12 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	.directive('textsize', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/textsize.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
 ;
