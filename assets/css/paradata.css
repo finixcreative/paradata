@@ -422,7 +422,9 @@ button.slidenav:hover {
 button.config {
 	background: #222;
 	height: 34px;
+	padding: 3px;
 	border: none;
+	border-radius: 20px;
 	opacity: 0.5;
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
