@@ -4,7 +4,7 @@
 			<img src="assets/images/icons/icon-edit.png" alt="Edit icon">
 		</button>
 		<form class="config full pad" ng-show="edit" ng-submit="saveChanges()">
-			<!-- INPUTS -->
+			<div ng-include="'app/modules/config/' + config.type + '.html'"></div>
 			<button type="submit">Save</button>
 		</form>
 	</div>

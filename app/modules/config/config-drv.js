@@ -15,6 +15,14 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	.directive('writetext', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/writetext.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
 	.directive('configheadline', function(){
 		return {
 			restrict: 'E',
@@ -23,10 +31,34 @@ angular.module('coreMod')
 			controllerAs: 'config'
 		};
 	})
+	.directive('writeheadline', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/writeheadline.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
 	.directive('configimg', function(){
 		return {
 			restrict: 'E',
 			templateUrl: '/paradata/app/modules/config/configimg.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
+	.directive('imgselect', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/imgselect.html',
+			controller: 'ConfigController',
+			controllerAs: 'config'
+		};
+	})
+	.directive('size', function(){
+		return {
+			restrict: 'E',
+			templateUrl: '/paradata/app/modules/config/size.html',
 			controller: 'ConfigController',
 			controllerAs: 'config'
 		};
