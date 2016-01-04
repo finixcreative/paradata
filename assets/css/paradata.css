@@ -420,18 +420,19 @@ button.slidenav:hover {
 	box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 button.config {
-	background: none;
+	background: #222;
+	height: 34px;
 	border: none;
-}
-button.config img {
-	width: 24px;
 	opacity: 0.5;
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 }
-button.config img:active,
-button.config img:focus,
-button.config img:hover {
+button.config img {
+	width: 24px;
+}
+button.config:active,
+button.config:focus,
+button.config:hover {
 	opacity: 1;
 }
 form.config {
