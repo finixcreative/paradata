@@ -9,11 +9,15 @@ angular.module('chimeraMod', [])
 		$scope.errors = [];
 		$scope.configure = true;
 		$scope.configtype = function($scope){
+			console.log("* Config Panel *");
 			if ($scope.content.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
+				console.log("Config Headline");
 				return "configheadline";
 			} else if ($scope.content.config.type == "p"){
+				console.log("Config Text");
 				return "configtext";
 			} else if ($scope.content.config.type == "img"){
+				console.log("Config Image");
 				return "configimg";
 			} else {
 				return null;
