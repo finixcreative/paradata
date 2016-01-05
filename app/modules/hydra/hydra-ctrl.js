@@ -3,12 +3,12 @@
 angular.module('hydraMod')
 	.controller('HydraController', function($scope){
 		$scope.edit = false;
-		$scope.configtype = function(){
-			if (content.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
+		$scope.configtype = function($scope){
+			if ($scope.content.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
 				return "configheadline";
-			} else if (content.config.type == "p"){
+			} else if ($scope.content.config.type == "p"){
 				return "configtext";
-			} else if (content.config.type == "img"){
+			} else if ($scope.content.config.type == "img"){
 				return "configimg";
 			} else {
 				return null;
