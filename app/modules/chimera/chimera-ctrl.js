@@ -10,13 +10,13 @@ angular.module('chimeraMod', [])
 		$scope.configure = true;
 		$scope.configtype = function($scope){
 			console.log("* Config Panel *");
-			if (config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
+			if (contents.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
 				console.log("Config Headline");
 				return "configheadline";
-			} else if (config.type == "p"){
+			} else if (contents.config.type == "p"){
 				console.log("Config Text");
 				return "configtext";
-			} else if (config.type == "img"){
+			} else if (contents.config.type == "img"){
 				console.log("Config Image");
 				return "configimg";
 			} else {
