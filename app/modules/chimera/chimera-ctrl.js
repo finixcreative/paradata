@@ -20,6 +20,7 @@ angular.module('chimeraMod', [])
 				console.log("Config Image");
 				return "configimg";
 			} else {
+				console.log("Null Config");
 				return null;
 			};
 		};
