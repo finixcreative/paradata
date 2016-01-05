@@ -26,16 +26,14 @@
 					{
 						"config": {
 							"type": "h1",
-							"text": "Hero title",
-							"configtype": "configheadline"
+							"text": "Hero title"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h2",
-							"text": "Hero subtitle",
-							"configtype": "configheadline"
+							"text": "Hero subtitle"
 						},
 						"contents": null
 					}
@@ -62,24 +60,21 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Subsection headlines",
-							"configtype": "configheadline"
+							"text": "Subsection headlines"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h4",
-							"text": "Subsection subheadline",
-							"configtype": "configheadline"
+							"text": "Subsection subheadline"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu.",
-							"configtype": "configtext"
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
 						},
 						"contents": null
 					}
@@ -106,24 +101,21 @@
 					{
 						"config": {
 							"type": "h3",
-							"text": "Secondary subsection headline",
-							"configtype": "configheadline"
+							"text": "Secondary subsection headline"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "h4",
-							"text": "Secondary subsection subheadline",
-							"configtype": "configheadline"
+							"text": "Secondary subsection subheadline"
 						},
 						"contents": null
 					},
 					{
 						"config": {
 							"type": "p",
-							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu.",
-							"configtype": "configtext"
+							"text": "Lorem ipsum dolor sit amet, qui ex noster eligendi efficiendi, quo legere antiopam ei. Tale oportere at sit, ad cum quas nostrum accusamus. Omnis singulis eam et, graece dolorum pri te. Vim ad velit partiendo adipiscing, ex his civibus reprehendunt, ei convenire persequeris eam. Vix purto ferri deserunt ut, ipsum offendit ullamcorper eos cu."
 						},
 						"contents": null
 					}

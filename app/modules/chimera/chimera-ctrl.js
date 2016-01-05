@@ -8,6 +8,17 @@ angular.module('chimeraMod', [])
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.configure = true;
+		$scope.configtype = function($scope){
+			if ($scope.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
+				return "configheadline";
+			} else if ($scope.config.type == "p"){
+				return "configtext";
+			} else if ($scope.config.type == "img"){
+				return "configimg";
+			} else {
+				return null;
+			};
+		};
 		/*
 		$http.post(pageData).then(
 			function success(response){
