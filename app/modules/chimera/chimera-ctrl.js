@@ -8,7 +8,7 @@ angular.module('chimeraMod', [])
 		$scope.contents = [];
 		$scope.errors = [];
 		$scope.configure = true;
-		$scope.contents.config.configtype = function($scope){
+		$scope.configtype = function($scope){
 			console.log("* Config Panel *");
 			if ($scope.contents.config.type == "h1" || "h2" || "h3" || "h4" || "h5" || "h6"){
 				console.log("Config Headline");
