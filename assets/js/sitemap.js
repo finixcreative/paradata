@@ -27,7 +27,7 @@ var sitemap = {
 			},
 			{
 				title: "Blog",
-				link: "#/blog",
+				link: "http://paradata.io/blog",
 			},
 			{
 				title: "Login",
