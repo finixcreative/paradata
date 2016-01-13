@@ -340,7 +340,7 @@ header nav li ul.menu li a:hover {
 }
 .slider {}
 .slide {
-	padding: 85px 20px 20px;
+	padding: 20px;
 	position: relative;
 	-webkit-transition: none;
 	transition: none;
@@ -365,12 +365,12 @@ header nav li ul.menu li a:hover {
 	background: #ccc;
 }
 .datascore {
-	height: 200px;
-	width: 200px;
-	margin-bottom: -200px;
+	height: 300px;
+	width: 300px;
+	margin-bottom: -170px;
 	border-radius: 200px;
 	position: relative;
-	top: -200px;
+	top: -170px;
 	cursor: pointer;
 	display: inline-block;
 }
@@ -500,7 +500,7 @@ copyright a {
 		background-image: url("../images/backgrounds/manufacturing.png");
 	}
 	.hero.home .button {
-		margin-bottom: 120px;
+		margin-bottom: 170px;
 	}
 	.email-signup form {
 		top: 60px;
