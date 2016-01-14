@@ -365,8 +365,8 @@ header nav li ul.menu li a:hover {
 	background: #ccc;
 }
 .datascore {
-	height: 300px;
 	width: 300px;
+	height: auto;
 	margin-bottom: -170px;
 	border-radius: 200px;
 	position: relative;
