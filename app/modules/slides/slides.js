@@ -3,7 +3,7 @@ var images = [
 		"id": "leadtime",
 		"icon": "icon_leadtime.png",
 		"headline": "Leadtime",
-		"text": "Measures component lead-time availability factored against operational goals. Provides alerts for EOL, lead-time push outs, and allocations events.",
+		"text": "Measures component lead-time availability factored against operational goals, with alerts for EOL, lead-time push outs, and allocations events.",
 		"link": {
 			"text": "Learn more",
 			"url": "#/solutions",
@@ -23,7 +23,7 @@ var images = [
 		"id": "Compliance",
 		"icon": "icon_compliance.png",
 		"headline": "Compliance",
-		"text": "Measures the ability of product data to support rigorous examination of import/export compliance requirements. USA (UL), Canadian (CSA), European (TUV), Japan (CB), ROHS.",
+		"text": "Measures the ability of product data to support rigorous examination of import/export compliance requirements, including USA (UL), Canadian (CSA), European (TUV), Japan (CB), ROHS.",
 		"link": {
 			"text": "Learn more",
 			"url": "#/solutions",
