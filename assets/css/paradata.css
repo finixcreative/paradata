@@ -108,9 +108,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
-	word-wrap: break-word;
 	-ms-word-break: break-all;
 	word-break: break-all;
+	word-wrap: break-word;
+	word-break: break-word;
 	-webkit-hyphens: auto;
 	-moz-hyphens: auto;
 	-ms-hyphens: auto;
