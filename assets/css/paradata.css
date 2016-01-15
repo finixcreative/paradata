@@ -54,9 +54,6 @@ Dark Gray	     | #222
 .darkgray-txt {
 	color: #222;
 }
-.textshadow {
-	text-shadow: 0 0 1px rgba(0,0,0,0.5);
-}
 .texture-bg {
 	background-image: url("../images/backgrounds/texture_tile-bg.png");
 }
@@ -285,6 +282,7 @@ header nav li ul.menu li a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: #fff;
+	text-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 .hero.home {
 	background-image: url("../images/backgrounds/gg_bridge-1.jpg");
