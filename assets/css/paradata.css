@@ -513,6 +513,15 @@ copyright a {
 		margin-bottom: 170px;
 	}
 }
+@media screen and (max-width: 800px) {
+	.desktop,
+	.tablet {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+}
 @media screen and (max-width: 690px) {
 	/*
 	.hero.home {
