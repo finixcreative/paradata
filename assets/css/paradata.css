@@ -62,7 +62,7 @@ Dark Gray	     | #222
 .midgray-bg a {
 	color: #0387ab;
 }
-.darkgray-bg a {
+.darkgray-bg > a {
 	color: #fff;
 }
 .white-bg a:hover,
