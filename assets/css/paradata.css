@@ -474,6 +474,7 @@ footer p a:hover {
 	text-decoration: none;
 }
 footer nav a {
+	font-family: "Quicksand", sans-serif;
 	text-transform: uppercase;
 }
 footer .social li {
