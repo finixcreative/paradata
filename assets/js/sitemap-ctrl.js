@@ -1,5 +1,5 @@
 angular.module('coreMod')
-	.controller('SitemapController', function(){
+	.controller('SitemapController', ['$scope', '$http', function($scope, $http){
 		var filepath = 'assets/js/sitemap.json';
 		$scope.sitemap = [];
 		$http.get(filepath).then(
