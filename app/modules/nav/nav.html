@@ -6,7 +6,7 @@
 		<a href="#"></a>
 	</div>
 	<ul>
-		<li class="desktop tablet" ng-repeat="navitem in sitemap.sitemap.header.navitems">
+		<li class="desktop tablet" ng-repeat="navitem in sitemap.header.navitems">
 			<a class="white-txt" href="{{navitem.link}}">{{navitem.title}}</a>
 		</li>
 		<li class="nav-cta">
@@ -15,7 +15,7 @@
 		<li class="menu-button mobile">
 			<a><img src="assets/images/icons/menu-icon.png"></a>
 			<ul class="menu darkgray-bg full">
-				<li class="full" ng-repeat="navitem in sitemap.sitemap.header.navitems">
+				<li class="full" ng-repeat="navitem in sitemap.header.navitems">
 					<a class="white-txt full center" href="{{navitem.link}}">{{navitem.title}}</a>
 				</li>
 			</ul>

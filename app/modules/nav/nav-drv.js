@@ -3,7 +3,6 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			templateUrl: '/paradata/app/modules/nav/nav.html',
-			controller: 'SitemapController',
-			controllerAs: 'sitemap',
+			controller: 'SitemapController'
 		};
 	});
