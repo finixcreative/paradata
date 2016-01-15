@@ -1,4 +1,4 @@
 angular.module('coreMod')
 	.controller('SitemapController', function(){
-		this.sitemap = sitemap;
+		this.sitemap = 'assets/js/sitemap.json';
 	});

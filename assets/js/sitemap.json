@@ -1,0 +1,42 @@
+{
+	"header": {
+		"navitems": [
+			{
+				"title": "Solutions",
+				"link": "#/solutions"
+			},
+			{
+				"title": "Platform",
+				"link": "#/platform"
+			},
+			{
+				"title": "Pricing",
+				"link": "#/pricing"
+			},
+			{
+				"title": "Partners",
+				"link": "#/partners"
+			}
+		]
+	},
+	"footer": {
+		"navitems": [
+			{
+				"title": "Company",
+				"link": "#/company"
+			},
+			{
+				"title": "Careers",
+				"link": "#/careers"
+			},
+			{
+				"title": "Blog",
+				"link": "http://paradata.io/blog"
+			},
+			{
+				"title": "Login",
+				"link": "https://ba.paradata.io/#/login/"
+			}
+		]
+	}
+}
