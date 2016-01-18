@@ -3,7 +3,7 @@ angular.module('coreMod')
 		return {
 			restrict: 'E',
 			templateUrl: '/paradata/app/modules/contact/contact.html',
-			controller: 'ClientController',
-			controllerAs: 'client',
+			controller: 'ClientController'
 		};
-	});
+	})
+;
