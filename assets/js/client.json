@@ -35,27 +35,5 @@
 			"name": "google_plus",
 			"link": "plus.google.com",
 		}
-		/*
-		{
-			'name': 'youtube',
-			'link': 'www.youtube.com',
-		},
-		{
-			'name': 'instagram',
-			'link': 'www.instagram.com',
-		},
-		{
-			'name': 'pinterest',
-			'link': 'www.pinterest.com',
-		},
-		{
-			'name': 'yelp',
-			'link': 'www.yelp.com',
-		},
-		{
-			'name': 'tumblr',
-			'link': 'www.tumblr.com',
-		}
-		*/
 	]
 }
