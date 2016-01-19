@@ -3,10 +3,9 @@ angular.module('slidesMod')
 		return {
 			restrict: 'E',
 			replace: true,
-			scope: {images: '='},
+			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
 			controller: 'SlidesController',
-			controllerAs: 'slides',
-			link: slideChange,
+			link: slideChange
 		};
 	});
