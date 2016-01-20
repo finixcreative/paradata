@@ -1,12 +1,12 @@
-function slideChange ($scope, $elem, $attrs, $timeout){
+function slideChange($scope, $elem, $attrs, $timeout){
 	$scope.currentIndex = 0;
 	for(var i = 0; i < $scope.slides.length; i++){
-		$scope.slide.index = i;
+		$scope.slides.index = i;
 	};
 	$scope.selectIndex = function(index){
 		$scope.currentIndex = index;
 	};
-	$scope.isCurrentSlideIndex = function (index) {
+	$scope.isCurrentSlideIndex = function(index) {
 		return $scope.currentIndex === index;
 	};
 	$scope.next = function(){
@@ -17,10 +17,10 @@ function slideChange ($scope, $elem, $attrs, $timeout){
 	};
 	$scope.$watch('currentIndex', function(){
 		$scope.slides.forEach(function(slide){
-			console.log(slide);
-			console.log(slide.visible);
-			slide.visible = false;
-			console.log(slide.visible);
+			console.log($scope.slide);
+			console.log($scope.slide.visible);
+			$scope.slide.visible = false;
+			console.log($scope.slide.visible);
 		});
 		console.log($scope.currentIndex);
 		console.log($scope.slides);
