@@ -17,9 +17,13 @@ function slideChange ($scope, $elem, $attrs, $timeout){
 	};
 	$scope.$watch('currentIndex', function(){
 		$scope.slides.forEach(function(slide){
+			console.log(slide);
+			console.log(slide.visible);
 			slide.visible = false;
+			console.log(slide.visible);
 		});
 		console.log($scope.currentIndex);
+		console.log($scope.slides);
 		console.log($scope.slides[$scope.currentIndex]);
 		console.log($scope.slides[$scope.currentIndex].visible);
 		$scope.slides[$scope.currentIndex].visible = true;
