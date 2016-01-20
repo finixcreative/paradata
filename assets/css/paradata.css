@@ -248,6 +248,8 @@ header nav li ul.menu li a:hover {
 .popover select {
 	width: 100%;
 	max-width: 400px;
+	height: 40px;
+	color: #ccc;
 	border: none;
 	border-radius: 5px;
 	outline: none;
