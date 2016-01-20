@@ -366,6 +366,7 @@ header nav li ul.menu li a:hover {
 	position: absolute;
 	top: 20px;
 	right: 20px;
+	z-index: 999;
 }
 .close-button:hover {
 	border-bottom: none;
