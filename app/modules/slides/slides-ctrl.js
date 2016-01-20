@@ -8,7 +8,7 @@ angular.module('slidesMod')
 				$scope.slides = response.data;
 				console.log("Slides: " + $scope.slides);
 				for(var i = 0; i < $scope.slides.length; i++){
-					$scope.slide[i].index = i;
+					$scope.slides[i].index = i;
 					console.log($scope.slide[i].index);
 				};
 			},
