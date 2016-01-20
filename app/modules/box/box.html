@@ -14,7 +14,15 @@
 						<input type="email" value="" placeholder="example@email.com" name="EMAIL" class="required email" id="mce-EMAIL" required>
 					</p>
 					<p>
-						<input type="text" value="" placeholder="Company" name="company">
+						<input type="text" value="" placeholder="Company" name="company" required>
+					</p>
+					<p>
+						<select name="industry" required>
+							<option value="null" selected disabled>Industry</option>
+							<option value="manufacturing">Manufacturing</option>
+							<option value="saas">SaaS</option>
+							<option value="other">Other</option>
+						</select>
 					</p>
 				</div>
 				<div id="mce-responses" class="clear">
