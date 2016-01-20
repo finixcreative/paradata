@@ -5,7 +5,6 @@ angular.module('slidesMod')
 			replace: true,
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
-			controller: 'SlidesController',
-			link: slideChange
+			controller: 'SlidesController'
 		};
 	});
