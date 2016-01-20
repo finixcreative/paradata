@@ -19,7 +19,10 @@ function slideChange ($scope, $elem, $attrs, $timeout){
 		$scope.slides.forEach(function(slide){
 			slide.visible = false;
 		});
-		$scope.slide[$scope.currentIndex].visible = true;
+		console.log($scope.currentIndex);
+		console.log($scope.slides[$scope.currentIndex].visible);
+		$scope.slides[$scope.currentIndex].visible = true;
+		console.log($scope.slides[$scope.currentIndex].visible);
 	});
 	/*
 	var autoslide = function(){
