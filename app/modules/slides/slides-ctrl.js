@@ -36,16 +36,10 @@ angular.module('slidesMod')
 			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
 		};
 		$scope.$watch('currentIndex', function(){
-			$scope.slides.forEach(function(slide){
-				console.log($scope.slide);
-				console.log($scope.slide.visible);
-				$scope.slide.visible = false;
-				console.log($scope.slide.visible);
-			});
-			console.log($scope.currentIndex);
-			console.log($scope.slides);
-			console.log($scope.slides[$scope.currentIndex]);
-			console.log($scope.slides[$scope.currentIndex].visible);
+			for(var i = 0; i < $scope.slides.length; i++){
+				$scope.slides[i].visible = false;
+				console.log("Slide visible: " + $scope.slides[i].visible);
+			};
 			$scope.slides[$scope.currentIndex].visible = true;
 			console.log($scope.slides[$scope.currentIndex].visible);
 		});
