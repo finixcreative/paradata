@@ -254,6 +254,12 @@ header nav li ul.menu li a:hover {
 	border-radius: 5px;
 	outline: none;
 }
+.popover select option:checked {
+	color: #222;
+}
+.popover select option:first-child {
+	color: #ccc;
+}
 .popover .form-logo {
 	width: 200px;
 	height: auto;
