@@ -9,7 +9,7 @@ angular.module('slidesMod')
 				console.log("Slides: " + $scope.slides);
 				for(var i = 0; i < $scope.slides.length; i++){
 					$scope.slides[i].index = i;
-					console.log($scope.slide[i].index);
+					console.log($scope.slides[i].index);
 				};
 			},
 			function error(response){
