@@ -20,6 +20,7 @@ function slideChange ($scope, $elem, $attrs, $timeout){
 			slide.visible = false;
 		});
 		console.log($scope.currentIndex);
+		console.log($scope.slides[$scope.currentIndex]);
 		console.log($scope.slides[$scope.currentIndex].visible);
 		$scope.slides[$scope.currentIndex].visible = true;
 		console.log($scope.slides[$scope.currentIndex].visible);
