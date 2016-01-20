@@ -1,6 +1,6 @@
 angular.module('slidesMod')
-	.controller('SlidesController', ['$scope', '$http', '$attr', function($scope, $http, $attr){
-		$scope.slideshow = $attr.slideshow;
+	.controller('SlidesController', ['$scope', '$http', '$attrs', function($scope, $http, $attr){
+		$scope.slideshow = $attrs.slideshow;
 		$scope.filepath = 'app/modules/slides/' + $scope.slideshow + '.json';
 		$scope.slides = [];
 		$http.get($scope.filepath).then(
