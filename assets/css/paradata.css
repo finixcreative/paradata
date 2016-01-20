@@ -327,6 +327,22 @@ header nav li ul.menu li a:hover {
 	color: #75bbce;
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
 }
+.button-body {
+	background: #0387ab;
+	color: #fff;
+	margin: 20px auto;
+	padding: 10px 15px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+}
+.button-body:hover {
+	background: #75bbce;
+	color: #fff;
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
 .close-button {
 	width: 40px;
 	height: 40px;
