@@ -10,8 +10,8 @@
 				"link": "#/platform"
 			},
 			{
-				"title": "Pricing",
-				"link": "#/pricing"
+				"title": "Plans",
+				"link": "#/plans"
 			},
 			{
 				"title": "Partners",
@@ -32,10 +32,6 @@
 			{
 				"title": "Blog",
 				"link": "http://paradata.io/blog"
-			},
-			{
-				"title": "Login",
-				"link": "https://ba.paradata.io/#/login/"
 			}
 		]
 	}
