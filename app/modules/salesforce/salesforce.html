@@ -10,7 +10,9 @@ NOTE: Please add the following <FORM> element to your page.
 <div class="texture-bg full">
 	<div class="hero white-txt center">
 		<a class="button close-button" ng-controller="SalesforceController" ng-click="popover()">X</a>
-		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+		<form class="full pad" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+			<img class="form-logo" src="assets/images/paradata-logo.png">
+			<h2>Try it before you buy it</h2>
 			<input type=hidden name="oid" value="00D61000000Hut0">
 			<input type=hidden name="retURL" value="http://finixcreative.github.io/paradata">
 			<!--
@@ -42,7 +44,7 @@ NOTE: Please add the following <FORM> element to your page.
 				<option value="Software">Software</option>
 			</select><br>
 
-			<input type="submit" name="submit">
+			<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()">
 		</form>
 	</div>
 </div>

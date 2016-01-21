@@ -244,6 +244,7 @@ header nav li ul.menu li a:hover {
 }
 .popover input[type=text],
 .popover input[type=email],
+.popover input[type=tel],
 .popover select {
 	width: 100%;
 	max-width: 400px;
