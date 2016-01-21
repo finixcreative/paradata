@@ -12,18 +12,6 @@ angular.module('slidesMod')
 					$scope.slides[i].index = i;
 					console.log($scope.slides[i].index);
 				};
-				$scope.selectIndex = function(index){
-					$scope.currentIndex = index;
-				};
-				$scope.isCurrentSlideIndex = function(index) {
-					return $scope.currentIndex === index;
-				};
-				$scope.next = function(){
-					$scope.currentIndex < $scope.slides.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
-				};
-				$scope.prev = function(){
-					$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
-				};
 				$scope.$watch('currentIndex', function(){
 					$scope.slides.forEach(function(slide) {
 						slide.visible = false;
@@ -42,5 +30,17 @@ angular.module('slidesMod')
 				);
 			}
 		);
+		$scope.selectIndex = function(index){
+			$scope.currentIndex = index;
+		};
+		$scope.isCurrentSlideIndex = function(index) {
+			return $scope.currentIndex === index;
+		};
+		$scope.next = function(){
+			$scope.currentIndex < $scope.slides.length - 1 ? $scope.currentIndex++ : $scope.currentIndex = 0;
+		};
+		$scope.prev = function(){
+			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
+		};
 	}])
 ;
