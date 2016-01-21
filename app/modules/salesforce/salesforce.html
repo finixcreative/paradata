@@ -13,37 +13,45 @@ NOTE: Please add the following <FORM> element to your page.
 		<form class="full pad" action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 			<img class="form-logo" src="assets/images/paradata-logo.png">
 			<h2>Try it before you buy it</h2>
-			<input type=hidden name="oid" value="00D61000000Hut0">
-			<input type=hidden name="retURL" value="http://finixcreative.github.io/paradata">
-			<!--
-			NOTE: These fields are optional debugging elements. Please uncomment these lines if you wish to test in debug mode.
-			<input type="hidden" name="debug" value=1>
-			<input type="hidden" name="debugEmail" value="greg@paradata.io">
-			-->
-			<label for="first_name">First Name</label>
-			<input id="first_name" maxlength="40" name="first_name" size="20" type="text" required/><br>
-
-			<label for="last_name">Last Name</label>
-			<input id="last_name" maxlength="80" name="last_name" size="20" type="text" required/><br>
-
-			<label for="email">Email</label>
-			<input id="email" maxlength="80" name="email" type="email" required/><br>
-
-			<label for="phone">Phone</label>
-			<input id="phone" maxlength="40" name="phone" type="tel" required/><br>
-
-			<label for="company">Company</label>
-			<input id="company" maxlength="40" name="company" size="20" type="text" required/><br>
-
-			<label for="industry">Industry</label>
-			<select id="industry" name="industry">
-				<option value="" selected disabled>Select one</option>
-				<option value="Distribution">Distribution</option>
-				<option value="Industrial Manufacturing">Industrial Manufacturing</option>
-				<option value="IT Hardware OEM">IT Hardware OEM</option>
-				<option value="Software">Software</option>
-			</select><br>
-
+			<div>
+				<input type=hidden name="oid" value="00D61000000Hut0">
+				<input type=hidden name="retURL" value="http://finixcreative.github.io/paradata">
+				<!--
+				NOTE: These fields are optional debugging elements. Please uncomment these lines if you wish to test in debug mode.
+				<input type="hidden" name="debug" value=1>
+				<input type="hidden" name="debugEmail" value="greg@paradata.io">
+				-->
+				<p>
+					<label for="first_name">First Name</label><br>
+					<input id="first_name" maxlength="40" name="first_name" size="20" type="text" required/>
+				</p>
+				<p>
+					<label for="last_name">Last Name</label><br>
+					<input id="last_name" maxlength="80" name="last_name" size="20" type="text" required/>
+				</p>
+				<p>
+					<label for="email">Email</label><br>
+					<input id="email" maxlength="80" name="email" type="email" required/>
+				</p>
+				<p>
+					<label for="phone">Phone</label><br>
+					<input id="phone" maxlength="40" name="phone" type="tel" required/>
+				</p>
+				<p>
+					<label for="company">Company</label><br>
+					<input id="company" maxlength="40" name="company" size="20" type="text" required/>
+				</p>
+				<p>
+					<label for="industry">Industry</label><br>
+					<select id="industry" name="industry">
+						<option value="" selected disabled>Select one</option>
+						<option value="Distribution">Distribution</option>
+						<option value="Industrial Manufacturing">Industrial Manufacturing</option>
+						<option value="IT Hardware OEM">IT Hardware OEM</option>
+						<option value="Software">Software</option>
+					</select>
+				</p>
+			</div>
 			<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()">
 		</form>
 	</div>
