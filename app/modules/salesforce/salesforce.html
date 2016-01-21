@@ -26,27 +26,27 @@ NOTE: Please add the following <FORM> element to your page.
 					-->
 					<div class="half pad">
 						<label for="first_name">First Name</label><br>
-						<input id="first_name" maxlength="40" name="first_name" size="20" type="text" required/>
+						<input id="first_name" class="full" maxlength="40" name="first_name" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
 						<label for="last_name">Last Name</label><br>
-						<input id="last_name" maxlength="80" name="last_name" size="20" type="text" required/>
+						<input id="last_name" class="full" maxlength="80" name="last_name" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
 						<label for="email">Email</label><br>
-						<input id="email" maxlength="80" name="email" type="email" required/>
+						<input id="email" class="full" maxlength="80" name="email" type="email" required/>
 					</div>
 					<div class="half pad">
 						<label for="phone">Phone</label><br>
-						<input id="phone" maxlength="40" name="phone" type="tel" required/>
+						<input id="phone" class="full" maxlength="40" name="phone" type="tel" required/>
 					</div>
 					<div class="half pad">
 						<label for="company">Company</label><br>
-						<input id="company" maxlength="40" name="company" size="20" type="text" required/>
+						<input id="company" class="full" maxlength="40" name="company" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
 						<label for="industry">Industry</label><br>
-						<select id="industry" name="industry">
+						<select id="industry" class="full" name="industry">
 							<option value="" selected disabled>Select one</option>
 							<option value="Distribution">Distribution</option>
 							<option value="Industrial Manufacturing">Industrial Manufacturing</option>
@@ -55,7 +55,9 @@ NOTE: Please add the following <FORM> element to your page.
 						</select>
 					</div>
 				</div>
-				<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()">
+				<div class="full center">
+					<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()">					
+				</div>
 			</div>
 		</form>
 	</div>
