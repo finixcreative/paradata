@@ -297,7 +297,7 @@ header nav li ul.menu li a:hover {
 	padding-top: 80px;
 }
 .hero {
-	background-color: #0387ab;
+	background-color: #222;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -376,7 +376,7 @@ header nav li ul.menu li a:hover {
 	color: #fff;
 }
 .hero-overlay {
-	background: rgba(19,134,171,0.65);
+	background: rgba(34,34,34,0.65);
 }
 .slider {}
 .slide {
