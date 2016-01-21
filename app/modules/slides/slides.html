@@ -1,31 +1,18 @@
-<div class="slider white-bg full">
-	<div class="wrapper middle">
-		<div
-			class="slide darkgray-txt center full"
-			ng-repeat="slide in slides"
-			ng-show="slide.visible"
-			ng-animate="animate"
-			ng-swipe-left="next()"
-			ng-swipe-right="prev()"
-			>
-			<a class="datascore middle lightgray-bg" ng-click="next()">
-				<img class="full" src="assets/images/icons/{{slide.icon}}">							
-			</a>
-			<h3>{{slide.headline}}</h3>
-			<p>{{slide.text}}</p>
-			<p>
-				<a href="{{slide.link.url}}">{{slide.link.text}}</a>
-			</p>
-			<p class="nav-pills">
-				<a
-					ng-controller="SlidesController"
-					ng-repeat="slide in slides"
-					ng-click="selectIndex($index)"
-					ng-class="{'active':isCurrentSlideIndex($index)}"
-				>
-				</a>
-			</p>
+<div class="slider full">
+	<div
+		class="slide darkgray-txt center full"
+		ng-repeat="slide in slides"
+		ng-show="slide.visible"
+		ng-animate="animate"
+		ng-swipe-left="next()"
+		ng-swipe-right="prev()"
+		>
+		<div class="half">
+			<p>{{slide.text}}</p>			
 		</div>
+		<a class="half pad" ng-click="next()">
+			<img class="full" src="assets/images/icons/{{slide.icon}}">							
+		</a>
 	</div>
 	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
 	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow_right"></span></button>
