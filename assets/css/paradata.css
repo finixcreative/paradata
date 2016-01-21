@@ -305,6 +305,8 @@ header nav li ul.menu li a:hover {
 }
 .hero.home {
 	background-image: url("../images/backgrounds/bg-circuit_boards.jpg");
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
 }
 .hero.solutions {
 	background-image: url("../images/backgrounds/background-solutions-2.jpg");
