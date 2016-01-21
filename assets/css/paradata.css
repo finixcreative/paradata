@@ -236,6 +236,7 @@ header nav li ul.menu li a:hover {
 	left: 0;
 	z-index: 999;
 	display: none;
+	overflow-y: scroll;
 }
 .popover form {
 	position: absolute;
