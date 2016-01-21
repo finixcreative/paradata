@@ -10,11 +10,7 @@ angular.module('slidesMod')
 				console.log("Slides: " + $scope.slides);
 				for(var i = 0; i < $scope.slides.length; i++){
 					$scope.slides[i].index = i;
-					$scope.slides[i].visible = false;
-					console.log(
-						$scope.slides[i].index + "\n",
-						"Slide visible: " + $scope.slides[i].visible
-					);
+					console.log($scope.slides[i].index);
 				};
 				$scope.selectIndex = function(index){
 					$scope.currentIndex = index;
@@ -29,6 +25,9 @@ angular.module('slidesMod')
 					$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
 				};
 				$scope.$watch('currentIndex', function(){
+					$scope.slides.forEach(function(slide) {
+						slide.visible = false;
+					});
 					$scope.slides[$scope.currentIndex].visible = true;
 					console.log($scope.slides[$scope.currentIndex].visible);
 				});
