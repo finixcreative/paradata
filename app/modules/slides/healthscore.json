@@ -2,26 +2,41 @@
 	{
 		"id": "healthscore",
 		"icon": "icon_healthscore.png",
-		"text": "Measures component lead-time availability factored against operational goals, with alerts for EOL, lead-time push outs, and allocations events."
+		"headline": "Big data meets supply chain transparency",
+		"subheadline": "Like Fico® score for supply chain",
+		"question": "If your product could say what it needs to be healthy, what would it say?",
+		"text": "The Health Score measures supply chains in four dimensions: Cost, Risk, Lead Time, Compliance."
 	},
 	{
 		"id": "leadtime",
 		"icon": "icon_leadtime.png",
-		"text": "Measures component lead-time availability factored against operational goals, with alerts for EOL, lead-time push outs, and allocations events."
+		"headline": "Big data meets supply chain transparency",
+		"subheadline": "Like Fico® score for supply chain",
+		"question": "Which components will prevent me from shipping product?",
+		"text": "Evaluate and simulate the impact of decisions before committing, see the effect after for every component... that’s transparency."
 	},
 	{
 		"id": "Cost",
 		"icon": "icon_cost.png",
-		"text": "Measures the variance between BOM provided price vs best available price using public sources or variance to your internal part pool pricing."
+		"headline": "Big data meets supply chain transparency",
+		"subheadline": "Like Fico® score for supply chain",
+		"question": "Are my component prices market competitive?  What should I be paying based on future demand?",
+		"text": "Measure the variance between supplier provided cost vs best available market cost... that’s transparency."
 	},
 	{
 		"id": "Compliance",
 		"icon": "icon_compliance.png",
-		"text": "Measures the ability of product data to support rigorous examination of import/export compliance requirements, including USA (UL), Canadian (CSA), European (TUV), Japan (CB), ROHS."
+		"headline": "Big data meets supply chain transparency",
+		"subheadline": "Like Fico® score for supply chain",
+		"question": "Are all my products compliant to current regulations? How do I stack up to what’s coming?",
+		"text": "Measures the ability of product data to support rigorous examination of import/export compliance... that’s transparency."
 	},
 	{
 		"id": "Risk",
 		"icon": "icon_risk.png",
-		"text": "Measures how a component is sourced (single, sole, or multiple sources), proximity to manufacturing locations (hubbing), and history of supplier performance."
+		"headline": "Big data meets supply chain transparency",
+		"subheadline": "Like Fico® score for supply chain",
+		"question": "What is my sole source component status by product? Do I have any components going to end of life? If yes, which ones?",
+		"text": "Measures how a component is sourced, proximity to manufacturing locations, supplier performance... that’s transparency."
 	}
 ]

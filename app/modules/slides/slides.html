@@ -1,14 +1,17 @@
 <div class="slider full">
 	<div
-		class="slide darkgray-txt center full"
+		class="slide white-txt full"
 		ng-repeat="slide in slides"
 		ng-show="slide.visible"
 		ng-animate="animate"
 		ng-swipe-left="next()"
 		ng-swipe-right="prev()"
 		>
-		<div class="half">
-			<p>{{slide.text}}</p>			
+		<div class="half white-txt">
+			<h1>{{slide.headline}}</h1>
+			<h2>{{slide.subheadline}}</h2>
+			<h3>{{slide.question}}</h3>
+			<p>{{slide.text}}</p>
 		</div>
 		<a class="half pad" ng-click="next()">
 			<img class="full" src="assets/images/icons/{{slide.icon}}">							
