@@ -2,6 +2,7 @@ angular.module('slidesMod')
 	.controller('SlidesController', ['$scope', '$http', function($scope, $http){
 		$scope.filepath = 'app/modules/slides/healthscore.json';
 		$scope.slides = [];
+		$scope.currentIndex = 0;
 		$http.get($scope.filepath).then(
 			function success(response){
 				//success callbacks
@@ -9,7 +10,11 @@ angular.module('slidesMod')
 				console.log("Slides: " + $scope.slides);
 				for(var i = 0; i < $scope.slides.length; i++){
 					$scope.slides[i].index = i;
-					console.log($scope.slides[i].index);
+					$scope.slides[i].visible = false;
+					console.log(
+						$scope.slides[i].index + "\n",
+						"Slide visible: " + $scope.slides[i].visible
+					);
 				};
 			},
 			function error(response){
@@ -22,7 +27,6 @@ angular.module('slidesMod')
 				);
 			}
 		);
-		$scope.currentIndex = 0;
 		$scope.selectIndex = function(index){
 			$scope.currentIndex = index;
 		};
@@ -36,10 +40,6 @@ angular.module('slidesMod')
 			$scope.currentIndex > 0 ? $scope.currentIndex-- : $scope.currentIndex = $scope.slides.length - 1;
 		};
 		$scope.$watch('currentIndex', function(){
-			for(var i = 0; i < $scope.slides.length; i++){
-				$scope.slides[i].visible = false;
-				console.log("Slide visible: " + $scope.slides[i].visible);
-			};
 			$scope.slides[$scope.currentIndex].visible = true;
 			console.log($scope.slides[$scope.currentIndex].visible);
 		});
