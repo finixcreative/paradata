@@ -1,21 +1,27 @@
 <div class="slider full">
-	<div
-		class="slide white-txt full"
-		ng-repeat="slide in slides"
-		ng-show="slide.visible"
-		ng-animate="animate"
-		ng-swipe-left="next()"
-		ng-swipe-right="prev()"
-		>
-		<div class="half white-txt">
-			<h1>{{slide.headline}}</h1>
-			<h2>{{slide.subheadline}}</h2>
-			<h3>{{slide.question}}</h3>
-			<p>{{slide.text}}</p>
+	<div class="wrapper middle">
+		<div
+			class="slide white-txt full"
+			ng-repeat="slide in slides"
+			ng-show="slide.visible"
+			ng-animate="animate"
+			ng-swipe-left="next()"
+			ng-swipe-right="prev()"
+			>
+			<div class="half white-txt">
+				<h1>{{slide.headline}}</h1>
+				<h2>{{slide.subheadline}}</h2>
+				<h3>{{slide.question}}</h3>
+				<p>{{slide.text}}</p>
+				<a class="button" ng-controller="BoxController" ng-click="popover()">Get your free trial</a>
+				<div class="box-upload popover">
+					<boxupload></boxupload>
+				</div>
+			</div>
+			<a class="half pad" ng-click="next()">
+				<img class="full" src="assets/images/icons/{{slide.icon}}">
+			</a>
 		</div>
-		<a class="half pad" ng-click="next()">
-			<img class="full" src="assets/images/icons/{{slide.icon}}">							
-		</a>
 	</div>
 	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
 	<button id="next" class="slidenav" ng-click="next()"><span class="icon-arrow_right"></span></button>
