@@ -25,23 +25,23 @@ NOTE: Please add the following <FORM> element to your page.
 					<input type="hidden" name="debugEmail" value="greg@paradata.io">
 					-->
 					<div class="half pad">
-						<label for="first_name">First Name</label><br>
+						<label for="first_name">First Name *</label><br>
 						<input id="first_name" class="full" maxlength="40" name="first_name" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
-						<label for="last_name">Last Name</label><br>
+						<label for="last_name">Last Name *</label><br>
 						<input id="last_name" class="full" maxlength="80" name="last_name" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
-						<label for="email">Email</label><br>
+						<label for="email">Email *</label><br>
 						<input id="email" class="full" maxlength="80" name="email" type="email" required/>
 					</div>
 					<div class="half pad">
-						<label for="phone">Phone</label><br>
+						<label for="phone">Phone *</label><br>
 						<input id="phone" class="full" maxlength="40" name="phone" type="tel" required/>
 					</div>
 					<div class="half pad">
-						<label for="company">Company</label><br>
+						<label for="company">Company *</label><br>
 						<input id="company" class="full" maxlength="40" name="company" size="20" type="text" required/>
 					</div>
 					<div class="half pad">
@@ -56,7 +56,8 @@ NOTE: Please add the following <FORM> element to your page.
 					</div>
 				</div>
 				<div class="full center">
-					<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()">					
+					<input type="submit" name="submit" value="Get your free trial" class="button" ng-controller="SalesforceController" ng-click="popover()"><br>
+					<label>* Required information</label>
 				</div>
 			</div>
 		</form>
