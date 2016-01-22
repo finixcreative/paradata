@@ -324,7 +324,7 @@ header nav li ul.menu li a:hover {
 .hero .button {
 	background: #fff;
 	color: #222;
-	margin: 40px 0;
+	margin: 20px 0;
 	padding: 10px 15px;
 	border: 2px solid #fff;
 	border-radius: 50px;
@@ -535,11 +535,7 @@ copyright a {
 	}
 }
 @media screen and (max-width: 1000px) {}
-@media screen and (max-width: 780px) {
-	.hero.home .button {
-		margin-bottom: 170px;
-	}
-}
+@media screen and (max-width: 780px) {}
 @media screen and (max-width: 800px) {
 	.desktop,
 	.tablet {
@@ -565,7 +561,7 @@ copyright a {
 		transform: none;
 	}
 	.popover form {
-		top: 0;
+		top: 20px;
 		transform: none;
 	}
 }
