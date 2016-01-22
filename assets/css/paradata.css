@@ -536,6 +536,10 @@ copyright a {
 }
 @media screen and (max-width: 1000px) {
 	button.slidenav {display: none;}
+	.popover form {
+		top: 20px;
+		transform: none;
+	}
 }
 @media screen and (max-width: 780px) {}
 @media screen and (max-width: 800px) {
@@ -559,10 +563,6 @@ copyright a {
 	}
 	.feature img {
 		position: relative;
-		transform: none;
-	}
-	.popover form {
-		top: 20px;
 		transform: none;
 	}
 }
