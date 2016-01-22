@@ -14,7 +14,7 @@ NOTE: Please add the following <FORM> element to your page.
 			<div class="wrapper middle" style="max-width: 600px;">
 				<div class="full center pad">
 					<img class="form-logo" src="assets/images/paradata-logo.png">
-					<h2>Try it before you buy it</h2>				
+					<h2>Register for demo</h2>				
 				</div>
 				<div class="full">
 					<input type=hidden name="oid" value="00D61000000Hut0">
@@ -25,9 +25,14 @@ NOTE: Please add the following <FORM> element to your page.
 					<input type="hidden" name="debugEmail" value="greg@paradata.io">
 					-->
 					<div class="full pad">
-						<label for="first_name">Name *</label><br>
-						<input id="first_name" name="first_name" class="half" type="text" maxlength="40" size="20" placeholder="First" style="width: 50%; border-right: 1px solid #ccc; border-radius: 5px 0 0 5px;" required/>
-						<input id="last_name" name="last_name" class="half" type="text" maxlength="80" size="20" placeholder="Last" style="width: 50%; border-radius: 0 5px 5px 0;" required/>
+						<div class="half" style="width: 50%;">
+							<label for="first_name">First name *</label>
+							<input id="first_name" name="first_name" class="full" type="text" maxlength="40" size="20" style="border-right: 1px solid #ccc; border-radius: 5px 0 0 5px;" required/>
+						</div>
+						<div class="half" style="width: 50%;">
+							<label for="last_name">Last name *</label>
+							<input id="last_name" name="last_name" class="full" type="text" maxlength="80" size="20" style="border-radius: 0 5px 5px 0;" required/>							
+						</div>
 					</div>
 					<div class="half pad">
 						<label for="email">Email *</label><br>
@@ -37,23 +42,13 @@ NOTE: Please add the following <FORM> element to your page.
 						<label for="phone">Phone *</label><br>
 						<input id="phone" class="full" maxlength="40" name="phone" type="tel" required/>
 					</div>
-					<div class="half pad">
+					<div class="full pad">
 						<label for="company">Company *</label><br>
 						<input id="company" class="full" maxlength="40" name="company" size="20" type="text" required/>
 					</div>
-					<div class="half pad">
-						<label for="industry">Industry</label><br>
-						<select id="industry" class="full" name="industry">
-							<option value="" selected disabled>Select one</option>
-							<option value="Distribution">Distribution</option>
-							<option value="Industrial Manufacturing">Industrial Manufacturing</option>
-							<option value="IT Hardware OEM">IT Hardware OEM</option>
-							<option value="Software">Software</option>
-						</select>
-					</div>
 				</div>
 				<div class="full center">
-					<input class="button" type="submit" name="submit" value="Get your free trial"><br>
+					<input class="button" type="submit" name="submit" value="Complete"><br>
 					<label>* Required information</label>
 				</div>
 			</div>
