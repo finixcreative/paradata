@@ -564,6 +564,10 @@ copyright a {
 		position: relative;
 		transform: none;
 	}
+	.popover form {
+		top: 0;
+		transform: none;
+	}
 }
 @media screen and (max-width: 500px) {
 	h1 {
