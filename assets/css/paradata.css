@@ -534,7 +534,9 @@ copyright a {
 		margin-left: -70px;
 	}
 }
-@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 1000px) {
+	button.slidenav {display: none;}
+}
 @media screen and (max-width: 780px) {}
 @media screen and (max-width: 800px) {
 	.desktop,
@@ -555,7 +557,6 @@ copyright a {
 		top: 60px;
 		transform: none;
 	}
-	button.slidenav {display: none;}
 	.feature img {
 		position: relative;
 		transform: none;
