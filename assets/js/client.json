@@ -21,19 +21,15 @@
 	"socials": [
 		{
 			"name": "facebook",
-			"link": "www.facebook.com"
+			"link": "https://www.facebook.com/paradata.io/?fref=ts"
 		},
 		{
 			"name": "twitter",
-			"link": "www.twitter.com"
+			"link": "https://twitter.com/Paradata_io?lang=en"
 		},
 		{
 			"name": "linkedin",
-			"link": "www.linkedin.com"
-		},
-		{
-			"name": "google_plus",
-			"link": "plus.google.com"
+			"link": "https://www.linkedin.com/company/1039017?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A1039017%2Cidx%3A2-1-2%2CtarId%3A1453508639963%2Ctas%3Aparada"
 		}
 	]
 }
