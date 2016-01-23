@@ -8,6 +8,7 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			controller: 'SlidesController',
 			link: function($scope, element, attrs){
 				$scope.slideshow = attrs.slideshow;
+				console.log($scope.slideshow);
 			}
 		};
 	})
