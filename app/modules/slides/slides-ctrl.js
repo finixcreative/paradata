@@ -3,7 +3,7 @@ angular.module('slidesMod')
 		/* Original line removed for testing
 		$scope.filepath = 'app/modules/slides/healthscore.json';
 		*/
-		$scope.filepath = 'app/modules/slides/slideshow-' + $scope.slideshow + '.json';
+		$scope.filepath = 'app/modules/slides/slides-' + $scope.slideshow + '.json';
 		$scope.slides = [];
 		$scope.currentIndex = 0;
 		$http.get($scope.filepath).then(
