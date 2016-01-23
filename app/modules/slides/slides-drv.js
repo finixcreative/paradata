@@ -6,8 +6,8 @@ angular.module('slidesMod')
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
 			controller: 'SlidesController',
-			link: function($scope, element, attr){
-				$scope.slideshow = attr.slideshow;
+			link: function($scope, element, attrs){
+				$scope.slideshow = attrs.slideshow;
 			}
 		};
 	})
