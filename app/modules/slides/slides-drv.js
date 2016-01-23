@@ -5,6 +5,10 @@ angular.module('slidesMod')
 			replace: true,
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
-			controller: 'SlidesController'
+			controller: 'SlidesController',
+			link: function($scope, element, attr){
+				$scope.slideshow = attr.slideshow;
+			}
 		};
-	});
+	})
+;
