@@ -1,4 +1,4 @@
-angular.module('slidesMod')
+angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 	.directive('slides', function($timeout){
 		return {
 			restrict: 'E',
