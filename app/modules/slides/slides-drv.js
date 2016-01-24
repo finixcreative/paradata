@@ -6,12 +6,11 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
 			controller: 'SlidesController'
-			/*
 			link: function($scope, element, attrs){
 				$scope.slideshow = attrs.slideshow;
 				console.log($scope.slideshow);
+				fetch();
 			}
-			*/
 		};
 	})
 ;
