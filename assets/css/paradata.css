@@ -107,6 +107,7 @@ h1, h2, h3, h4, h5, h6, p {
 	line-height: 1.5em;
 }
 h1, h2, h3, h4, h5, h6 {
+	font-family: "Quicksand", sans-serif;
 	text-transform: uppercase;
 	-ms-word-break: break-all;
 	word-break: break-all;
@@ -436,6 +437,9 @@ button.slidenav:hover {
 table {
 	border: 1px solid #ccc;
 	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+table {
+	
 }
 .anchor {
 	display: block;
