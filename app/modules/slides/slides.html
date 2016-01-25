@@ -9,15 +9,15 @@
 			ng-swipe-right="prev()"
 			>
 			<h1>Transparency meets supply chain</h1>
+			<a class="half pad" ng-click="next()">
+				<img class="full" src="assets/images/icons/{{slide.icon}}">
+			</a>
 			<div class="half white-txt">
 				<h2>{{slide.headline}}</h2>
 				<p>{{slide.question}}</p>
 				<p>{{slide.text}}</p>
 				<a class="button" ng-controller="SalesforceController" ng-click="popover()">What's your score?</a>
 			</div>
-			<a class="half pad" ng-click="next()">
-				<img class="full" src="assets/images/icons/{{slide.icon}}">
-			</a>
 		</div>
 	</div>
 	<button id="prev" class="slidenav" ng-click="prev()"><span class="icon-arrow_left"></span></button>
