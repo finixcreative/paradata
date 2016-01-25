@@ -1,6 +1,6 @@
 [
 	{
-		"plan": "1 Year",
+		"plan": "1 Year License",
 		"cost": {
 			"first10skus": {
 				"annual": "$1999",
@@ -13,7 +13,7 @@
 		}
 	},
 	{
-		"plan": "3 Year",
+		"plan": "3 Year License",
 		"cost": {
 			"first10skus": {
 				"annual": "$999",

@@ -435,6 +435,7 @@ button.slidenav:hover {
 }
 table {
 	border: 1px solid #ccc;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 .anchor {
 	display: block;
