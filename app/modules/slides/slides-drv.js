@@ -5,13 +5,10 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			replace: true,
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
-			controller: 'SlidesController',
-			link: function($scope, $element, $attrs){
-				console.log($attrs.slideshow);
-				$scope.filepath = 'app/modules/slides/slides-' + $attrs.slideshow + '.json';
-				console.log("Directive Success: " + $scope.filepath);
-				fetch($scope.filepath);
-			}
+			controller: 'SlidesController'
+			/*
+			link: 'fetchContents'
+			*/
 		};
 	})
 ;

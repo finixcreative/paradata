@@ -1,43 +1,41 @@
 angular.module('slidesMod')
-	.controller('SlidesController', ['$scope', '$http', function($scope, $http, $element, $attrs){
+	.controller('SlidesController', ['$scope', '$http', function($scope, $http){
 		/* Original line removed for testing
-		$scope.filepath = 'app/modules/slides/healthscore.json';
 		$scope.slideshow = $attrs.slideshow;
 		$scope.filepath = 'app/modules/slides/slides-' + $scope.slideshow + '.json';
 		*/
+		$scope.filepath = 'app/modules/slides/healthscore.json';
 		$scope.currentIndex = 0;
-		var fetch = function(filepath){
-			$scope.slides = [];
-			$http.get(filepath).then(
-				function success(response){
-					//success callbacks
-					console.log("Controller Success: " + filepath);
-					$scope.slides = response.data;
-					console.log("Slides: " + $scope.slides);
-					for(var i = 0; i < $scope.slides.length; i++){
-						$scope.slides[i].index = i;
-						console.log($scope.slides[i].index);
-					};
-					$scope.$watch('currentIndex', function(){
-						$scope.slides.forEach(function(slide) {
-							slide.visible = false;
-						});
-						$scope.slides[$scope.currentIndex].visible = true;
-						console.log($scope.slides[$scope.currentIndex].visible);
+		$scope.slides = [];
+		$http.get(filepath).then(
+			function success(response){
+				//success callbacks
+				console.log("Controller Success: " + filepath);
+				$scope.slides = response.data;
+				console.log("Slides: " + $scope.slides);
+				for(var i = 0; i < $scope.slides.length; i++){
+					$scope.slides[i].index = i;
+					console.log($scope.slides[i].index);
+				};
+				$scope.$watch('currentIndex', function(){
+					$scope.slides.forEach(function(slide) {
+						slide.visible = false;
 					});
-				},
-				function error(response){
-					//error callbacks
-					console.log("Controller Error: " + filepath);
-					$scope.slides = response.data;
-					$scope.errors = response.error;
-					console.log(
-						"Slides: " + $scope.slides + "\n",
-						"Errors: " + $scope.errors
-					);
-				}
-			)
-		};
+					$scope.slides[$scope.currentIndex].visible = true;
+					console.log($scope.slides[$scope.currentIndex].visible);
+				});
+			},
+			function error(response){
+				//error callbacks
+				console.log("Controller Error: " + filepath);
+				$scope.slides = response.data;
+				$scope.errors = response.error;
+				console.log(
+					"Slides: " + $scope.slides + "\n",
+					"Errors: " + $scope.errors
+				);
+			}
+		);
 		$scope.selectIndex = function(index){
 			$scope.currentIndex = index;
 		};
