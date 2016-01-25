@@ -7,10 +7,10 @@ angular.module('slidesMod')
 		$scope.filepath = 'app/modules/slides/healthscore.json';
 		$scope.currentIndex = 0;
 		$scope.slides = [];
-		$http.get(filepath).then(
+		$http.get($scope.filepath).then(
 			function success(response){
 				//success callbacks
-				console.log("Controller Success: " + filepath);
+				console.log("Controller Success: " + $scope.filepath);
 				$scope.slides = response.data;
 				console.log("Slides: " + $scope.slides);
 				for(var i = 0; i < $scope.slides.length; i++){
@@ -27,7 +27,7 @@ angular.module('slidesMod')
 			},
 			function error(response){
 				//error callbacks
-				console.log("Controller Error: " + filepath);
+				console.log("Controller Error: " + $scope.filepath);
 				$scope.slides = response.data;
 				$scope.errors = response.error;
 				console.log(
