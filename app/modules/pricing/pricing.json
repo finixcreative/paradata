@@ -1,14 +1,28 @@
 [
 	{
-		"text": "Price 1",
-		"cost": ""
+		"plan": "1 Year",
+		"cost": {
+			"first10skus": {
+				"annual": "$1999",
+				"monthly": "$166.58"
+			},
+			"additionalskus": {
+				"annual": "$199",
+				"monthly": "$16.58"
+			}
+		}
 	},
 	{
-		"text": "Price 2",
-		"cost": ""
-	},
-	{
-		"text": "Price 3",
-		"cost": ""
+		"plan": "3 Year",
+		"cost": {
+			"first10skus": {
+				"annual": "$999",
+				"monthly": "$83.25"
+			},
+			"additionalskus": {
+				"annual": "$99",
+				"monthly": "$8.25"
+			}
+		}
 	}
 ]
