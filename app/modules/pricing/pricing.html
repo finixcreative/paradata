@@ -2,7 +2,7 @@
 	<div class="wrapper middle">
 		<div class="pad half" ng-repeat="price in prices">
 			<h3 class="center">{{price.plan}}</h3>
-			<table class="full">
+			<table class="full desktop">
 				<tbody class="full">
 					<tr class="full center">
 						<td class="half pad"><h4>First 10 SKUs<h4></td>
@@ -15,6 +15,20 @@
 					<tr class="full center">
 						<td class="half pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
 						<td class="half pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="full tablet mobile">
+				<tbody class="full">
+					<tr class="full center">
+						<td class="full pad"><h4>First 10 SKUs<h4></td>
+						<td class="full pad">{{price.cost.first10skus.annual}} / year</td>
+						<td class="full pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
+					</tr>
+					<tr class="full center">
+						<td class="full pad"><h4>Additional SKUs</h4></td>
+						<td class="full pad">{{price.cost.additionalskus.annual}} / year</td>
+						<td class="full pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
 					</tr>
 				</tbody>
 			</table>
