@@ -413,7 +413,7 @@ header nav li ul.menu li a:hover {
 	display: inline-block;
 }
 .healthscore {
-	max-width: 350px;
+	max-width: 350px !important;
 	float: none;
 }
 button.slidenav {
