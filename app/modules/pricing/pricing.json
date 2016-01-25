@@ -4,11 +4,11 @@
 		"cost": {
 			"first10skus": {
 				"annual": "$1999",
-				"monthly": "$166.58"
+				"monthly": "$166"
 			},
 			"additionalskus": {
 				"annual": "$199",
-				"monthly": "$16.58"
+				"monthly": "$16"
 			}
 		},
 		"details": [
@@ -22,11 +22,11 @@
 		"cost": {
 			"first10skus": {
 				"annual": "$999",
-				"monthly": "$83.25"
+				"monthly": "$83"
 			},
 			"additionalskus": {
 				"annual": "$99",
-				"monthly": "$8.25"
+				"monthly": "$8"
 			}
 		},
 		"details": [
