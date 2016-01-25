@@ -16,6 +16,11 @@
 						<td class="half pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
 						<td class="half pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
 					</tr>
+					<div class="full pad">
+						<ul>
+							<li ng-repeat="detail in price.details">{{detail.text}}</li>
+						</ul>
+					</div>
 				</tbody>
 			</table>
 		</div>

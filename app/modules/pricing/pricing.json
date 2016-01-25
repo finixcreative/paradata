@@ -10,7 +10,12 @@
 				"annual": "$199",
 				"monthly": "$16.58"
 			}
-		}
+		},
+		"details": [
+			{"text": "Point A"},
+			{"text": "Point B"},
+			{"text": "Point C"}
+		]
 	},
 	{
 		"plan": "3 Year License",
@@ -23,6 +28,11 @@
 				"annual": "$99",
 				"monthly": "$8.25"
 			}
-		}
+		},
+		"details": [
+			{"text": "Point A"},
+			{"text": "Point B"},
+			{"text": "Point C"}
+		]
 	}
 ]
