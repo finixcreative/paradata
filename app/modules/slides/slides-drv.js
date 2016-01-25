@@ -9,7 +9,7 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			link: function($scope, $element, $attrs){
 				console.log($attrs.slideshow);
 				$scope.filepath = 'app/modules/slides/slides-' + $attrs.slideshow + '.json';
-				console.log("Directive: " + $scope.filepath);
+				console.log("Directive Success: " + $scope.filepath);
 				fetch($scope.filepath);
 			}
 		};

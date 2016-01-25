@@ -11,7 +11,7 @@ angular.module('slidesMod')
 			$http.get(filepath).then(
 				function success(response){
 					//success callbacks
-					console.log(filepath);
+					console.log("Controller Success: " + filepath);
 					$scope.slides = response.data;
 					console.log("Slides: " + $scope.slides);
 					for(var i = 0; i < $scope.slides.length; i++){
@@ -28,6 +28,7 @@ angular.module('slidesMod')
 				},
 				function error(response){
 					//error callbacks
+					console.log("Controller Error: " + filepath);
 					$scope.slides = response.data;
 					$scope.errors = response.error;
 					console.log(
