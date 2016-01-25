@@ -7,9 +7,10 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			templateUrl: '/paradata/app/modules/slides/slides.html',
 			controller: 'SlidesController',
 			link: function($scope, $element, $attrs){
-				$scope.slideshow = $attrs.slideshow;
-				console.log($attrs.slideshow + " = " + $scope.slideshow);
-				fetch();
+				console.log($attrs.slideshow);
+				$scope.filepath = 'app/modules/slides/slides-' + $attrs.slideshow + '.json';
+				console.log($scope.filepath);
+				fetch($scope.filepath);
 			}
 		};
 	})

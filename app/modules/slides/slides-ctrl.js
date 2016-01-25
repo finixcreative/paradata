@@ -6,11 +6,9 @@ angular.module('slidesMod')
 		$scope.filepath = 'app/modules/slides/slides-' + $scope.slideshow + '.json';
 		*/
 		$scope.currentIndex = 0;
-		var fetch = function(){
-			console.log($attrs.slideshow);
-			$scope.filepath = 'app/modules/slides/slides-' + $attrs.slideshow + '.json';
+		var fetch = function(filepath){
 			$scope.slides = [];
-			$http.get($scope.filepath).then(
+			$http.get(filepath).then(
 				function success(response){
 					//success callbacks
 					$scope.slides = response.data;
