@@ -433,6 +433,9 @@ button.slidenav:hover {
 	background: none;
 	color: #ccc;
 }
+table {
+	border: 1px solid #ccc;
+}
 .anchor {
 	display: block;
 	height: 80px; /* same height as header */

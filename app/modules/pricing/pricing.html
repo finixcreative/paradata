@@ -1,24 +1,24 @@
 <div class="white-bg full">
 	<div class="wrapper middle">
 		<div class="pad half" ng-repeat="price in prices">
-			<h3>{{price.plan}}</h3>
+			<h3 class="center">{{price.plan}}</h3>
 			<table class="full">
 				<tbody class="full">
-					<tr class="full">
-						<td class="pad"><h4>First 10 SKUs<h4></td>
-						<td class="pad"><h4>Additional SKUs</h4></td>
+					<tr class="full center">
+						<td class="half pad"><h4>First 10 SKUs<h4></td>
+						<td class="half pad"><h4>Additional SKUs</h4></td>
 					</tr>
-					<tr class="full">
-						<td class="pad">{{price.cost.first10skus.annual}} / year</td>
-						<td class="pad">{{price.cost.additionalskus.annual}} / year</td>
+					<tr class="full center">
+						<td class="half pad">{{price.cost.first10skus.annual}} / year</td>
+						<td class="half pad">{{price.cost.additionalskus.annual}} / year</td>
 					</tr>
-					<tr class="full">
-						<td class="pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
-						<td class="pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
+					<tr class="full center">
+						<td class="half pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
+						<td class="half pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
 					</tr>
 				</tbody>
 			</table>
-			<p>All pricing based per product SKU.</p>
 		</div>
+		<p>All pricing based per product SKU.</p>
 	</div>
 </div>
