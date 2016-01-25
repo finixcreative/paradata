@@ -1,4 +1,4 @@
-angular.module('coreMod', [])
+angular.module('coreMod')
 	.directive('pricing', function(){
 		return {
 			restrict: 'E',

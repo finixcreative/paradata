@@ -3,4 +3,5 @@ angular.module('coreMod')
 		$scope.popover = function(){
 			$('div.salesforce-form').toggleClass('visible-block');
 		};
-	});
+	})
+;
