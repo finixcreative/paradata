@@ -5,10 +5,10 @@ angular.module('slidesMod', ['ngAnimate', 'ngTouch'])
 			replace: true,
 			scope: {slideshow: '='},
 			templateUrl: '/paradata/app/modules/slides/slides.html',
-			controller: 'SlidesController'
+			controller: 'SlidesController',
 			link: function($scope, $element, $attrs){
 				$scope.slideshow = $attrs.slideshow;
-				console.log($scope.slideshow);
+				console.log($attrs.slideshow + " = " + $scope.slideshow);
 				fetch();
 			}
 		};
