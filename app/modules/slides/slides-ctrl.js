@@ -9,6 +9,7 @@ angular.module('slidesMod')
 		var fetch = function(filepath){
 			$scope.slides = [];
 			$http.get(filepath).then(
+				console.log("Controller: " + filepath);
 				function success(response){
 					//success callbacks
 					$scope.slides = response.data;
