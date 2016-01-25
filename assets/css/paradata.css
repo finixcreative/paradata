@@ -412,6 +412,10 @@ header nav li ul.menu li a:hover {
 	cursor: pointer;
 	display: inline-block;
 }
+.healthscore {
+	max-width: 350px;
+	float: none;
+}
 button.slidenav {
 	color: #f3f3f3;
 	padding: 20px;

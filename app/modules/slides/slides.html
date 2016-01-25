@@ -1,18 +1,20 @@
 <div class="slideshow full">
 	<div class="wrapper middle">
 		<div
-			class="slide white-txt pad full"
+			class="slide white-txt full"
 			ng-repeat="slide in slides"
 			ng-show="slide.visible"
 			ng-animate="animate"
 			ng-swipe-left="next()"
 			ng-swipe-right="prev()"
 			>
-			<h1>Transparency meets supply chain</h1>
+			<div class="full pad">
+				<h1>Transparency meets supply chain</h1>				
+			</div>
 			<a class="half pad" ng-click="next()">
-				<img class="full" src="assets/images/icons/{{slide.icon}}">
+				<img class="full healthscore middle" src="assets/images/icons/{{slide.icon}}">
 			</a>
-			<div class="half white-txt">
+			<div class="half pad white-txt">
 				<h2>{{slide.headline}}</h2>
 				<p>{{slide.question}}</p>
 				<p>{{slide.text}}</p>
