@@ -7,12 +7,11 @@ angular.module('slidesMod')
 		*/
 		$scope.currentIndex = 0;
 		var fetch = function(filepath){
-			$scope.filepath = filepath;
 			$scope.slides = [];
-			$http.get($scope.filepath).then(
-				console.log($scope.filepath);
+			$http.get(filepath).then(
 				function success(response){
 					//success callbacks
+					console.log(filepath);
 					$scope.slides = response.data;
 					console.log("Slides: " + $scope.slides);
 					for(var i = 0; i < $scope.slides.length; i++){
