@@ -434,9 +434,6 @@ button.slidenav:hover {
 	color: #ccc;
 }
 table {
-	border-collapse: collapse;
-}
-table, td {
 	border: 1px solid #ccc;
 }
 .anchor {
