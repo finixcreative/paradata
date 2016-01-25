@@ -2,18 +2,18 @@
 	<div class="wrapper middle">
 		<div class="pad half" ng-repeat="price in prices">
 			<h3>{{price.plan}}</h3>
-			<table>
+			<table class="full">
 				<tr>
-					<th>First 10 SKUs</th>
-					<th>Additional SKUs</th>
+					<th class="pad">First 10 SKUs</th>
+					<th class="pad">Additional SKUs</th>
 				</tr>
 				<tr>
-					<td>{{price.cost.first10skus.annual}} / year</td>
-					<td>{{price.cost.additionalskus.annual}} / year</td>
+					<td class="pad">{{price.cost.first10skus.annual}} / year</td>
+					<td class="pad">{{price.cost.additionalskus.annual}} / year</td>
 				</tr>
 				<tr>
-					<td><b>{{price.cost.first10skus.monthly}} / month</b></td>
-					<td><b>{{price.cost.additionalskus.monthly}} / month</b></td>
+					<td class="pad"><b>{{price.cost.first10skus.monthly}} / month</b></td>
+					<td class="pad"><b>{{price.cost.additionalskus.monthly}} / month</b></td>
 				</tr>				
 			</table>
 		</div>
