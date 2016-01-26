@@ -92,7 +92,7 @@ Main Components
   font-size: 1.4rem;
   color: #222;
 }
-.cd-pricing-switcher label + input:checked {
+.cd-pricing-switcher input:checked + label {
   color: #fff;
 }
 .cd-pricing-switcher .cd-switch {
