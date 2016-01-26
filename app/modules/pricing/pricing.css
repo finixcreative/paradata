@@ -219,6 +219,7 @@ Main Components
   backface-visibility: hidden;
   /* Firefox bug - 3D CSS transform, jagged edges */
   outline: 1px solid transparent;
+  box-shadow: inset 0 0 0 3px #ccc;
 }
 .cd-pricing-wrapper > li::after {
   /* subtle gradient layer on the right - to indicate it's possible to scroll */
