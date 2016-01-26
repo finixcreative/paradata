@@ -424,10 +424,7 @@ Main Components
     font-size: 1.4em;
   }
 }
-.cd-pricing-body {
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
-}
+.cd-pricing-body {}
 .is-switched .cd-pricing-body {
   /* fix a bug on Chrome Android */
   overflow: hidden;
