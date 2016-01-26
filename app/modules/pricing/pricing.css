@@ -14,7 +14,7 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 1.6em;
   font-family: "Open Sans", sans-serif;
   color: #173d50;
   background-color: #173d50;
@@ -35,7 +35,7 @@ Main Components
 .cd-header h1 {
   text-align: center;
   color: #FFFFFF;
-  font-size: 2.2rem;
+  font-size: 2.2em;
 }
 /*
 .cd-pricing-container {
@@ -50,7 +50,7 @@ Main Components
     line-height: 280px;
   }
   .cd-header h1 {
-    font-size: 3.6rem;
+    font-size: 3.6em;
     font-weight: 300;
   }
 }
@@ -89,7 +89,7 @@ Main Components
   height: 40px;
   line-height: 40px;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   color: #222;
 }
 .cd-pricing-switcher input:checked + label {
@@ -240,7 +240,7 @@ Main Components
   background: linear-gradient(to left, #FFFFFF, rgba(255, 255, 255, 0));
 }
 .cd-pricing-wrapper > li.is-ended::after {
-  /* class added in jQuery - remove the gradient layer when it's no longer possible to scroll */
+  /* class added in jQuery - emove the gradient layer when it's no longer possible to scroll */
   display: none;
 }
 .cd-pricing-wrapper .is-visible {
@@ -377,19 +377,19 @@ Main Components
     color: #FFFFFF;
   }
   .cd-pricing-header h2 {
-    font-size: 1.8rem;
+    font-size: 1.8em;
     letter-spacing: 2px;
   }
 }
 
 .cd-currency, .cd-value {
-  font-size: 3rem;
-  font-weight: 300;
+  font-size: 3em;
+  font-weight: 700;
 }
 
 .cd-duration {
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.3em;
   color: #8dc8e4;
   text-transform: uppercase;
 }
@@ -403,8 +403,8 @@ Main Components
 
 @media only screen and (min-width: 768px) {
   .cd-value {
-    font-size: 7rem;
-    font-weight: 300;
+    font-size: 5em;
+    font-weight: 700;
   }
 
   .cd-currency, .cd-duration {
@@ -424,12 +424,12 @@ Main Components
     display: inline-block;
     margin-top: 10px;
     vertical-align: top;
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: 700;
   }
 
   .cd-duration {
-    font-size: 1.4rem;
+    font-size: 1.4em;
   }
 }
 .cd-pricing-body {
@@ -458,7 +458,7 @@ Main Components
   width: 100px;
   float: left;
   padding: 1.6em 1em;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -563,7 +563,7 @@ Main Components
     color: #FFFFFF;
     border-radius: 2px;
     background-color: #0c1f28;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     text-indent: 0;
     text-transform: uppercase;
     letter-spacing: 2px;
