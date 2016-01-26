@@ -594,7 +594,7 @@ copyright a {
 		transform: none;
 	}
 	.healthscore {
-		max-width: 350px !important;
+		max-width: 300px !important;
 		float: none;
 	}
 }
