@@ -74,7 +74,7 @@ Main Components
   position: relative;
   padding: 2px;
   border-radius: 50em;
-  border: 1px solid #225b78;
+  border: 3px solid #ccc;
 }
 .cd-pricing-switcher input[type="radio"] {
   position: absolute;
@@ -102,11 +102,11 @@ Main Components
   left: 2px;
   height: 40px;
   width: 90px;
-  background-color: #0c1f28;
+  background-color: #0387ab;
   border-radius: 50em;
-  -webkit-transition: -webkit-transform 0.5s;
-  -moz-transition: -moz-transform 0.5s;
-  transition: transform 0.5s;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
 }
 .cd-pricing-switcher input[type="radio"]:checked + label + .cd-switch,
 .cd-pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .cd-switch {
