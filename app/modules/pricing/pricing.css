@@ -346,7 +346,6 @@ Main Components
 .cd-pricing-header {
   position: relative;
   z-index: 1;
-  height: 80px;
   padding: 1em;
   pointer-events: none;
   background-color: #3aa0d1;
@@ -390,12 +389,10 @@ Main Components
 .cd-duration {
   font-weight: 700;
   font-size: 1.3em;
-  color: #8dc8e4;
+  color: rgba(255,255,255,0.5);
   text-transform: uppercase;
 }
-.cd-popular .cd-duration {
-  color: #f3b6ab;
-}
+.cd-popular .cd-duration {}
 .cd-duration::before {
   content: '/';
   margin-right: 2px;
