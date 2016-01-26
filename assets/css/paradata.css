@@ -265,6 +265,7 @@ header nav li ul.menu li a:hover {
 .popover .form-logo {
 	width: 200px;
 	height: auto;
+	margin-bottom: 20px;
 }
 .box-upload input[type=file] {
 	display: none;
