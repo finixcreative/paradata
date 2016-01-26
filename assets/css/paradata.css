@@ -379,6 +379,11 @@ header nav li ul.menu li a:hover {
 .close-button:hover > a {
 	color: #fff;
 }
+.bubble {
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    display: inline-block;
+}
 .hero-overlay {
 	background: rgba(34,34,34,0.65);
 }
