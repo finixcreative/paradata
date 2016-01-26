@@ -1,9 +1,6 @@
 /* -------------------------------- 
-
 Primary style
-
 -------------------------------- */
-/*
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -26,12 +23,9 @@ a {
   color: #75bbce;
   text-decoration: none;
 }
-*/
 
 /* -------------------------------- 
-
 Main Components 
-
 -------------------------------- */
 .cd-header {
   height: 100px;
