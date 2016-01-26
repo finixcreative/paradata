@@ -118,18 +118,21 @@ Main Components
 .no-js .cd-pricing-switcher {
   display: none;
 }
-
+/*
 .cd-pricing-list {
   margin: 2em 0 0;
 }
+*/
 .cd-pricing-list > li {
   position: relative;
   margin-bottom: 1em;
 }
 @media only screen and (min-width: 768px) {
+  /*
   .cd-pricing-list {
     margin: 3em 0 0;
   }
+  */
   .cd-pricing-list:after {
     content: "";
     display: table;
