@@ -339,38 +339,38 @@ header nav li ul.menu li a:hover {
 .hero.careers {
 	background-image: url("../images/backgrounds/background-careers-2.jpg");
 }
-.hero .button {
-	background: #fff;
-	color: #222;
+.hero .button,
+.button-body {
 	margin: 20px 0;
 	padding: 10px 15px;
-	border: 2px solid #fff;
+	font-family: "Quicksand", sans-serif;
 	border-radius: 50px;
 	text-transform: uppercase;
 	text-decoration: none;
 	display: inline-block;
+}
+.hero .button:hover,
+.button-body:hover {
+	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+}
+.hero .button {
+	background: #fff;
+	color: #222;
+	border: 2px solid #fff;
 }
 .hero .button:hover {
 	background: #fff;
 	color: #75bbce;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
 }
 .button-body {
 	background: #0387ab;
 	color: #fff !important;
-	margin: 20px auto;
-	padding: 10px 15px;
 	border: none;
-	border-radius: 50px;
-	text-transform: uppercase;
-	text-decoration: none;
-	display: inline-block;
 }
 .button-body:hover {
 	background: #75bbce;
 	color: #fff !important;
 	border: none;
-	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
 }
 .close-button {
 	width: 40px;
