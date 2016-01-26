@@ -444,8 +444,8 @@ Main Components
 .cd-pricing-features li {
   width: 100px;
   float: left;
-  padding: 1.6em 1em;
-  font-size: 1.4em;
+  padding: 1em;
+  font-size: 1em;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -455,6 +455,11 @@ Main Components
   display: block;
   margin-bottom: 5px;
   font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  .cd-pricing-features li {
+    width: 33.333%;
+  }
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing-features {
