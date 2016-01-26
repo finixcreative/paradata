@@ -17,21 +17,21 @@
 		"id": "Cost",
 		"icon": "icon_cost.png",
 		"headline": "Cost",
-		"question": "\"Are my component prices market competitive?\"\n\" What should I be paying based on future demand?\"",
+		"question": "\"Are my component prices market competitive?\"\r\n\" What should I be paying based on future demand?\"",
 		"text": "Cost scoring measures the variance between supplier-provided costs vs the best available market cost... that’s transparency."
 	},
 	{
 		"id": "Compliance",
 		"icon": "icon_compliance.png",
 		"headline": "Compliance",
-		"question": "\"Are all my products compliant to current regulations?\"\n\"How do I stack up to what’s coming?\"",
+		"question": "\"Are all my products compliant to current regulations?\"\r\n\"How do I stack up to what’s coming?\"",
 		"text": "Compliance scoring measures the ability of product data to support rigorous examination of import/export compliance... that’s transparency."
 	},
 	{
 		"id": "Risk",
 		"icon": "icon_risk.png",
 		"headline": "Risk",
-		"question": "\"What is my sole source component status by product?\"\n\"Do I have any components going to end of life? If yes, which ones?\"",
+		"question": "\"What is my sole source component status by product?\"\r\n\"Do I have any components going to end of life? If yes, which ones?\"",
 		"text": "Risk scoring measures how a component is sourced, proximity to manufacturing locations, supplier performance... that’s transparency."
 	}
 ]
