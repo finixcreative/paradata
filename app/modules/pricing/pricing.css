@@ -515,7 +515,7 @@ Main Components
   transform: translateY(-50%);
   height: 20px;
   width: 20px;
-  background: url(../img/cd-icon-small-arrow.svg);
+  background: url("cd-icon-small-arrow.svg");
 }
 @media only screen and (min-width: 768px) {
   .cd-pricing-footer {
@@ -579,11 +579,8 @@ Main Components
     border-radius: 0 0 4px 4px;
   }
 }
-
 /* -------------------------------- 
-
-xkeyframes 
-
+xkeyframes
 -------------------------------- */
 @-webkit-keyframes cd-rotate {
   0% {
