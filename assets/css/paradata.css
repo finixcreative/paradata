@@ -315,6 +315,9 @@ header nav li ul.menu li a:hover {
 	color: #fff;
 	text-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+.hero p {
+	font-weight: 400;
+}
 .hero.home {
 	background-image: url("../images/backgrounds/bg-circuit_boards.jpg");
 }
