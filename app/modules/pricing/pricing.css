@@ -478,7 +478,7 @@ Main Components
     background-color: rgba(23, 61, 80, 0.06);
   }
   .cd-popular .cd-pricing-features li:nth-of-type(2n+1) {
-    background-color: rgba(117, 187, 206, 0.06);
+    background-color: rgba(117, 187, 206, 0.2);
   }
   .cd-pricing-features em {
     display: inline-block;
