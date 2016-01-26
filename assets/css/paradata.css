@@ -417,10 +417,6 @@ header nav li ul.menu li a:hover {
 	cursor: pointer;
 	display: inline-block;
 }
-.healthscore {
-	max-width: 350px !important;
-	float: none;
-}
 button.slidenav {
 	color: #f3f3f3;
 	padding: 20px;
@@ -580,6 +576,10 @@ copyright a {
 	.feature img {
 		position: relative;
 		transform: none;
+	}
+	.healthscore {
+		max-width: 350px !important;
+		float: none;
 	}
 }
 @media screen and (max-width: 500px) {
