@@ -380,6 +380,7 @@ header nav li ul.menu li a:hover {
 	color: #fff;
 }
 .bubble {
+	margin: 0;
     padding: 0.5em 1em;
     border-radius: 2em;
     display: inline-block;
