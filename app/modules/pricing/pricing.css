@@ -443,9 +443,7 @@ Main Components
   }
 }
 
-.cd-pricing-features {
-  width: 600px;
-}
+.cd-pricing-features {}
 .cd-pricing-features:after {
   content: "";
   display: table;
