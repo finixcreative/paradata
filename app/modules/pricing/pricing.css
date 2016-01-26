@@ -90,7 +90,10 @@ Main Components
   line-height: 40px;
   cursor: pointer;
   font-size: 1.4rem;
-  color: #FFFFFF;
+  color: #222;
+}
+.cd-pricing-switcher:checked label {
+  color: #fff;  
 }
 .cd-pricing-switcher .cd-switch {
   /* floating background */
