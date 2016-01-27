@@ -480,6 +480,11 @@ table {
 	width: auto;
 	max-height: 60px;
 }
+.inline-icon {
+	width: auto;
+	height: 1em;
+	display: inline-block;
+}
 .feature {
 	position: relative;
 }
