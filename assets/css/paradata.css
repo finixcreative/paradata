@@ -403,7 +403,9 @@ header nav li ul.menu li a:hover {
 .hero-overlay {
 	background: rgba(34,34,34,0.65);
 }
-.slider {}
+.slideshow {
+	position: relative;
+}
 .slide {
 	position: relative;
 	-webkit-transition: none;
