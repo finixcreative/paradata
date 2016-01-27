@@ -1,5 +1,5 @@
 angular.module('coreMod')
-	.controller('TeamController', function(){
+	.controller('TeamController', ['$scope', '$http', function($scope, $http){
 		$scope.filepath = 'app/modules/team/team.json';
 		$scope.team = [];
 		$http.get($scope.filepath).then(
@@ -19,5 +19,5 @@ angular.module('coreMod')
 				);
 			}
 		);
-	})
+	}])
 ;
