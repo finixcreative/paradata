@@ -3,35 +3,48 @@
 		"id": "healthscore",
 		"icon": "icon_healthscore.png",
 		"headline": "Health Score",
-		"question": "\"If your product could say what it needs to be healthy, what would it say?\"",
+		"questions": [
+			{"text": "\"If your product could say what it needs to be healthy, what would it say?\"",}
+		],
 		"text": "The Paradata Health Score measures a supply chain in four dimensions: Cost, Risk, Lead Time, Compliance."
 	},
 	{
 		"id": "leadtime",
 		"icon": "icon_leadtime.png",
 		"headline": "Leadtime",
-		"question": "\"Which components will prevent me from shipping product?\"",
+		"questions": [
+			{"text": "\"Which components will prevent me from shipping product?\"",}
+		],
 		"text": "Leadtime scoring evaluates and simulates the impact of component decisions before committing... that’s transparency."
 	},
 	{
 		"id": "Cost",
 		"icon": "icon_cost.png",
 		"headline": "Cost",
-		"question": "\"Are my component prices market competitive?\"\r\n\" What should I be paying based on future demand?\"",
+		"questions": [
+			{"text": "\"Are my component prices market competitive?\"",},
+			{"text": "\" What should I be paying based on future demand?\"",}
+		],
 		"text": "Cost scoring measures the variance between supplier-provided costs vs the best available market cost... that’s transparency."
 	},
 	{
 		"id": "Compliance",
 		"icon": "icon_compliance.png",
 		"headline": "Compliance",
-		"question": "\"Are all my products compliant to current regulations?\"\r\n\"Am I prepared for new regulations?\"",
+		"questions": [
+			{"text": "\"Are all my products compliant to current regulations?\"",},
+			{"text": "\"Am I prepared for new regulations?\"",}
+		],
 		"text": "Compliance scoring measures the ability of product data to support rigorous examination of import/export compliance... that’s transparency."
 	},
 	{
 		"id": "Risk",
 		"icon": "icon_risk.png",
 		"headline": "Risk",
-		"question": "\"What is my sole source component status by product?\"\r\n\"Do I have any components going to end of life? If yes, which ones?\"",
+		"questions": [
+			{"text": "\"What is my sole source component status by product?\"",},
+			{"text": "\"Do I have any components going to end of life? If yes, which ones?\"",}
+		],
 		"text": "Risk scoring measures how a component is sourced, proximity to manufacturing locations, supplier performance... that’s transparency."
 	}
 ]
