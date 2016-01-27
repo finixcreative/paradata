@@ -6,7 +6,7 @@
 		"questions": [
 			{"text": "\"If your product could say what it needs to be healthy, what would it say?\""}
 		],
-		"text": "The Paradata Network Score measures a supply chain in four dimensions: Cost, Risk, Leadtime, and Compliance."
+		"text": "The Paradata Network Score measures a supply chain in four dimensions: Leadtime, Cost, Compliance, and Risk."
 	},
 	{
 		"id": "leadtime",
