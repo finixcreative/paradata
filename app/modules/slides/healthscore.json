@@ -2,11 +2,11 @@
 	{
 		"id": "healthscore",
 		"icon": "icon_healthscore.png",
-		"headline": "Health Score",
+		"headline": "Network Score",
 		"questions": [
 			{"text": "\"If your product could say what it needs to be healthy, what would it say?\""}
 		],
-		"text": "The Paradata Health Score measures a supply chain in four dimensions: Cost, Risk, Lead Time, Compliance."
+		"text": "The Paradata Network Score measures a supply chain in four dimensions: cost, risk, lead time, and compliance."
 	},
 	{
 		"id": "leadtime",
