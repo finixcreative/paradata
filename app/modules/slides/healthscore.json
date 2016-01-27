@@ -2,7 +2,7 @@
 	{
 		"id": "networkscore",
 		"icon": "icon_networkscore.png",
-		"headline": "The Network Score",
+		"headline": "The Network Score\u2120",
 		"questions": [
 			{"text": "\"If your product could say what it needs to be healthy, what would it say?\""}
 		],
