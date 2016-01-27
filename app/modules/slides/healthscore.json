@@ -1,7 +1,7 @@
 [
 	{
-		"id": "healthscore",
-		"icon": "icon_healthscore.png",
+		"id": "networkscore",
+		"icon": "icon_networkscore.png",
 		"headline": "Network Score",
 		"questions": [
 			{"text": "\"If your product could say what it needs to be healthy, what would it say?\""}
