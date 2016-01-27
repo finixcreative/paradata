@@ -348,7 +348,7 @@ Main Components
   z-index: 1;
   padding: 1em;
   pointer-events: none;
-  background-color: #3aa0d1;
+  background-color: #ccc;
   color: #FFFFFF;
 }
 .cd-popular .cd-pricing-header {
