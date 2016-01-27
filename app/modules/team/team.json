@@ -1,0 +1,114 @@
+{
+	"title": "Meet our team",
+	"size": "full",
+	"members": [
+		{
+			"name": "Scott Slinker",
+			"title": "Founder & CEO",
+			"accomplishment": "\"Not getting BBQ on my white shirt\"",
+			"music": "\"Phantogram\"",
+			"activity": "\"Friday night poker tournament\"",
+			"portrait": "scott_slinker.png",
+			"linkedin": "https://www.linkedin.com/in/scottslinker"
+		},
+		{
+			"name": "Dr. Pat Selinger",
+			"title": "CTO",
+			"accomplishment": "\"The people I mentor and the teams I work with\"",
+			"music": "\"Any country music, from Johnny Cash to Taylor Swift\"",
+			"activity": "\"Hanging out with friends and family, wine tasting\"",
+			"portrait": "pat_selinger.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Carmine Napolitano",
+			"title": "CFO",
+			"accomplishment": "\"My natural ability to sleep and eat, unfortunately neither are monetizable so I’m a CFO instead\"",
+			"music": "\"The Smiths\"",
+			"activity": "\"Playing, watching, or refereeing soccer\"",
+			"portrait": "carmine_napolitano.png",
+			"linkedin": "https://www.linkedin.com/in/cnapolitano"
+		},
+		{
+			"name": "Greg Keese",
+			"title": "CRO",
+			"accomplishment": "\"Accepting my shortcomings, persistence and perseverance, and a growing family headed generally in the correct direction\"",
+			"music": "\"Tom Petty (Live Anthology - check it out!)\"",
+			"activity": "\"College football, perfecting BBQ, keeping the rock moving in the correct direction\"",
+			"portrait": "greg_keese.png",
+			"linkedin": "https://www.linkedin.com/in/greg-keese-b007182"
+		},
+		{
+			"name": "Linda Duyonavich",
+			"title": "VP of Programs",
+			"accomplishment": "\"My kids\"",
+			"music": "\"The Grateful Dead\"",
+			"activity": "\"Gardening and spending time with friends\"",
+			"portrait": "linda_duyanovich.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Joel Nave",
+			"title": "VP of Products",
+			"accomplishment": "\"My kids\"",
+			"music": "\"U2 (vintage)\"",
+			"activity": "\"Sports with kids\"",
+			"portrait": "joel_nave.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Dr. Karen Brannon",
+			"title": "Data Acquisition Lead",
+			"accomplishment": "\"My family\"",
+			"music": "\"So many bands, so little time\"",
+			"activity": "\"Hiking\"",
+			"portrait": "karen_brannon.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Jim Brady",
+			"title": "Chief Scientist",
+			"accomplishment": "\"My family\"",
+			"music": "\"Boston Pops\"",
+			"activity": "\"Target rifle shooting\"",
+			"portrait": "jim_brady.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Dr. Bruce Lindsay",
+			"title": "Chief Data Scientist",
+			"accomplishment": "\"Stay tuned!\"",
+			"music": "\"Stay tuned!\"",
+			"activity": "\"Stay tuned!\"",
+			"portrait": "bruce_lindsay.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Chris Owen",
+			"title": "VP of Engineering",
+			"accomplishment": "\"My kids\"",
+			"music": "\"Coldplay\"",
+			"activity": "\"The beach\"",
+			"portrait": "chris_owen.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Kanda Kaliappan",
+			"title": "Director of Quality Assistance",
+			"accomplishment": "\"My family, teams and products that I helped to build\"",
+			"music": "\"Any soft rock music\"",
+			"activity": "\"Playing with kids and spending time with friends\"",
+			"portrait": "kanda_kaliappan.png",
+			"linkedin": "#/company"
+		},
+		{
+			"name": "Chris Page",
+			"title": "Database Architect",
+			"accomplishment": "\"I am part of a great team that is dedicated to working together to deliver quality time and again\"",
+			"music": "\"Pat Metheny Group\"",
+			"activity": "\"Tennis 'til I drop\"",
+			"portrait": "chris_page.png",
+			"linkedin": "#/company"
+		}
+	]
+}
