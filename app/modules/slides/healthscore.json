@@ -43,7 +43,8 @@
 		"headline": "Risk",
 		"questions": [
 			{"text": "\"What is my sole source component status by product?\""},
-			{"text": "\"Do I have any components going end of life? If yes, which ones?\""}
+			{"text": "\"Do I have any components going end of life?"},
+			{"text": "If yes, which ones?\""}
 		],
 		"text": "Risk scoring measures how a component is sourced, proximity to manufacturing locations, supplier performance... that’s transparency."
 	}
