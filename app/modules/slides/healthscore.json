@@ -11,7 +11,7 @@
 		"icon": "icon_leadtime.png",
 		"headline": "Leadtime",
 		"question": "\"Which components will prevent me from shipping product?\"",
-		"text": "Leadtime scoring evaluates and simulates the impact of decisions before committing, see the effect after for every component... that’s transparency."
+		"text": "Leadtime scoring evaluates and simulates the impact of component decisions before committing... that’s transparency."
 	},
 	{
 		"id": "Cost",
@@ -24,7 +24,7 @@
 		"id": "Compliance",
 		"icon": "icon_compliance.png",
 		"headline": "Compliance",
-		"question": "\"Are all my products compliant to current regulations?\"\r\n\"How do I stack up to what’s coming?\"",
+		"question": "\"Are all my products compliant to current regulations?\"\r\n\"Am I prepared for new regulations?\"",
 		"text": "Compliance scoring measures the ability of product data to support rigorous examination of import/export compliance... that’s transparency."
 	},
 	{
