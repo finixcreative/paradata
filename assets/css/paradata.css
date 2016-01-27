@@ -482,8 +482,9 @@ table {
 }
 .inline-icon {
 	width: auto;
-	height: 1em;
+	height: 1.5em;
 	display: inline-block;
+	vertical-align: middle;
 }
 .feature {
 	position: relative;
