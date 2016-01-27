@@ -393,9 +393,11 @@ header nav li ul.menu li a:hover {
 	color: #fff;
 }
 .bubble {
+	width: 2em;
+	height: 2em;
 	margin: 0;
-    padding: 0.5em 1em;
     border-radius: 2em;
+    line-height: 2em;
     display: inline-block;
 }
 .hero-overlay {
