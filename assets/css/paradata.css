@@ -440,6 +440,9 @@ header nav li ul.menu li a:hover {
 	cursor: pointer;
 	display: inline-block;
 }
+.healthscore {
+	margin-bottom: 64px;
+}
 button.slidenav {
 	color: #f3f3f3;
 	padding: 20px;
@@ -609,7 +612,6 @@ copyright a {
 	}
 	.healthscore {
 		max-width: 300px !important;
-		margin-bottom: 64px;
 		float: none;
 	}
 }
