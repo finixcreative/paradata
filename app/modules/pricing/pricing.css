@@ -424,7 +424,10 @@ Main Components
     font-size: 1.4em;
   }
 }
-.cd-pricing-body {}
+.cd-price,
+.cd-pricing-body {
+  font-family: "Open Sans", sans-serif;
+}
 .is-switched .cd-pricing-body {
   /* fix a bug on Chrome Android */
   overflow: hidden;
