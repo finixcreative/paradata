@@ -11,7 +11,7 @@ button {
 	font-family: 'Open Sans', sans-serif;
 }
 body {
-	background: url("../images/low_contrast_linen.png") #444;
+	background: #444;
 	background-attachment: fixed;
 	color: #444;
 	width: 100%;
