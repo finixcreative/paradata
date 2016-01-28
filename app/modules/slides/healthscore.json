@@ -18,7 +18,7 @@
 		"text": "Leadtime scoring evaluates and simulates the impact of component decisions before committing... that’s transparency."
 	},
 	{
-		"id": "Cost",
+		"id": "cost",
 		"icon": "icon_cost.png",
 		"headline": "Cost",
 		"questions": [
@@ -28,7 +28,7 @@
 		"text": "Cost scoring measures the variance between supplier-provided costs vs the best available market cost... that’s transparency."
 	},
 	{
-		"id": "Compliance",
+		"id": "compliance",
 		"icon": "icon_compliance.png",
 		"headline": "Compliance",
 		"questions": [
@@ -38,7 +38,7 @@
 		"text": "Compliance scoring measures the ability of product data to support rigorous examination of import/export compliance... that’s transparency."
 	},
 	{
-		"id": "Risk",
+		"id": "risk",
 		"icon": "icon_risk.png",
 		"headline": "Risk",
 		"questions": [
